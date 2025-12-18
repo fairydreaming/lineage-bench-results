@@ -1,0 +1,1859 @@
+8,ANCESTOR,3,"Given the following lineage relationships:
+* Beverly is Gerald's ancestor.
+* Jeffrey is Richard's ancestor.
+* Richard is Beverly's ancestor.
+* Douglas is Stephen's ancestor.
+* Gerald is Jeremy's ancestor.
+* Andrea is Jeffrey's ancestor.
+* Jeremy is Douglas's ancestor.
+Determine the lineage relationship between Andrea and Stephen.
+Select the correct answer:
+1. Andrea and Stephen share a common ancestor.
+2. Andrea is Stephen's descendant.
+3. Andrea is Stephen's ancestor.
+4. Andrea and Stephen share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"Based on the lineage relationships provided:
+
+1. Andrea is Jeffrey's ancestor.
+2. Jeffrey is Richard's ancestor.
+3. Richard is Beverly's ancestor.
+4. Beverly is Gerald's ancestor.
+5. Gerald is Jeremy's ancestor.
+6. Jeremy is Douglas's ancestor.
+7. Douglas is Stephen's ancestor.
+
+By connecting these links, we establish the following chain of ancestry:
+Andrea → Jeffrey → Richard → Beverly → Gerald → Jeremy → Douglas → Stephen.
+
+Through this chain, it is clear that Andrea is an ancestor of Stephen. Therefore, the relationship between Andrea and Stephen is that Andrea is Stephen's ancestor.
+
+<ANSWER>3</ANSWER>"
+8,DESCENDANT,3,"Given the following lineage relationships:
+* Benjamin is Frances's descendant.
+* Benjamin is Brittany's ancestor.
+* Diane is Carl's descendant.
+* Sarah is Willie's descendant.
+* Frances is Sarah's descendant.
+* Robert is Carl's ancestor.
+* Robert is Brittany's descendant.
+Determine the lineage relationship between Diane and Willie.
+Select the correct answer:
+1. Diane and Willie share a common ancestor.
+2. Diane and Willie share a common descendant.
+3. Diane is Willie's descendant.
+4. Diane is Willie's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Diane and Willie, let's break down the given information step by step:
+
+1.  **Benjamin is Frances's descendant**: Benjamin < Frances (B is below F in the family tree)
+2.  **Benjamin is Brittany's ancestor**: Benjamin > Brittany (B is above Br)
+3.  **Diane is Carl's descendant**: Diane < Carl (D is below C)
+4.  **Sarah is Willie's descendant**: Sarah < Willie (S is below W)
+5.  **Frances is Sarah's descendant**: Frances < Sarah (F is below S)
+6.  **Robert is Carl's ancestor**: Robert > Carl (R is above C)
+7.  **Robert is Brittany's descendant**: Robert < Brittany (R is below Br)
+
+Now, let's chain these relationships together, starting from Diane and moving upwards to see if we reach Willie:
+*   **Diane** is a descendant of **Carl** (D < C).
+*   **Carl** is a descendant of **Robert** (C < R, based on the fact that Robert is Carl's ancestor).
+*   **Robert** is a descendant of **Brittany** (R < Br).
+*   **Brittany** is a descendant of **Benjamin** (Br < B, based on the fact that Benjamin is Brittany's ancestor).
+*   **Benjamin** is a descendant of **Frances** (B < F).
+*   **Frances** is a descendant of **Sarah** (F < S).
+*   **Sarah** is a descendant of **Willie** (S < W).
+
+By combining these, we get the complete lineage chain:
+**Diane < Carl < Robert < Brittany < Benjamin < Frances < Sarah < Willie**
+
+This chain shows that Diane is a descendant of Carl, who is a descendant of Robert, who is a descendant of Brittany, and so on, all the way up to Willie. Therefore, Diane is a descendant of Willie.
+
+Comparing this conclusion to the given options:
+1. Diane and Willie share a common ancestor.
+2. Diane and Willie share a common descendant.
+3. Diane is Willie's descendant.
+4. Diane is Willie's ancestor.
+5. None of the above is correct.
+
+Option 3 accurately describes the relationship we've established.
+
+<ANSWER>3</ANSWER>"
+8,COMMON_ANCESTOR,4,"Given the following lineage relationships:
+* Mason is Maria's ancestor.
+* Mason is Kelly's descendant.
+* Alice is Jerry's descendant.
+* Kelly is Joan's descendant.
+* Joan is Lawrence's descendant.
+* Maria is Jerry's ancestor.
+* Christine is Lawrence's descendant.
+Determine the lineage relationship between Christine and Alice.
+Select the correct answer:
+1. Christine and Alice share a common descendant.
+2. Christine is Alice's descendant.
+3. Christine is Alice's ancestor.
+4. Christine and Alice share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Christine and Alice, let's map out the given relationships step-by-step:
+
+1.  **Mason is Maria's ancestor**: `Mason → ... → Maria`
+2.  **Mason is Kelly's descendant**: `Kelly → ... → Mason`
+3.  **Alice is Jerry's descendant**: `Jerry → ... → Alice`
+4.  **Kelly is Joan's descendant**: `Joan → ... → Kelly`
+5.  **Joan is Lawrence's descendant**: `Lawrence → ... → Joan`
+6.  **Maria is Jerry's ancestor**: `Maria → ... → Jerry`
+7.  **Christine is Lawrence's descendant**: `Lawrence → ... → Christine`
+
+Now, let's consolidate the information to find the lineage path starting from Lawrence:
+*   From (5), (4), (2), (1), (6), and (3), we can trace a direct chain:
+    `Lawrence → Joan → Kelly → Mason → Maria → Jerry → Alice`
+*   From (7), we know:
+    `Lawrence → Christine`
+
+By visualizing these relationships, we can see the full lineage:
+*   **Lawrence** is the common starting point (ancestor).
+*   One branch leads from Lawrence to **Alice** (Lawrence → Joan → Kelly → Mason → Maria → Jerry → Alice).
+*   Another branch leads from Lawrence to **Christine** (Lawrence → Christine).
+
+Analysis of the options:
+1.  **Christine and Alice share a common descendant**: There is no information provided about the descendants of Christine or Alice.
+2.  **Christine is Alice's descendant**: No, the paths show that both descend from Lawrence; Christine is not below Alice in the lineage.
+3.  **Christine is Alice's ancestor**: No, the branch for Christine and the branch for Alice split at (or after) Lawrence.
+4.  **Christine and Alice share a common ancestor**: Yes, Lawrence is an ancestor of both Joan (Alice's ancestor) and Christine. Therefore, Lawrence is a common ancestor for Christine and Alice.
+5.  **None of the above is correct**: Since option 4 is correct, this is false.
+
+The correct relationship is that Christine and Alice share a common ancestor (Lawrence).
+
+<ANSWER>4</ANSWER>"
+8,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Paul is Megan's descendant.
+* Jean is Ann's ancestor.
+* Judith is Alexander's ancestor.
+* Ruth is Judith's ancestor.
+* Ruth is Paul's descendant.
+* Alexander is Anna's descendant.
+* Megan is Ann's descendant.
+Determine the lineage relationship between Jean and Anna.
+Select the correct answer:
+1. Jean and Anna share a common ancestor.
+2. Jean is Anna's descendant.
+3. Jean and Anna share a common descendant.
+4. Jean is Anna's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Jean and Anna, let's first list the given relationships:
+
+1.  **Paul is Megan's descendant:** Megan is an ancestor of Paul (Megan → ... → Paul).
+2.  **Jean is Ann's ancestor:** Jean is an ancestor of Ann (Jean → ... → Ann).
+3.  **Judith is Alexander's ancestor:** Judith is an ancestor of Alexander (Judith → ... → Alexander).
+4.  **Ruth is Judith's ancestor:** Ruth is an ancestor of Judith (Ruth → ... → Judith).
+5.  **Ruth is Paul's descendant:** Paul is an ancestor of Ruth (Paul → ... → Ruth).
+6.  **Alexander is Anna's descendant:** Anna is an ancestor of Alexander (Anna → ... → Alexander).
+7.  **Megan is Ann's descendant:** Ann is an ancestor of Megan (Ann → ... → Megan).
+
+Now, let's combine these relationships to form a single lineage path where possible:
+- From Relationships 2 and 7: **Jean** → Ann → Megan.
+- From Relationship 1: Megan → Paul.
+- From Relationship 5: Paul → Ruth.
+- From Relationship 4: Ruth → Judith.
+- From Relationship 3: Judith → **Alexander**.
+
+By connecting these, we find the following path:
+**Jean** → Ann → Megan → Paul → Ruth → Judith → **Alexander**.
+
+This indicates that Jean is an ancestor of Alexander.
+
+From Relationship 6, we are also told:
+**Anna** → ... → **Alexander**.
+
+This indicates that Anna is also an ancestor of Alexander.
+
+Since both Jean and Anna are ancestors of Alexander, they both share Alexander as a descendant. Looking at the provided options:
+1. Jean and Anna share a common ancestor. (Not supported by the data)
+2. Jean is Anna's descendant. (Not supported by the data)
+3. Jean and Anna share a common descendant. (Supported: Alexander is a descendant of both)
+4. Jean is Anna's ancestor. (Only supported if we assume ""Ann"" and ""Anna"" are the same person, which is not stated)
+5. None of the above is correct.
+
+Based on the explicit relationships provided, Jean and Anna share at least one common descendant, Alexander.
+
+<ANSWER>3</ANSWER>"
+8,ANCESTOR,4,"Given the following lineage relationships:
+* Jacqueline is Nathan's descendant.
+* Larry is Emily's descendant.
+* Patricia is Hannah's ancestor.
+* Sharon is Patricia's ancestor.
+* Emily is Hannah's descendant.
+* Larry is Terry's ancestor.
+* Jacqueline is Sharon's ancestor.
+Determine the lineage relationship between Nathan and Terry.
+Select the correct answer:
+1. Nathan is Terry's descendant.
+2. Nathan and Terry share a common ancestor.
+3. Nathan and Terry share a common descendant.
+4. Nathan is Terry's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Nathan and Terry, let's analyze the given lineage information step by step:
+
+1.  **Jacqueline is Nathan's descendant**: This means Nathan is an ancestor of Jacqueline (Nathan $\rightarrow$ Jacqueline).
+2.  **Jacqueline is Sharon's ancestor**: This means Jacqueline is an ancestor of Sharon (Jacqueline $\rightarrow$ Sharon).
+3.  **Sharon is Patricia's ancestor**: This means Sharon is an ancestor of Patricia (Sharon $\rightarrow$ Patricia).
+4.  **Patricia is Hannah's ancestor**: This means Patricia is an ancestor of Hannah (Patricia $\rightarrow$ Hannah).
+5.  **Emily is Hannah's descendant**: This means Hannah is an ancestor of Emily (Hannah $\rightarrow$ Emily).
+6.  **Larry is Emily's descendant**: This means Emily is an ancestor of Larry (Emily $\rightarrow$ Larry).
+7.  **Larry is Terry's ancestor**: This means Larry is an ancestor of Terry (Larry $\rightarrow$ Terry).
+
+By connecting these relationships into a single chain, we get:
+Nathan $\rightarrow$ Jacqueline $\rightarrow$ Sharon $\rightarrow$ Patricia $\rightarrow$ Hannah $\rightarrow$ Emily $\rightarrow$ Larry $\rightarrow$ Terry
+
+This chain clearly shows that Nathan is the ancestor of everyone else in the list, including Terry.
+
+Therefore:
+- Nathan is Terry's ancestor.
+- Terry is Nathan's descendant.
+
+Checking the options:
+1. Nathan is Terry's descendant. (Incorrect)
+2. Nathan and Terry share a common ancestor. (Possible, but not the primary relationship defined)
+3. Nathan and Terry share a common descendant. (Not stated/implied)
+4. Nathan is Terry's ancestor. (Correct)
+5. None of the above is correct. (Incorrect)
+
+<ANSWER>4</ANSWER>"
+8,DESCENDANT,1,"Given the following lineage relationships:
+* Steven is Philip's descendant.
+* Julie is Sarah's ancestor.
+* Michelle is Emma's descendant.
+* Bradley is Michelle's descendant.
+* Sarah is Ann's ancestor.
+* Philip is Bradley's descendant.
+* Steven is Julie's ancestor.
+Determine the lineage relationship between Ann and Emma.
+Select the correct answer:
+1. Ann is Emma's descendant.
+2. Ann is Emma's ancestor.
+3. Ann and Emma share a common descendant.
+4. Ann and Emma share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Ann and Emma, we can map out each individual relationship mentioned:
+
+1.  **Steven is Philip's descendant**: Philip is an ancestor of Steven (Philip → Steven).
+2.  **Julie is Sarah's ancestor**: Julie is an ancestor of Sarah (Julie → Sarah).
+3.  **Michelle is Emma's descendant**: Emma is an ancestor of Michelle (Emma → Michelle).
+4.  **Bradley is Michelle's descendant**: Michelle is an ancestor of Bradley (Michelle → Bradley).
+5.  **Sarah is Ann's ancestor**: Sarah is an ancestor of Ann (Sarah → Ann).
+6.  **Philip is Bradley's descendant**: Bradley is an ancestor of Philip (Bradley → Philip).
+7.  **Steven is Julie's ancestor**: Steven is an ancestor of Julie (Steven → Julie).
+
+Now, connecting these steps together:
+*   From Relationship 3: **Emma** is an ancestor of **Michelle**.
+*   From Relationship 4: Michelle is an ancestor of **Bradley**.
+*   From Relationship 6: Bradley is an ancestor of **Philip**.
+*   From Relationship 1: Philip is an ancestor of **Steven**.
+*   From Relationship 7: Steven is an ancestor of **Julie**.
+*   From Relationship 2: Julie is an ancestor of **Sarah**.
+*   From Relationship 5: Sarah is an ancestor of **Ann**.
+
+The complete lineage chain is:
+Emma → Michelle → Bradley → Philip → Steven → Julie → Sarah → Ann
+
+This linear chain shows that Emma is the earliest ancestor of everyone mentioned in this specific string, and Ann is a descendant of Emma.
+
+Therefore, the correct relationship between Ann and Emma is that Ann is Emma's descendant.
+
+1. Ann is Emma's descendant. (Correct)
+2. Ann is Emma's ancestor. (Incorrect)
+3. Ann and Emma share a common descendant. (Not directly indicated as the primary relationship)
+4. Ann and Emma share a common ancestor. (While true in a broader family tree sense, ""descendant"" is the more specific relationship described)
+
+The most accurate option is 1.
+
+<ANSWER>1</ANSWER>"
+8,COMMON_ANCESTOR,3,"Given the following lineage relationships:
+* Andrea is Jordan's descendant.
+* Ruth is Tyler's ancestor.
+* Jordan is Joan's ancestor.
+* Cynthia is Edward's descendant.
+* Ruth is Andrea's descendant.
+* Joan is Edward's ancestor.
+* Tyler is Brandon's ancestor.
+Determine the lineage relationship between Cynthia and Brandon.
+Select the correct answer:
+1. Cynthia and Brandon share a common descendant.
+2. Cynthia is Brandon's ancestor.
+3. Cynthia and Brandon share a common ancestor.
+4. Cynthia is Brandon's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Cynthia and Brandon, let's analyze the given connections step by step:
+
+1.  **Andrea is Jordan's descendant** means Jordan is an ancestor of Andrea:
+    (Jordan → Andrea)
+2.  **Jordan is Joan's ancestor** means Jordan is also an ancestor of Joan:
+    (Jordan → Joan)
+3.  **Ruth is Andrea's descendant** means Andrea is an ancestor of Ruth:
+    (Jordan → Andrea → Ruth)
+4.  **Ruth is Tyler's ancestor** means Ruth is an ancestor of Tyler:
+    (Jordan → Andrea → Ruth → Tyler)
+5.  **Tyler is Brandon's ancestor** means Tyler is an ancestor of Brandon:
+    (Jordan → Andrea → Ruth → Tyler → Brandon)
+6.  **Joan is Edward's ancestor** means Joan is an ancestor of Edward:
+    (Jordan → Joan → Edward)
+7.  **Cynthia is Edward's descendant** means Edward is an ancestor of Cynthia:
+    (Jordan → Joan → Edward → Cynthia)
+
+Now we can see two distinct lineage paths starting from a common point:
+*   **Path 1 (for Brandon):** Jordan is the ancestor of Andrea, who is the ancestor of Ruth, who is the ancestor of Tyler, who is the ancestor of Brandon.
+    (Jordan → Andrea → Ruth → Tyler → Brandon)
+*   **Path 2 (for Cynthia):** Jordan is the ancestor of Joan, who is the ancestor of Edward, who is the ancestor of Cynthia.
+    (Jordan → Joan → Edward → Cynthia)
+
+Both Brandon and Cynthia are descendants of Jordan. Therefore, they share Jordan as a common ancestor.
+
+Reviewing the given choices:
+1.  Cynthia and Brandon share a common descendant. (No information provided)
+2.  Cynthia is Brandon's ancestor. (No evidence provided)
+3.  Cynthia and Brandon share a common ancestor. (Yes, Jordan)
+4.  Cynthia is Brandon's descendant. (No evidence provided)
+5.  None of the above is correct.
+
+The most accurate and confirmed relationship from the data is that they share a common ancestor.
+
+<ANSWER>3</ANSWER>"
+8,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Kevin is Danielle's ancestor.
+* Andrew is Stephanie's ancestor.
+* Kayla is Nicholas's descendant.
+* Stephanie is Danielle's descendant.
+* Brittany is Anna's descendant.
+* Andrew is Brittany's descendant.
+* Anna is Kayla's descendant.
+Determine the lineage relationship between Kevin and Nicholas.
+Select the correct answer:
+1. Kevin is Nicholas's descendant.
+2. Kevin and Nicholas share a common ancestor.
+3. Kevin and Nicholas share a common descendant.
+4. Kevin is Nicholas's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Kevin and Nicholas, we can trace the lineage relationships step by step:
+
+1.  **Kevin is Danielle's ancestor**: Kevin → Danielle
+2.  **Stephanie is Danielle's descendant**: Danielle → Stephanie
+    *Combining these two:* Kevin → Danielle → Stephanie (Kevin is an ancestor of Stephanie).
+
+3.  **Kayla is Nicholas's descendant**: Nicholas → Kayla
+4.  **Anna is Kayla's descendant**: Kayla → Anna
+5.  **Brittany is Anna's descendant**: Anna → Brittany
+6.  **Andrew is Brittany's descendant**: Brittany → Andrew
+7.  **Andrew is Stephanie's ancestor**: Andrew → Stephanie
+    *Combining these five:* Nicholas → Kayla → Anna → Brittany → Andrew → Stephanie (Nicholas is an ancestor of Stephanie).
+
+Looking at the two chains:
+- **Kevin** is an ancestor of **Stephanie**.
+- **Nicholas** is an ancestor of **Stephanie**.
+
+This means that **Stephanie** is a descendant of both Kevin and Nicholas. Therefore, Kevin and Nicholas share a common descendant.
+
+Now let's review the options:
+1. Kevin is Nicholas's descendant: No evidence supports this.
+2. Kevin and Nicholas share a common ancestor: No evidence supports this.
+3. Kevin and Nicholas share a common descendant: Yes, Stephanie is a common descendant.
+4. Kevin is Nicholas's ancestor: No evidence supports this.
+5. None of the above: Option 3 is correct.
+
+<ANSWER>3</ANSWER>"
+8,ANCESTOR,3,"Given the following lineage relationships:
+* Christine is Diane's descendant.
+* William is Diane's ancestor.
+* Christine is Peter's ancestor.
+* William is Albert's descendant.
+* Robert is Zachary's descendant.
+* Peter is Zachary's ancestor.
+* Steven is Albert's ancestor.
+Determine the lineage relationship between Steven and Robert.
+Select the correct answer:
+1. Steven and Robert share a common ancestor.
+2. Steven is Robert's descendant.
+3. Steven is Robert's ancestor.
+4. Steven and Robert share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Steven and Robert, let's list the provided lineage information and organize it into a continuous chain:
+
+1.  **Christine is Diane's descendant**: Diane → ... → Christine
+2.  **William is Diane's ancestor**: William → ... → Diane
+3.  **Christine is Peter's ancestor**: Christine → ... → Peter
+4.  **William is Albert's descendant**: Albert → ... → William
+5.  **Robert is Zachary's descendant**: Zachary → ... → Robert
+6.  **Peter is Zachary's ancestor**: Peter → ... → Zachary
+7.  **Steven is Albert's ancestor**: Steven → ... → Albert
+
+Now, let's connect these individual relationships together:
+*   From (7), we have: **Steven** → Albert
+*   Adding (4): Steven → **Albert** → William
+*   Adding (2): Steven → Albert → **William** → Diane
+*   Adding (1): Steven → Albert → William → **Diane** → Christine
+*   Adding (3): Steven → Albert → William → Diane → **Christine** → Peter
+*   Adding (6): Steven → Albert → William → Diane → Christine → **Peter** → Zachary
+*   Adding (5): Steven → Albert → William → Diane → Christine → Peter → **Zachary** → Robert
+
+The full lineage chain is:
+**Steven** → Albert → William → Diane → Christine → Peter → Zachary → **Robert**
+
+This chain shows that Steven is at the top of the lineage and Robert is at the bottom, meaning Steven is an ancestor to everyone following him in the chain. Therefore, Steven is Robert's ancestor.
+
+Looking at the options provided:
+1. Steven and Robert share a common ancestor.
+2. Steven is Robert's descendant.
+3. Steven is Robert's ancestor.
+4. Steven and Robert share a common descendant.
+5. None of the above is correct.
+
+Steven is indeed Robert’s ancestor.
+
+<ANSWER>3</ANSWER>"
+8,DESCENDANT,2,"Given the following lineage relationships:
+* Timothy is Martha's descendant.
+* Timothy is Dennis's ancestor.
+* Barbara is Sarah's ancestor.
+* Randy is Lisa's ancestor.
+* Dennis is Elizabeth's ancestor.
+* Randy is Sarah's descendant.
+* Lisa is Martha's ancestor.
+Determine the lineage relationship between Elizabeth and Barbara.
+Select the correct answer:
+1. Elizabeth and Barbara share a common ancestor.
+2. Elizabeth is Barbara's descendant.
+3. Elizabeth is Barbara's ancestor.
+4. Elizabeth and Barbara share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Elizabeth and Barbara, let's analyze each relationship given and build a sequence:
+
+1.  **Timothy is Martha's descendant**: Martha is an ancestor of Timothy (Martha $\rightarrow$ Timothy).
+2.  **Timothy is Dennis's ancestor**: Timothy is an ancestor of Dennis (Timothy $\rightarrow$ Dennis).
+3.  **Barbara is Sarah's ancestor**: Barbara is an ancestor of Sarah (Barbara $\rightarrow$ Sarah).
+4.  **Randy is Lisa's ancestor**: Randy is an ancestor of Lisa (Randy $\rightarrow$ Lisa).
+5.  **Dennis is Elizabeth's ancestor**: Dennis is an ancestor of Elizabeth (Dennis $\rightarrow$ Elizabeth).
+6.  **Randy is Sarah's descendant**: Sarah is an ancestor of Randy (Sarah $\rightarrow$ Randy).
+7.  **Lisa is Martha's ancestor**: Lisa is an ancestor of Martha (Lisa $\rightarrow$ Martha).
+
+Now, let's chain these relationships together:
+*   Barbara is an ancestor of Sarah (from 3).
+*   Sarah is an ancestor of Randy (from 6).
+*   Randy is an ancestor of Lisa (from 4).
+*   Lisa is an ancestor of Martha (from 7).
+*   Martha is an ancestor of Timothy (from 1).
+*   Timothy is an ancestor of Dennis (from 2).
+*   Dennis is an ancestor of Elizabeth (from 5).
+
+The full chain is:
+**Barbara $\rightarrow$ Sarah $\rightarrow$ Randy $\rightarrow$ Lisa $\rightarrow$ Martha $\rightarrow$ Timothy $\rightarrow$ Dennis $\rightarrow$ Elizabeth**
+
+From this lineage chain, we can see that:
+*   Barbara is a direct ancestor of Elizabeth.
+*   Conversely, Elizabeth is a direct descendant of Barbara.
+
+Reviewing the options:
+1. Elizabeth and Barbara share a common ancestor. (While true, it is less specific than option 2.)
+2. Elizabeth is Barbara's descendant. (This directly describes their relationship.)
+3. Elizabeth is Barbara's ancestor. (Incorrect.)
+4. Elizabeth and Barbara share a common descendant. (Not confirmed by the given information.)
+5. None of the above.
+
+The most precise and correct answer is option 2.
+
+<ANSWER>2</ANSWER>"
+8,COMMON_ANCESTOR,2,"Given the following lineage relationships:
+* Joshua is Sandra's descendant.
+* Sandra is Katherine's descendant.
+* Ronald is Katherine's ancestor.
+* Walter is Joshua's descendant.
+* Ronald is Matthew's ancestor.
+* Walter is Donna's ancestor.
+* Cheryl is Matthew's descendant.
+Determine the lineage relationship between Donna and Cheryl.
+Select the correct answer:
+1. Donna and Cheryl share a common descendant.
+2. Donna and Cheryl share a common ancestor.
+3. Donna is Cheryl's descendant.
+4. Donna is Cheryl's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Donna and Cheryl, we can map out the ancestor-descendant relationships described in the prompt:
+
+1.  **Joshua is Sandra's descendant:** Sandra → Joshua
+2.  **Sandra is Katherine's descendant:** Katherine → Sandra
+3.  **Ronald is Katherine's ancestor:** Ronald → Katherine
+4.  **Walter is Joshua's descendant:** Joshua → Walter
+5.  **Ronald is Matthew's ancestor:** Ronald → Matthew
+6.  **Walter is Donna's ancestor:** Walter → Donna
+7.  **Cheryl is Matthew's descendant:** Matthew → Cheryl
+
+By combining these connections, we can trace the two lineages:
+*   **Lineage 1 (leading to Donna):** Ronald → Katherine → Sandra → Joshua → Walter → Donna
+*   **Lineage 2 (leading to Cheryl):** Ronald → Matthew → Cheryl
+
+From these pathways, we can see that:
+*   Donna is a descendant of Ronald (through Walter, Joshua, Sandra, and Katherine).
+*   Cheryl is a descendant of Ronald (through Matthew).
+
+Since both Donna and Cheryl are descendants of Ronald, they share Ronald as a common ancestor. Looking at the provided options:
+1.  Donna and Cheryl share a common descendant. (Not enough information)
+2.  **Donna and Cheryl share a common ancestor.** (Correct: Ronald)
+3.  Donna is Cheryl's descendant. (Incorrect)
+4.  Donna is Cheryl's ancestor. (Incorrect)
+5.  None of the above is correct. (Incorrect)
+
+<ANSWER>2</ANSWER>"
+8,COMMON_DESCENDANT,1,"Given the following lineage relationships:
+* Danielle is Frances's descendant.
+* Helen is Danielle's ancestor.
+* Kimberly is Dylan's ancestor.
+* Helen is Madison's descendant.
+* Sarah is Frances's ancestor.
+* Julia is Madison's ancestor.
+* Dylan is Sarah's ancestor.
+Determine the lineage relationship between Kimberly and Julia.
+Select the correct answer:
+1. Kimberly and Julia share a common descendant.
+2. Kimberly and Julia share a common ancestor.
+3. Kimberly is Julia's ancestor.
+4. Kimberly is Julia's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Kimberly and Julia, let's trace the given ancestors and descendants:
+
+1.  **Danielle is Frances's descendant** means Frances is an ancestor of Danielle: `Frances → Danielle`
+2.  **Helen is Danielle's ancestor**: `Helen → Danielle`
+3.  **Kimberly is Dylan's ancestor**: `Kimberly → Dylan`
+4.  **Helen is Madison's descendant** means Madison is an ancestor of Helen: `Madison → Helen`
+5.  **Sarah is Frances's ancestor**: `Sarah → Frances`
+6.  **Julia is Madison's ancestor**: `Julia → Madison`
+7.  **Dylan is Sarah's ancestor**: `Dylan → Sarah`
+
+Now, let's link these relationships to form lineage paths:
+
+*   **Path 1 (starting from Kimberly):**
+    Kimberly is Dylan's ancestor (3), Dylan is Sarah's ancestor (7), Sarah is Frances's ancestor (5), and Frances is Danielle's ancestor (1).
+    `Kimberly → Dylan → Sarah → Frances → Danielle`
+
+*   **Path 2 (starting from Julia):**
+    Julia is Madison's ancestor (6), Madison is Helen's ancestor (4), and Helen is Danielle's ancestor (2).
+    `Julia → Madison → Helen → Danielle`
+
+By analyzing these two paths, we can see that:
+*   Kimberly is an ancestor of Danielle.
+*   Julia is also an ancestor of Danielle.
+
+Since both Kimberly and Julia are ancestors of Danielle, Danielle is a common descendant of both Kimberly and Julia. 
+
+Looking at the options provided:
+1.  **Kimberly and Julia share a common descendant.** (Confirmed: Danielle is their common descendant.)
+2.  **Kimberly and Julia share a common ancestor.** (No evidence provided.)
+3.  **Kimberly is Julia's ancestor.** (No evidence provided.)
+4.  **Kimberly is Julia's descendant.** (No evidence provided.)
+5.  **None of the above is correct.**
+
+The most accurate and supported relationship is that they share a common descendant.
+
+<ANSWER>1</ANSWER>"
+8,ANCESTOR,1,"Given the following lineage relationships:
+* Catherine is Walter's descendant.
+* Noah is Linda's ancestor.
+* Jacob is Linda's descendant.
+* Jacob is Carolyn's ancestor.
+* Julie is Catherine's descendant.
+* Walter is Carolyn's descendant.
+* Sara is Noah's ancestor.
+Determine the lineage relationship between Sara and Julie.
+Select the correct answer:
+1. Sara is Julie's ancestor.
+2. Sara and Julie share a common descendant.
+3. Sara is Julie's descendant.
+4. Sara and Julie share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Sara and Julie, let's analyze the given relationships and build a lineage tree:
+
+1.  **Catherine is Walter's descendant**: Walter → Catherine (Walter is the ancestor)
+2.  **Noah is Linda's ancestor**: Noah → Linda (Noah is the ancestor)
+3.  **Jacob is Linda's descendant**: Linda → Jacob (Linda is the ancestor)
+4.  **Jacob is Carolyn's ancestor**: Jacob → Carolyn (Jacob is the ancestor)
+5.  **Julie is Catherine's descendant**: Catherine → Julie (Catherine is the ancestor)
+6.  **Walter is Carolyn's descendant**: Carolyn → Walter (Carolyn is the ancestor)
+7.  **Sara is Noah's ancestor**: Sara → Noah (Sara is the ancestor)
+
+Now, let's connect these relationships in a direct chain:
+*   Starting from Sara: **Sara** is the ancestor of **Noah** (7).
+*   From Noah: Noah is the ancestor of **Linda** (2).
+*   From Linda: Linda is the ancestor of **Jacob** (3).
+*   From Jacob: Jacob is the ancestor of **Carolyn** (4).
+*   From Carolyn: Carolyn is the ancestor of **Walter** (6).
+*   From Walter: Walter is the ancestor of **Catherine** (1).
+*   From Catherine: Catherine is the ancestor of **Julie** (5).
+
+Combining these, we get the following lineage chain:
+**Sara → Noah → Linda → Jacob → Carolyn → Walter → Catherine → Julie**
+
+Following this chain, Sara is at the beginning (top) and Julie is at the end (bottom). Therefore, Sara is an ancestor of Julie.
+
+Checking the options:
+1.  **Sara is Julie's ancestor.** (Matches our findings)
+2.  Sara and Julie share a common descendant.
+3.  Sara is Julie's descendant.
+4.  Sara and Julie share a common ancestor.
+5.  None of the above is correct.
+
+<ANSWER>1</ANSWER>"
+8,DESCENDANT,1,"Given the following lineage relationships:
+* Ronald is Rachel's ancestor.
+* Theresa is Paul's descendant.
+* Emily is Christina's descendant.
+* Pamela is Ronald's ancestor.
+* John is Emily's descendant.
+* Christina is Rachel's descendant.
+* John is Paul's ancestor.
+Determine the lineage relationship between Theresa and Pamela.
+Select the correct answer:
+1. Theresa is Pamela's descendant.
+2. Theresa is Pamela's ancestor.
+3. Theresa and Pamela share a common descendant.
+4. Theresa and Pamela share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Theresa and Pamela, let us map out the given lineage connections step-by-step:
+
+1.  **Ronald is Rachel's ancestor**: Ronald → Rachel
+2.  **Theresa is Paul's descendant**: Paul → Theresa
+3.  **Emily is Christina's descendant**: Christina → Emily
+4.  **Pamela is Ronald's ancestor**: Pamela → Ronald
+5.  **John is Emily's descendant**: Emily → John
+6.  **Christina is Rachel's descendant**: Rachel → Christina
+7.  **John is Paul's ancestor**: John → Paul
+
+Now, we can link these together to form a single lineage chain:
+*   Starting from Pamela: **Pamela** is the ancestor of **Ronald**.
+*   **Ronald** is the ancestor of **Rachel**.
+*   **Rachel** is the ancestor of **Christina** (since Christina is Rachel's descendant).
+*   **Christina** is the ancestor of **Emily** (since Emily is Christina's descendant).
+*   **Emily** is the ancestor of **John** (since John is Emily's descendant).
+*   **John** is the ancestor of **Paul**.
+*   **Paul** is the ancestor of **Theresa** (since Theresa is Paul's descendant).
+
+Connecting the entire chain:
+**Pamela → Ronald → Rachel → Christina → Emily → John → Paul → Theresa**
+
+From this chain, it is clear that Pamela is at the top (the earliest ancestor) and Theresa is at the bottom (the most recent descendant). Therefore, Theresa is a descendant of Pamela.
+
+Looking at the options:
+1.  Theresa is Pamela's descendant. (Correct)
+2.  Theresa is Pamela's ancestor. (Incorrect)
+3.  Theresa and Pamela share a common descendant. (Not specifically indicated, though possible)
+4.  Theresa and Pamela share a common ancestor. (Not specifically indicated, though possible)
+5.  None of the above is correct. (Incorrect)
+
+<ANSWER>1</ANSWER>"
+8,COMMON_ANCESTOR,1,"Given the following lineage relationships:
+* Jonathan is Terry's descendant.
+* Charlotte is Edward's descendant.
+* Brandon is Sean's ancestor.
+* Christine is Brandon's ancestor.
+* Ryan is Edward's descendant.
+* Terry is Ryan's descendant.
+* Charlotte is Christine's ancestor.
+Determine the lineage relationship between Jonathan and Sean.
+Select the correct answer:
+1. Jonathan and Sean share a common ancestor.
+2. Jonathan and Sean share a common descendant.
+3. Jonathan is Sean's descendant.
+4. Jonathan is Sean's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"The given lineage relationships are as follows:
+1. Jonathan (J) is a descendant of Terry (T): T → J
+2. Charlotte (Ch) is a descendant of Edward (E): E → Ch
+3. Brandon (B) is an ancestor of Sean (S): B → S
+4. Christine (Cr) is an ancestor of Brandon (B): Cr → B
+5. Ryan (R) is a descendant of Edward (E): E → R
+6. Terry (T) is a descendant of Ryan (R): R → T
+7. Charlotte (Ch) is an ancestor of Christine (Cr): Ch → Cr
+
+Now, let's trace the lineages for both Jonathan and Sean:
+- **Trace for Sean (S):**
+  From (3), Brandon is an ancestor of Sean (B → S).
+  From (4), Christine is an ancestor of Brandon (Cr → B → S).
+  From (7), Charlotte is an ancestor of Christine (Ch → Cr → B → S).
+  From (2), Edward is an ancestor of Charlotte (E → Ch → Cr → B → S).
+  So, Sean is a descendant of Edward.
+
+- **Trace for Jonathan (J):**
+  From (1), Terry is an ancestor of Jonathan (T → J).
+  From (6), Ryan is an ancestor of Terry (R → T → J).
+  From (5), Edward is an ancestor of Ryan (E → R → T → J).
+  So, Jonathan is also a descendant of Edward.
+
+Comparing the two lineages:
+- Sean's lineage: Edward → Charlotte → Christine → Brandon → Sean
+- Jonathan's lineage: Edward → Ryan → Terry → Jonathan
+
+Both Jonathan and Sean trace their ancestry back to the same person, Edward. Therefore, they share a common ancestor.
+
+<ANSWER>1</ANSWER>"
+8,COMMON_DESCENDANT,2,"Given the following lineage relationships:
+* Sandra is Beverly's descendant.
+* Sandra is Christine's ancestor.
+* Beverly is Samuel's descendant.
+* Terry is Samuel's ancestor.
+* Alice is Christine's ancestor.
+* Alice is Karen's descendant.
+* Terry is Andrea's descendant.
+Determine the lineage relationship between Andrea and Karen.
+Select the correct answer:
+1. Andrea and Karen share a common ancestor.
+2. Andrea and Karen share a common descendant.
+3. Andrea is Karen's descendant.
+4. Andrea is Karen's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Andrea and Karen, let's represent the given information step-by-step:
+
+1.  **Analyze the lineage chains based on the statements:**
+    *   Sandra is Beverly's descendant: `Beverly → Sandra`
+    *   Sandra is Christine's ancestor: `Sandra → Christine`
+    *   Beverly is Samuel's descendant: `Samuel → Beverly`
+    *   Terry is Samuel's ancestor: `Terry → Samuel`
+    *   Alice is Christine's ancestor: `Alice → Christine`
+    *   Alice is Karen's descendant: `Karen → Alice`
+    *   Terry is Andrea's descendant: `Andrea → Terry`
+
+2.  **Construct the chains of relationship:**
+    *   **Chain 1 (starting from Andrea):**
+        `Andrea → Terry` (Andrea is an ancestor of Terry)
+        `Terry → Samuel` (Terry is an ancestor of Samuel)
+        `Samuel → Beverly` (Samuel is an ancestor of Beverly)
+        `Beverly → Sandra` (Beverly is an ancestor of Sandra)
+        `Sandra → Christine` (Sandra is an ancestor of Christine)
+        *Result:* `Andrea → Terry → Samuel → Beverly → Sandra → Christine`
+        (This shows Andrea is an ancestor of Terry, Samuel, Beverly, Sandra, and Christine).
+
+    *   **Chain 2 (starting from Karen):**
+        `Karen → Alice` (Karen is an ancestor of Alice)
+        `Alice → Christine` (Alice is an ancestor of Christine)
+        *Result:* `Karen → Alice → Christine`
+        (This shows Karen is an ancestor of Alice and Christine).
+
+3.  **Identify the relationship between Andrea and Karen:**
+    *   Both Andrea and Karen are ancestors of Christine.
+    *   Since Christine is a descendant of both Andrea and Karen, Andrea and Karen share Christine as a common descendant.
+
+4.  **Evaluate the options:**
+    1. Andrea and Karen share a common ancestor: Not supported by the data.
+    2. Andrea and Karen share a common descendant: Supported (Christine).
+    3. Andrea is Karen's descendant: Not supported by the data.
+    4. Andrea is Karen's ancestor: Not supported by the data.
+    5. None of the above is correct: Incorrect because option 2 is correct.
+
+<ANSWER>2</ANSWER>"
+8,ANCESTOR,2,"Given the following lineage relationships:
+* Randy is Jason's descendant.
+* Teresa is Jason's ancestor.
+* Ann is Walter's ancestor.
+* Elizabeth is Debra's descendant.
+* Teresa is Walter's descendant.
+* Marie is Debra's ancestor.
+* Marie is Randy's descendant.
+Determine the lineage relationship between Ann and Elizabeth.
+Select the correct answer:
+1. Ann and Elizabeth share a common descendant.
+2. Ann is Elizabeth's ancestor.
+3. Ann and Elizabeth share a common ancestor.
+4. Ann is Elizabeth's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Ann and Elizabeth, let's represent the given information using a chain of ancestors and descendants:
+
+1.  **Randy is Jason's descendant:** Jason → ... → Randy
+2.  **Teresa is Jason's ancestor:** Teresa → ... → Jason
+3.  **Ann is Walter's ancestor:** Ann → ... → Walter
+4.  **Elizabeth is Debra's descendant:** Debra → ... → Elizabeth
+5.  **Teresa is Walter's descendant:** Walter → ... → Teresa
+6.  **Marie is Debra's ancestor:** Marie → ... → Debra
+7.  **Marie is Randy's descendant:** Randy → ... → Marie
+
+Now, let's combine these relationships into a single lineage chain:
+*   From (3) and (5): **Ann** → Walter → **Teresa**
+*   From (2): Teresa → **Jason**
+*   From (1): Jason → **Randy**
+*   From (7): Randy → **Marie**
+*   From (6): Marie → **Debra**
+*   From (4): Debra → **Elizabeth**
+
+Putting the whole chain together:
+**Ann** → Walter → Teresa → Jason → Randy → Marie → Debra → **Elizabeth**
+
+From this chain, it is clear that Ann is a direct ancestor of Elizabeth. 
+
+Looking at the options provided:
+1. Ann and Elizabeth share a common descendant.
+2. Ann is Elizabeth's ancestor.
+3. Ann and Elizabeth share a common ancestor.
+4. Ann is Elizabeth's descendant.
+5. None of the above is correct.
+
+Based on the derived lineage, Ann is the ancestor of Elizabeth.
+
+<ANSWER>2</ANSWER>"
+8,DESCENDANT,1,"Given the following lineage relationships:
+* Aaron is Emily's descendant.
+* Zachary is Aaron's descendant.
+* Carol is Zachary's descendant.
+* Christopher is Bradley's ancestor.
+* Emily is Wayne's descendant.
+* Christopher is Carol's descendant.
+* Wayne is Bryan's descendant.
+Determine the lineage relationship between Bradley and Bryan.
+Select the correct answer:
+1. Bradley is Bryan's descendant.
+2. Bradley and Bryan share a common descendant.
+3. Bradley is Bryan's ancestor.
+4. Bradley and Bryan share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"Based on the lineage relationships provided:
+
+1.  **Aaron is Emily's descendant** = Emily is Aaron's ancestor (Emily → Aaron)
+2.  **Zachary is Aaron's descendant** = Aaron is Zachary's ancestor (Aaron → Zachary)
+3.  **Carol is Zachary's descendant** = Zachary is Carol's ancestor (Zachary → Carol)
+4.  **Christopher is Bradley's ancestor** = Christopher is Bradley's ancestor (Christopher → Bradley)
+5.  **Emily is Wayne's descendant** = Wayne is Emily's ancestor (Wayne → Emily)
+6.  **Christopher is Carol's descendant** = Carol is Christopher's ancestor (Carol → Christopher)
+7.  **Wayne is Bryan's descendant** = Bryan is Wayne's ancestor (Bryan → Wayne)
+
+By connecting these relationships into a single lineage chain, we find:
+Bryan → Wayne → Emily → Aaron → Zachary → Carol → Christopher → Bradley
+
+From this chain, we can determine the relationship between Bradley and Bryan:
+- Bryan is at the beginning of the chain (the ancestor).
+- Bradley is at the end of the chain (the descendant).
+
+Therefore, Bradley is a descendant of Bryan.
+
+Comparing this to the given options:
+1. Bradley is Bryan's descendant.
+2. Bradley and Bryan share a common descendant.
+3. Bradley is Bryan's ancestor.
+4. Bradley and Bryan share a common ancestor.
+5. None of the above is correct.
+
+The correct relationship is that Bradley is Bryan's descendant.
+
+<ANSWER>1</ANSWER>"
+8,COMMON_ANCESTOR,3,"Given the following lineage relationships:
+* Nancy is Julie's descendant.
+* Christopher is Edward's ancestor.
+* Frank is Catherine's descendant.
+* Frank is Roger's ancestor.
+* Terry is Christopher's ancestor.
+* Catherine is Terry's descendant.
+* Julie is Edward's descendant.
+Determine the lineage relationship between Roger and Nancy.
+Select the correct answer:
+1. Roger and Nancy share a common descendant.
+2. Roger is Nancy's descendant.
+3. Roger and Nancy share a common ancestor.
+4. Roger is Nancy's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Roger and Nancy, we can map out the ancestor-descendant relationships given in the problem. Let the notation ""A → B"" mean that A is an ancestor of B.
+
+1.  **Nancy is Julie's descendant:** Julie → Nancy
+2.  **Christopher is Edward's ancestor:** Christopher → Edward
+3.  **Frank is Catherine's descendant:** Catherine → Frank
+4.  **Frank is Roger's ancestor:** Frank → Roger
+5.  **Terry is Christopher's ancestor:** Terry → Christopher
+6.  **Catherine is Terry's descendant:** Terry → Catherine
+7.  **Julie is Edward's descendant:** Edward → Julie
+
+Now, let's trace the lineages for both Roger and Nancy:
+
+*   **For Nancy:**
+    From (5): Terry is an ancestor of Christopher.
+    From (2): Christopher is an ancestor of Edward.
+    From (7): Edward is an ancestor of Julie.
+    From (1): Julie is an ancestor of Nancy.
+    *Lineage path: Terry → Christopher → Edward → Julie → Nancy*
+
+*   **For Roger:**
+    From (6): Terry is an ancestor of Catherine.
+    From (3): Catherine is an ancestor of Frank.
+    From (4): Frank is an ancestor of Roger.
+    *Lineage path: Terry → Catherine → Frank → Roger*
+
+From these paths, we can see that both Nancy and Roger are descendants of Terry. Therefore, Nancy and Roger share a common ancestor, which is Terry.
+
+Based on the paths, there is no indication that Roger is an ancestor or descendant of Nancy, nor is there information about shared descendants.
+
+Thus, the correct conclusion is:
+Roger and Nancy share a common ancestor.
+
+<ANSWER>3</ANSWER>"
+8,COMMON_DESCENDANT,1,"Given the following lineage relationships:
+* Bruce is Madison's ancestor.
+* Bruce is Christina's descendant.
+* Jordan is Grace's descendant.
+* Jordan is Cynthia's ancestor.
+* Cynthia is Billy's descendant.
+* Gary is Madison's descendant.
+* Gary is Grace's ancestor.
+Determine the lineage relationship between Christina and Billy.
+Select the correct answer:
+1. Christina and Billy share a common descendant.
+2. Christina is Billy's ancestor.
+3. Christina is Billy's descendant.
+4. Christina and Billy share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Christina and Billy, let's step through the given information and establish the ancestry paths:
+
+1.  **Bruce is Madison's ancestor:** Bruce $\rightarrow$ ... $\rightarrow$ Madison
+2.  **Bruce is Christina's descendant:** Christina $\rightarrow$ ... $\rightarrow$ Bruce
+3.  **Gary is Madison's descendant:** Madison $\rightarrow$ ... $\rightarrow$ Gary
+4.  **Gary is Grace's ancestor:** Gary $\rightarrow$ ... $\rightarrow$ Grace
+5.  **Jordan is Grace's descendant:** Grace $\rightarrow$ ... $\rightarrow$ Jordan
+6.  **Jordan is Cynthia's ancestor:** Jordan $\rightarrow$ ... $\rightarrow$ Cynthia
+7.  **Cynthia is Billy's descendant:** Billy $\rightarrow$ ... $\rightarrow$ Cynthia
+
+By combining the points from 1 to 6, we can create a continuous direct lineage:
+Christina $\rightarrow$ Bruce $\rightarrow$ Madison $\rightarrow$ Gary $\rightarrow$ Grace $\rightarrow$ Jordan $\rightarrow$ Cynthia
+
+From this path, we can conclude:
+*   Christina is an ancestor of Cynthia.
+
+Now, looking at the 7th point:
+*   Billy is an ancestor of Cynthia (since Cynthia is Billy's descendant).
+
+Comparing the two:
+*   Christina is an ancestor of Cynthia.
+*   Billy is an ancestor of Cynthia.
+
+Since Cynthia is a descendant of both Christina and Billy, Christina and Billy share a common descendant (Cynthia).
+
+Looking at the options:
+1.  **Christina and Billy share a common descendant.** (Matches our findings)
+2.  Christina is Billy's ancestor. (Not necessarily true based on the metadata)
+3.  Christina is Billy's descendant. (Not necessarily true)
+4.  Christina and Billy share a common ancestor. (There is no information to support this)
+5.  None of the above is correct.
+
+The correct relationship established by the lineage is that they share a common descendant.
+
+<ANSWER>1</ANSWER>"
+8,ANCESTOR,3,"Given the following lineage relationships:
+* Sandra is Michelle's descendant.
+* Catherine is Lisa's descendant.
+* Ruth is Jacqueline's ancestor.
+* Sandra is Sara's ancestor.
+* Joe is Jacqueline's descendant.
+* Joe is Michelle's ancestor.
+* Catherine is Ruth's ancestor.
+Determine the lineage relationship between Lisa and Sara.
+Select the correct answer:
+1. Lisa and Sara share a common descendant.
+2. Lisa and Sara share a common ancestor.
+3. Lisa is Sara's ancestor.
+4. Lisa is Sara's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Lisa and Sara, let's break down each given relationship and represent them as ancestor-descendant links (where A → B means A is an ancestor of B):
+
+1.  **Sandra is Michelle's descendant:** Michelle → Sandra
+2.  **Catherine is Lisa's descendant:** Lisa → Catherine
+3.  **Ruth is Jacqueline's ancestor:** Ruth → Jacqueline
+4.  **Sandra is Sara's ancestor:** Sandra → Sara
+5.  **Joe is Jacqueline's descendant:** Jacqueline → Joe
+6.  **Joe is Michelle's ancestor:** Joe → Michelle
+7.  **Catherine is Ruth's ancestor:** Catherine → Ruth
+
+Now, let's connect these individual links to form a complete lineage chain:
+*   Starting from **Lisa** (from link 2): **Lisa** → Catherine
+*   From **Catherine** (from link 7): Lisa → **Catherine** → Ruth
+*   From **Ruth** (from link 3): Lisa → Catherine → **Ruth** → Jacqueline
+*   From **Jacqueline** (from link 5): Lisa → Catherine → Ruth → **Jacqueline** → Joe
+*   From **Joe** (from link 6): Lisa → Catherine → Ruth → Jacqueline → **Joe** → Michelle
+*   From **Michelle** (from link 1): Lisa → Catherine → Ruth → Jacqueline → Joe → **Michelle** → Sandra
+*   From **Sandra** (from link 4): Lisa → Catherine → Ruth → Jacqueline → Joe → Michelle → **Sandra** → **Sara**
+
+The full lineage chain is:
+**Lisa → Catherine → Ruth → Jacqueline → Joe → Michelle → Sandra → Sara**
+
+Following this chain, Lisa is at the beginning and Sara is at the end, meaning Lisa is the ancestor of everyone else in the chain, including Sara.
+
+Comparing this result to the given options:
+1. Lisa and Sara share a common descendant. (Not necessarily true, depends on Sara having children)
+2. Lisa and Sara share a common ancestor. (True if Lisa has an ancestor, but not the direct relationship identified)
+3. **Lisa is Sara's ancestor.** (True, as shown by the chain)
+4. Lisa is Sara's descendant. (False)
+5. None of the above is correct. (False)
+
+The direct relationship established is that Lisa is Sara's ancestor.
+
+<ANSWER>3</ANSWER>"
+8,DESCENDANT,1,"Given the following lineage relationships:
+* Kayla is Virginia's ancestor.
+* Amanda is Jeremy's ancestor.
+* Susan is Kimberly's ancestor.
+* Susan is Evelyn's descendant.
+* Paul is Kayla's ancestor.
+* Virginia is Amanda's ancestor.
+* Paul is Kimberly's descendant.
+Determine the lineage relationship between Jeremy and Evelyn.
+Select the correct answer:
+1. Jeremy is Evelyn's descendant.
+2. Jeremy and Evelyn share a common descendant.
+3. Jeremy and Evelyn share a common ancestor.
+4. Jeremy is Evelyn's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Jeremy and Evelyn, let's map out the given lineage relationships based on the ancestor-descendant connections provided:
+
+1.  **Kayla is Virginia's ancestor**: Kayla → Virginia
+2.  **Amanda is Jeremy's ancestor**: Amanda → Jeremy
+3.  **Susan is Kimberly's ancestor**: Susan → Kimberly
+4.  **Susan is Evelyn's descendant**: Evelyn → Susan (since Susan is the descendant, Evelyn is the ancestor)
+5.  **Paul is Kayla's ancestor**: Paul → Kayla
+6.  **Virginia is Amanda's ancestor**: Virginia → Amanda
+7.  **Paul is Kimberly's descendant**: Kimberly → Paul (since Paul is the descendant, Kimberly is the ancestor)
+
+By linking these relationships together in a direct chain, we get:
+- From relationship 4: **Evelyn** is the ancestor of **Susan**.
+- From relationship 3: **Susan** is the ancestor of **Kimberly**.
+- From relationship 7: **Kimberly** is the ancestor of **Paul**.
+- From relationship 5: **Paul** is the ancestor of **Kayla**.
+- From relationship 1: **Kayla** is the ancestor of **Virginia**.
+- From relationship 6: **Virginia** is the ancestor of **Amanda**.
+- From relationship 2: **Amanda** is the ancestor of **Jeremy**.
+
+Connecting the entire sequence:
+**Evelyn → Susan → Kimberly → Paul → Kayla → Virginia → Amanda → Jeremy**
+
+This chain clearly shows that Evelyn is the ancestor of Jeremy, or conversely, that Jeremy is a descendant of Evelyn.
+
+Looking at the options provided:
+1. Jeremy is Evelyn's descendant.
+2. Jeremy and Evelyn share a common descendant.
+3. Jeremy and Evelyn share a common ancestor.
+4. Jeremy is Evelyn's ancestor.
+5. None of the above is correct.
+
+Option 1 matches our conclusion.
+
+<ANSWER>1</ANSWER>"
+8,COMMON_ANCESTOR,2,"Given the following lineage relationships:
+* Kimberly is Gary's ancestor.
+* Kimberly is Jonathan's descendant.
+* Jonathan is Donna's descendant.
+* Debra is Emma's descendant.
+* Teresa is Emma's ancestor.
+* Teresa is Donna's descendant.
+* Julie is Debra's descendant.
+Determine the lineage relationship between Gary and Julie.
+Select the correct answer:
+1. Gary is Julie's ancestor.
+2. Gary and Julie share a common ancestor.
+3. Gary and Julie share a common descendant.
+4. Gary is Julie's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"The defined lineage relationships are as follows:
+1.  **Donna** is an ancestor of **Jonathan** (since Jonathan is Donna's descendant).
+2.  **Jonathan** is an ancestor of **Kimberly** (since Kimberly is Jonathan's descendant).
+3.  **Kimberly** is an ancestor of **Gary** (given). 
+    *Path to Gary: Donna → Jonathan → Kimberly → Gary.*
+
+4.  **Donna** is an ancestor of **Teresa** (since Teresa is Donna's descendant).
+5.  **Teresa** is an ancestor of **Emma** (given).
+6.  **Emma** is an ancestor of **Debra** (since Debra is Emma's descendant).
+7.  **Debra** is an ancestor of **Julie** (since Julie is Debra's descendant).
+    *Path to Julie: Donna → Teresa → Emma → Debra → Julie.*
+
+By tracing the two lines, we can see that both **Gary** and **Julie** are descendants of **Donna**.
+*   **Gary**'s ancestors include Kimberly, Jonathan, and **Donna**.
+*   **Julie**'s ancestors include Debra, Emma, Teresa, and **Donna**.
+
+Since they both share Donna as an ancestor, they share a common ancestor. There is no information provided to suggest that Gary is an ancestor or descendant of Julie.
+
+<ANSWER>2</ANSWER>"
+8,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Juan is Sean's ancestor.
+* Joshua is Isabella's ancestor.
+* Dylan is Noah's descendant.
+* Noah is Sean's descendant.
+* Juan is Gabriel's descendant.
+* Gabriel is Nicole's descendant.
+* Isabella is Dylan's descendant.
+Determine the lineage relationship between Joshua and Nicole.
+Select the correct answer:
+1. Joshua and Nicole share a common ancestor.
+2. Joshua is Nicole's descendant.
+3. Joshua and Nicole share a common descendant.
+4. Joshua is Nicole's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"The lineage relationships are analyzed as follows:
+
+1.  **Gabriel is Nicole's descendant** means Nicole is an ancestor of Gabriel (Nicole $\rightarrow$ Gabriel).
+2.  **Juan is Gabriel's descendant** means Gabriel is an ancestor of Juan (Gabriel $\rightarrow$ Juan).
+3.  **Juan is Sean's ancestor** means Juan is an ancestor of Sean (Juan $\rightarrow$ Sean).
+4.  **Noah is Sean's descendant** means Sean is an ancestor of Noah (Sean $\rightarrow$ Noah).
+5.  **Dylan is Noah's descendant** means Noah is an ancestor of Dylan (Noah $\rightarrow$ Dylan).
+6.  **Isabella is Dylan's descendant** means Dylan is an ancestor of Isabella (Dylan $\rightarrow$ Isabella).
+
+Combining these, we get the following lineage chain:
+Nicole $\rightarrow$ Gabriel $\rightarrow$ Juan $\rightarrow$ Sean $\rightarrow$ Noah $\rightarrow$ Dylan $\rightarrow$ Isabella.
+This indicates that **Isabella is a descendant of Nicole**.
+
+7.  **Joshua is Isabella's ancestor** means Joshua is an ancestor of Isabella (Joshua $\rightarrow$ Isabella).
+
+From this, we know:
+- Isabella is a descendant of Nicole.
+- Isabella is a descendant of Joshua.
+
+Since Isabella is a descendant of both Nicole and Joshua, Nicole and Joshua share a common descendant.
+
+<ANSWER>3</ANSWER>"
+8,ANCESTOR,1,"Given the following lineage relationships:
+* Doris is Maria's ancestor.
+* Bradley is Maria's descendant.
+* Alexis is Heather's ancestor.
+* Doris is William's descendant.
+* Frances is Heather's descendant.
+* Alexis is Eugene's descendant.
+* Frances is William's ancestor.
+Determine the lineage relationship between Eugene and Bradley.
+Select the correct answer:
+1. Eugene is Bradley's ancestor.
+2. Eugene and Bradley share a common ancestor.
+3. Eugene is Bradley's descendant.
+4. Eugene and Bradley share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Eugene and Bradley, we can map out the lineage based on the provided statements:
+
+1.  **Doris is Maria's ancestor**: Doris → Maria
+2.  **Bradley is Maria's descendant**: Maria → Bradley
+3.  **Alexis is Heather's ancestor**: Alexis → Heather
+4.  **Doris is William's descendant**: William → Doris
+5.  **Frances is Heather's descendant**: Heather → Frances
+6.  **Alexis is Eugene's descendant**: Eugene → Alexis
+7.  **Frances is William's ancestor**: Frances → William
+
+Now, let's connect these individual relationships into a single chain:
+*   Starting with Eugene (from 6): **Eugene → Alexis**
+*   Connecting Alexis (from 3): Eugene → Alexis → **Heather**
+*   Connecting Heather (from 5): Eugene → Alexis → Heather → **Frances**
+*   Connecting Frances (from 7): Eugene → Alexis → Heather → Frances → **William**
+*   Connecting William (from 4): Eugene → Alexis → Heather → Frances → William → **Doris**
+*   Connecting Doris (from 1): Eugene → Alexis → Heather → Frances → William → Doris → **Maria**
+*   Connecting Maria (from 2): Eugene → Alexis → Heather → Frances → William → Doris → Maria → **Bradley**
+
+The complete lineage chain is:
+Eugene → Alexis → Heather → Frances → William → Doris → Maria → Bradley.
+
+In this chain, Eugene is at the top (the most distant ancestor) and Bradley is at the bottom (the most recent descendant). Therefore, Eugene is an ancestor of Bradley.
+
+Comparing this to the given options:
+1. Eugene is Bradley's ancestor. (True)
+2. Eugene and Bradley share a common ancestor. (Technically true, but less specific)
+3. Eugene is Bradley's descendant. (False)
+4. Eugene and Bradley share a common descendant. (Technically true, but less specific)
+5. None of the above is correct. (False)
+
+The most accurate and direct description of the relationship established by the chain is option 1.
+
+<ANSWER>1</ANSWER>"
+8,DESCENDANT,4,"Given the following lineage relationships:
+* Christina is Nicholas's ancestor.
+* Gregory is Michelle's descendant.
+* Nicholas is Michelle's ancestor.
+* Richard is Anna's ancestor.
+* Amber is Gregory's descendant.
+* Richard is Mary's descendant.
+* Christina is Anna's descendant.
+Determine the lineage relationship between Amber and Mary.
+Select the correct answer:
+1. Amber is Mary's ancestor.
+2. Amber and Mary share a common ancestor.
+3. Amber and Mary share a common descendant.
+4. Amber is Mary's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Amber and Mary, we will first list and then connect the given relationships into a single lineage chain:
+
+1.  **Christina is Nicholas's ancestor**: Christina → Nicholas
+2.  **Gregory is Michelle's descendant**: Michelle → Gregory
+3.  **Nicholas is Michelle's ancestor**: Nicholas → Michelle
+4.  **Richard is Anna's ancestor**: Richard → Anna
+5.  **Amber is Gregory's descendant**: Gregory → Amber
+6.  **Richard is Mary's descendant**: Mary → Richard
+7.  **Christina is Anna's descendant**: Anna → Christina
+
+Now, we connect these relationships logically:
+*   From (6) and (4): **Mary** is the ancestor of **Richard**, and **Richard** is the ancestor of **Anna** (Mary → Richard → Anna).
+*   From (7): **Anna** is the ancestor of **Christina** (Mary → Richard → Anna → Christina).
+*   From (1): **Christina** is the ancestor of **Nicholas** (Mary → Richard → Anna → Christina → Nicholas).
+*   From (3): **Nicholas** is the ancestor of **Michelle** (Mary → Richard → Anna → Christina → Nicholas → Michelle).
+*   From (2): **Michelle** is the ancestor of **Gregory** (Mary → Richard → Anna → Christina → Nicholas → Michelle → Gregory).
+*   From (5): **Gregory** is the ancestor of **Amber** (Mary → Richard → Anna → Christina → Nicholas → Michelle → Gregory → Amber).
+
+Looking at the full chain:
+**Mary → Richard → Anna → Christina → Nicholas → Michelle → Gregory → Amber**
+
+In this lineage, Mary is the most distant ancestor mentioned, and Amber is the most recent descendant. Therefore, **Amber is Mary's descendant**.
+
+Analyzing the options:
+1. Amber is Mary's ancestor. (Incorrect)
+2. Amber and Mary share a common ancestor. (While mathematically they would share an ancestor, this is not the most direct or standard way to describe a direct line relationship.)
+3. Amber and Mary share a common descendant. (No information provided about Amber's descendants.)
+4. **Amber is Mary's descendant.** (Correct)
+5. None of the above is correct. (Incorrect)
+
+<ANSWER>4</ANSWER>"
+8,COMMON_ANCESTOR,1,"Given the following lineage relationships:
+* Carl is Bradley's ancestor.
+* Theresa is Carl's ancestor.
+* Bradley is Brittany's ancestor.
+* Christian is Kenneth's ancestor.
+* Theresa is Jessica's ancestor.
+* Jessica is Christian's ancestor.
+* Brittany is Albert's ancestor.
+Determine the lineage relationship between Albert and Kenneth.
+Select the correct answer:
+1. Albert and Kenneth share a common ancestor.
+2. Albert and Kenneth share a common descendant.
+3. Albert is Kenneth's ancestor.
+4. Albert is Kenneth's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Albert and Kenneth, let's trace the connections provided:
+
+1.  **Trace Albert's lineage:**
+    *   Carl is Bradley's ancestor (Carl → Bradley).
+    *   Theresa is Carl's ancestor (Theresa → Carl).
+    *   Bradley is Brittany's ancestor (Bradley → Brittany).
+    *   Brittany is Albert's ancestor (Brittany → Albert).
+    *   Combined: **Theresa → Carl → Bradley → Brittany → Albert.**
+
+2.  **Trace Kenneth's lineage:**
+    *   Theresa is Jessica's ancestor (Theresa → Jessica).
+    *   Jessica is Christian's ancestor (Jessica → Christian).
+    *   Christian is Kenneth's ancestor (Christian → Kenneth).
+    *   Combined: **Theresa → Jessica → Christian → Kenneth.**
+
+3.  **Analyze the relationship between Albert and Kenneth:**
+    *   Both Albert and Kenneth are descendants of Theresa.
+    *   Albert's chain of ancestors mentioned is: Brittany, Bradley, Carl, and Theresa.
+    *   Kenneth's chain of ancestors mentioned is: Christian, Jessica, and Theresa.
+    *   Since Theresa is an ancestor to both individuals, Albert and Kenneth share a common ancestor.
+    *   There is no information given to suggest that one is an ancestor of the other, nor that they share a common descendant.
+
+4.  **Evaluate the options:**
+    1.  **Albert and Kenneth share a common ancestor.** (True: Theresa)
+    2.  Albert and Kenneth share a common descendant. (No information provided)
+    3.  Albert is Kenneth's ancestor. (False based on the paths)
+    4.  Albert is Kenneth's descendant. (False based on the paths)
+    5.  None of the above is correct. (False, as option 1 is correct)
+
+Conclusion: Albert and Kenneth share Theresa as a common ancestor.
+
+<ANSWER>1</ANSWER>"
+8,COMMON_DESCENDANT,2,"Given the following lineage relationships:
+* Rachel is Henry's ancestor.
+* Kayla is Keith's ancestor.
+* Henry is Michelle's descendant.
+* Ryan is Gloria's descendant.
+* Jean is Keith's descendant.
+* Jean is Michelle's ancestor.
+* Ryan is Rachel's ancestor.
+Determine the lineage relationship between Gloria and Kayla.
+Select the correct answer:
+1. Gloria and Kayla share a common ancestor.
+2. Gloria and Kayla share a common descendant.
+3. Gloria is Kayla's ancestor.
+4. Gloria is Kayla's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Gloria and Kayla, let's analyze the given relationships and build the lineages:
+
+1.  **Rachel is Henry's ancestor:** Rachel → Henry
+2.  **Kayla is Keith's ancestor:** Kayla → Keith
+3.  **Henry is Michelle's descendant:** Michelle → Henry
+4.  **Ryan is Gloria's descendant:** Gloria → Ryan
+5.  **Jean is Keith's descendant:** Keith → Jean
+6.  **Jean is Michelle's ancestor:** Jean → Michelle
+7.  **Ryan is Rachel's ancestor:** Ryan → Rachel
+
+Now, let's link these relationships into continuous chains:
+
+*   **Lineage 1 (from Gloria):**
+    From point 4, 7, and 1:
+    Gloria is the ancestor of Ryan (Ryan is Gloria's descendant).
+    Ryan is the ancestor of Rachel (Ryan is Rachel's ancestor).
+    Rachel is the ancestor of Henry (Rachel is Henry's ancestor).
+    Combining these: **Gloria → Ryan → Rachel → Henry**
+
+*   **Lineage 2 (from Kayla):**
+    From point 2, 5, 6, and 3:
+    Kayla is the ancestor of Keith (Kayla is Keith's ancestor).
+    Keith is the ancestor of Jean (Jean is Keith's descendant).
+    Jean is the ancestor of Michelle (Jean is Michelle's ancestor).
+    Michelle is the ancestor of Henry (Henry is Michelle's descendant).
+    Combining these: **Kayla → Keith → Jean → Michelle → Henry**
+
+**Conclusion:**
+From the two lineages constructed, we can see that:
+*   Gloria is an ancestor of Henry.
+*   Kayla is an ancestor of Henry.
+
+Since both Gloria and Kayla have Henry as a descendant, they share at least one common descendant. There is no information provided to suggest that they share a common ancestor or that one is an ancestor/descendant of the other.
+
+Comparing this to the given options:
+1. Gloria and Kayla share a common ancestor. (Not supported)
+2. Gloria and Kayla share a common descendant. (Correct, they both share Henry)
+3. Gloria is Kayla's ancestor. (Not supported)
+4. Gloria is Kayla's descendant. (Not supported)
+5. None of the above is correct.
+
+<ANSWER>2</ANSWER>"
+8,ANCESTOR,1,"Given the following lineage relationships:
+* Charles is Rachel's descendant.
+* Joyce is Jacob's ancestor.
+* Elijah is Charles's descendant.
+* Karen is Anna's descendant.
+* Joyce is Kathryn's descendant.
+* Jacob is Rachel's ancestor.
+* Anna is Elijah's descendant.
+Determine the lineage relationship between Kathryn and Karen.
+Select the correct answer:
+1. Kathryn is Karen's ancestor.
+2. Kathryn and Karen share a common descendant.
+3. Kathryn and Karen share a common ancestor.
+4. Kathryn is Karen's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Kathryn and Karen, let's map out the given lineage information step by step:
+
+1.  **Identify the individual relationships:**
+    *   Charles is Rachel's descendant → **Rachel is Charles's ancestor**
+    *   Joyce is Jacob's ancestor → **Joyce is Jacob's ancestor**
+    *   Elijah is Charles's descendant → **Charles is Elijah's ancestor**
+    *   Karen is Anna's descendant → **Anna is Karen's ancestor**
+    *   Joyce is Kathryn's descendant → **Kathryn is Joyce's ancestor**
+    *   Jacob is Rachel's ancestor → **Jacob is Rachel's ancestor**
+    *   Anna is Elijah's descendant → **Elijah is Anna's ancestor**
+
+2.  **Combine the relationships into a single lineage chain:**
+    *   Start with Kathryn: **Kathryn** is the ancestor of Joyce (from point 5).
+    *   From Joyce: Joyce is the ancestor of **Jacob** (from point 2).
+    *   From Jacob: Jacob is the ancestor of **Rachel** (from point 6).
+    *   From Rachel: Rachel is the ancestor of **Charles** (from point 1).
+    *   From Charles: Charles is the ancestor of **Elijah** (from point 3).
+    *   From Elijah: Elijah is the ancestor of **Anna** (from point 7).
+    *   From Anna: Anna is the ancestor of **Karen** (from point 4).
+
+3.  **Trace the path from Kathryn to Karen:**
+    Kathryn → Joyce → Jacob → Rachel → Charles → Elijah → Anna → Karen
+
+4.  **Conclusion:**
+    Following the chain, Kathryn is the ancestor of Joyce, who leads down the line to Karen. Therefore, Kathryn is Karen's ancestor.
+
+5.  **Evaluate the options:**
+    1.  Kathryn is Karen's ancestor. (Correct)
+    2.  Kathryn and Karen share a common descendant. (Incorrect based on the primary linear relationship)
+    3.  Kathryn and Karen share a common ancestor. (Incorrect as the primary relationship is ancestor/descendant)
+    4.  Kathryn is Karen's descendant. (Incorrect)
+    5.  None of the above is correct. (Incorrect)
+
+<ANSWER>1</ANSWER>"
+8,DESCENDANT,4,"Given the following lineage relationships:
+* Michelle is Deborah's ancestor.
+* Nancy is Danielle's descendant.
+* Michelle is Nancy's descendant.
+* Lauren is Pamela's descendant.
+* Lori is Pamela's ancestor.
+* Danielle is Olivia's descendant.
+* Lori is Deborah's descendant.
+Determine the lineage relationship between Lauren and Olivia.
+Select the correct answer:
+1. Lauren and Olivia share a common ancestor.
+2. Lauren is Olivia's ancestor.
+3. Lauren and Olivia share a common descendant.
+4. Lauren is Olivia's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Lauren and Olivia, let's analyze the given information step-by-step and construct the lineage chain. Let the symbol ""$\rightarrow$"" denote ""is the ancestor of.""
+
+1.  **Michelle is Deborah's ancestor**: Michelle $\rightarrow$ Deborah
+2.  **Nancy is Danielle's descendant**: Danielle $\rightarrow$ Nancy
+3.  **Michelle is Nancy's descendant**: Nancy $\rightarrow$ Michelle
+4.  **Lauren is Pamela's descendant**: Pamela $\rightarrow$ Lauren
+5.  **Lori is Pamela's ancestor**: Lori $\rightarrow$ Pamela
+6.  **Danielle is Olivia's descendant**: Olivia $\rightarrow$ Danielle
+7.  **Lori is Deborah's descendant**: Deborah $\rightarrow$ Lori
+
+Now, let's connect these relationships into a single chain, starting from the earliest ancestor identified:
+
+*   From (6), we have: **Olivia** $\rightarrow$ Danielle
+*   From (2), we add Danielle: Olivia $\rightarrow$ Danielle $\rightarrow$ **Nancy**
+*   From (3), we add Nancy: Olivia $\rightarrow$ Danielle $\rightarrow$ Nancy $\rightarrow$ **Michelle**
+*   From (1), we add Michelle: Olivia $\rightarrow$ Danielle $\rightarrow$ Nancy $\rightarrow$ Michelle $\rightarrow$ **Deborah**
+*   From (7), we add Deborah: Olivia $\rightarrow$ Danielle $\rightarrow$ Nancy $\rightarrow$ Michelle $\rightarrow$ Deborah $\rightarrow$ **Lori**
+*   From (5), we add Lori: Olivia $\rightarrow$ Danielle $\rightarrow$ Nancy $\rightarrow$ Michelle $\rightarrow$ Deborah $\rightarrow$ Lori $\rightarrow$ **Pamela**
+*   From (4), we add Pamela: Olivia $\rightarrow$ Danielle $\rightarrow$ Nancy $\rightarrow$ Michelle $\rightarrow$ Deborah $\rightarrow$ Lori $\rightarrow$ Pamela $\rightarrow$ **Lauren**
+
+The complete lineage chain is:
+Olivia $\rightarrow$ Danielle $\rightarrow$ Nancy $\rightarrow$ Michelle $\rightarrow$ Deborah $\rightarrow$ Lori $\rightarrow$ Pamela $\rightarrow$ Lauren
+
+Looking at the chain, Olivia is at the top (the earliest ancestor) and Lauren is at the bottom (the most recent descendant). Therefore, Lauren is a descendant of Olivia.
+
+Checking the given options:
+1. Lauren and Olivia share a common ancestor. (While technically any descendant/ancestor pair shares ancestors, this is not the most specific or primary relationship defined by the chain.)
+2. Lauren is Olivia's ancestor. (Incorrect)
+3. Lauren and Olivia share a common descendant. (Not indicated by the information.)
+4. Lauren is Olivia's descendant. (Correct)
+5. None of the above. (Incorrect)
+
+<ANSWER>4</ANSWER>"
+8,COMMON_ANCESTOR,4,"Given the following lineage relationships:
+* Helen is Gerald's descendant.
+* Carl is Julie's ancestor.
+* Carl is Willie's descendant.
+* Gerald is Jean's descendant.
+* Randy is Roger's descendant.
+* Roger is Willie's ancestor.
+* Julie is Jean's ancestor.
+Determine the lineage relationship between Randy and Helen.
+Select the correct answer:
+1. Randy and Helen share a common descendant.
+2. Randy is Helen's descendant.
+3. Randy is Helen's ancestor.
+4. Randy and Helen share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Randy and Helen, let's represent each statement with an arrow (A → B means B is A's descendant, or A is B's ancestor):
+
+1.  **Helen is Gerald's descendant**: Gerald → Helen
+2.  **Carl is Julie's ancestor**: Carl → Julie
+3.  **Carl is Willie's descendant**: Willie → Carl
+4.  **Gerald is Jean's descendant**: Jean → Gerald
+5.  **Randy is Roger's descendant**: Roger → Randy
+6.  **Roger is Willie's ancestor**: Roger → Willie
+7.  **Julie is Jean's ancestor**: Julie → Jean
+
+Now, let's connect these relationships into a single lineage chain:
+*   Starting with Roger (from 5 and 6):
+    *   Roger → Randy
+    *   Roger → Willie
+*   Continuing from Willie (using 3, 2, 7, 4, 1):
+    *   Willie → Carl
+    *   Carl → Julie
+    *   Julie → Jean
+    *   Jean → Gerald
+    *   Gerald → Helen
+
+By merging these, we get:
+- Roger is an ancestor of Randy (Roger → Randy).
+- Roger is an ancestor of Willie, and Willie is an ancestor of Carl, Julie, Jean, Gerald, and Helen in sequence (Roger → Willie → Carl → Julie → Jean → Gerald → Helen).
+
+Since Roger is an ancestor of both Randy and Helen, they share at least one common ancestor.
+
+Reviewing the options:
+1. Randy and Helen share a common descendant. (No information suggests this.)
+2. Randy is Helen's descendant. (No.)
+3. Randy is Helen's ancestor. (No.)
+4. Randy and Helen share a common ancestor. (Yes, Roger.)
+5. None of the above is correct.
+
+<ANSWER>4</ANSWER>"
+8,COMMON_DESCENDANT,2,"Given the following lineage relationships:
+* Jeremy is Sophia's descendant.
+* Ralph is Amanda's descendant.
+* Bryan is Jeremy's descendant.
+* Christine is Amanda's ancestor.
+* Catherine is Ralph's ancestor.
+* Madison is Catherine's ancestor.
+* Madison is Bryan's descendant.
+Determine the lineage relationship between Sophia and Christine.
+Select the correct answer:
+1. Sophia is Christine's descendant.
+2. Sophia and Christine share a common descendant.
+3. Sophia and Christine share a common ancestor.
+4. Sophia is Christine's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Sophia and Christine, let's map out the relationships provided:
+
+1.  **Jeremy is Sophia's descendant**: Sophia → ... → Jeremy
+2.  **Ralph is Amanda's descendant**: Amanda → ... → Ralph
+3.  **Bryan is Jeremy's descendant**: Jeremy → ... → Bryan
+4.  **Christine is Amanda's ancestor**: Christine → ... → Amanda
+5.  **Catherine is Ralph's ancestor**: Catherine → ... → Ralph
+6.  **Madison is Catherine's ancestor**: Madison → ... → Catherine
+7.  **Madison is Bryan's descendant**: Bryan → ... → Madison
+
+Now, let's chain these relationships together:
+
+*   From (1), (3), and (7), we get: **Sophia → Jeremy → Bryan → Madison**
+*   From (6), (5), and (2), we get: **Madison → Catherine → Ralph** and **Amanda → Ralph**
+*   Combining these: **Sophia → Jeremy → Bryan → Madison → Catherine → Ralph**
+*   Now, integrate Christine and Amanda from (4) and the fact that Ralph is Amanda's descendant: **Christine → Amanda → Ralph**
+
+Comparing the lineage paths:
+*   Path 1: **Sophia** → Jeremy → Bryan → Madison → Catherine → **Ralph**
+*   Path 2: **Christine** → Amanda → **Ralph**
+
+From these paths, we can see that **Ralph** is a descendant of Sophia (Path 1) and Ralph is also a descendant of Christine (Path 2). Therefore, Sophia and Christine share a common descendant, Ralph.
+
+Checking the options:
+1. Sophia is Christine's descendant. (Not necessarily true)
+2. Sophia and Christine share a common descendant. (True, Ralph is their descendant)
+3. Sophia and Christine share a common ancestor. (Not necessarily true)
+4. Sophia is Christine's ancestor. (Not necessarily true)
+5. None of the above is correct.
+
+<ANSWER>2</ANSWER>"
+8,ANCESTOR,4,"Given the following lineage relationships:
+* Amber is Diane's ancestor.
+* Beverly is Henry's descendant.
+* Deborah is Gerald's ancestor.
+* Henry is Jerry's descendant.
+* Beverly is Deborah's ancestor.
+* Diane is Brittany's ancestor.
+* Amber is Gerald's descendant.
+Determine the lineage relationship between Jerry and Brittany.
+Select the correct answer:
+1. Jerry and Brittany share a common ancestor.
+2. Jerry is Brittany's descendant.
+3. Jerry and Brittany share a common descendant.
+4. Jerry is Brittany's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Jerry and Brittany, we can analyze the given statements step by step and combine them into a single lineage chain:
+
+1.  **Jerry is Henry's ancestor** (from 'Henry is Jerry's descendant').
+    *   Relationship: Jerry → Henry
+
+2.  **Henry is Beverly's ancestor** (from 'Beverly is Henry's descendant').
+    *   Relationship: Jerry → Henry → Beverly
+
+3.  **Beverly is Deborah's ancestor** (given directly).
+    *   Relationship: Jerry → Henry → Beverly → Deborah
+
+4.  **Deborah is Gerald's ancestor** (given directly).
+    *   Relationship: Jerry → Henry → Beverly → Deborah → Gerald
+
+5.  **Gerald is Amber's ancestor** (from 'Amber is Gerald's descendant').
+    *   Relationship: Jerry → Henry → Beverly → Deborah → Gerald → Amber
+
+6.  **Amber is Diane's ancestor** (given directly).
+    *   Relationship: Jerry → Henry → Beverly → Deborah → Gerald → Amber → Diane
+
+7.  **Diane is Brittany's ancestor** (given directly).
+    *   Relationship: Jerry → Henry → Beverly → Deborah → Gerald → Amber → Diane → Brittany
+
+By following the chain of ancestry, we can see that Jerry is at the beginning of the lineage and Brittany is at the end. This means Jerry is the ancestor of everyone else in the chain, including Brittany.
+
+Therefore, the relationship between Jerry and Brittany is that Jerry is Brittany's ancestor.
+
+<ANSWER>4</ANSWER>"
+8,DESCENDANT,1,"Given the following lineage relationships:
+* Janet is Michael's ancestor.
+* Frances is Nicholas's descendant.
+* Nicholas is Andrea's descendant.
+* Jason is Dorothy's ancestor.
+* Michael is Jason's ancestor.
+* Theresa is Dorothy's descendant.
+* Andrea is Theresa's descendant.
+Determine the lineage relationship between Frances and Janet.
+Select the correct answer:
+1. Frances is Janet's descendant.
+2. Frances and Janet share a common descendant.
+3. Frances and Janet share a common ancestor.
+4. Frances is Janet's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the relationship between Frances and Janet, let's first analyze the lineage information provided:
+
+1.  **Janet is Michael's ancestor:** Janet → Michael
+2.  **Michael is Jason's ancestor:** Michael → Jason
+3.  **Jason is Dorothy's ancestor:** Jason → Dorothy
+4.  **Theresa is Dorothy's descendant:** Dorothy → Theresa
+5.  **Andrea is Theresa's descendant:** Theresa → Andrea
+6.  **Nicholas is Andrea's descendant:** Andrea → Nicholas
+7.  **Frances is Nicholas's descendant:** Nicholas → Frances
+
+By linking these relationships together in a sequential chain, we get the following lineage:
+**Janet** → Michael → Jason → Dorothy → Theresa → Andrea → Nicholas → **Frances**
+
+In this direct line of descent:
+- Janet is at the beginning of the chain (the ancestor of all the others).
+- Frances is at the end of the chain (the descendant of all the others).
+
+Thus, Frances is a descendant of Janet, and Janet is an ancestor of Frances.
+
+Now, let's evaluate the given options:
+1.  **Frances is Janet's descendant.** (This is correct based on our sequential chain).
+2.  **Frances and Janet share a common descendant.** (No information is provided about anyone appearing after Frances in the lineage).
+3.  **Frances and Janet share a common ancestor.** (While they share Janet's ancestors, the most direct and specific relationship defined by the chain is that Frances is Janet's descendant).
+4.  **Frances is Janet's ancestor.** (This is the reverse of the actual relationship).
+5.  **None of the above is correct.**
+
+The correct answer is Option 1.
+
+<ANSWER>1</ANSWER>"
+8,COMMON_ANCESTOR,3,"Given the following lineage relationships:
+* Scott is Rachel's descendant.
+* Kevin is Walter's descendant.
+* Jesse is Kevin's descendant.
+* Rachel is Jesse's descendant.
+* Helen is Jacob's descendant.
+* Helen is Doris's ancestor.
+* Walter is Jacob's ancestor.
+Determine the lineage relationship between Scott and Doris.
+Select the correct answer:
+1. Scott and Doris share a common descendant.
+2. Scott is Doris's ancestor.
+3. Scott and Doris share a common ancestor.
+4. Scott is Doris's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Scott and Doris, let's organize the given information into clear ancestral lines.
+
+1.  **Analyze the lineage from Walter:**
+    *   Walter is Jacob's ancestor (Walter → Jacob).
+    *   Helen is Jacob's descendant (Jacob → Helen).
+    *   Helen is Doris's ancestor (Helen → Doris).
+    *   Combining these: **Walter → Jacob → Helen → Doris**.
+
+2.  **Analyze the other lineage from Walter:**
+    *   Kevin is Walter's descendant (Walter → Kevin).
+    *   Jesse is Kevin's descendant (Kevin → Jesse).
+    *   Rachel is Jesse's descendant (Jesse → Rachel).
+    *   Scott is Rachel's descendant (Rachel → Scott).
+    *   Combining these: **Walter → Kevin → Jesse → Rachel → Scott**.
+
+3.  **Identify the relationship between Scott and Doris:**
+    *   From the paths established above, we can see two distinct lines starting from Walter:
+        *   Line 1: Walter → Jacob → Helen → Doris
+        *   Line 2: Walter → Kevin → Jesse → Rachel → Scott
+    *   Both Doris and Scott are descendants of Walter. This means Walter is a common ancestor for both Scott and Doris.
+
+4.  **Evaluate the given choices:**
+    *   1. Scott and Doris share a common descendant: No information is provided about their descendants.
+    *   2. Scott is Doris's ancestor: Looking at the lines, Scott and Doris are on separate branches from Walter.
+    *   3. Scott and Doris share a common ancestor: Yes, Walter is a common ancestor for both (and potentially others, but Walter is clearly identified).
+    *   4. Scott is Doris's descendant: Looking at the lines, Scott and Doris are on separate branches from Walter.
+    *   5. None of the above: Option 3 is confirmed.
+
+Based on our analysis, Scott and Doris share a common ancestor (Walter).
+
+<ANSWER>3</ANSWER>"
+8,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Benjamin is Kenneth's ancestor.
+* Christine is Joshua's descendant.
+* Kenneth is Madison's descendant.
+* Ethan is Patrick's descendant.
+* Christine is Patrick's ancestor.
+* Ethan is Benjamin's ancestor.
+* Madison is Terry's descendant.
+Determine the lineage relationship between Terry and Joshua.
+Select the correct answer:
+1. Terry and Joshua share a common ancestor.
+2. Terry is Joshua's ancestor.
+3. Terry and Joshua share a common descendant.
+4. Terry is Joshua's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Terry and Joshua, let's analyze the given information step-by-step and map the connections:
+
+1.  **Map the ancestor-descendant relationships (using ""A → B"" to mean A is an ancestor of B):**
+    *   **Benjamin is Kenneth's ancestor:** Benjamin → Kenneth
+    *   **Christine is Joshua's descendant:** Joshua → Christine
+    *   **Kenneth is Madison's descendant:** Madison → Kenneth
+    *   **Ethan is Patrick's descendant:** Patrick → Ethan
+    *   **Christine is Patrick's ancestor:** Christine → Patrick
+    *   **Ethan is Benjamin's ancestor:** Ethan → Benjamin
+    *   **Madison is Terry's descendant:** Terry → Madison
+
+2.  **Trace the lineage from Terry down through his descendants:**
+    *   From (7): Terry → Madison
+    *   From (3): Madison → Kenneth
+    *   *Path 1:* **Terry → Madison → Kenneth**
+
+3.  **Trace the lineage from Joshua down through his descendants:**
+    *   From (2): Joshua → Christine
+    *   From (5): Christine → Patrick
+    *   From (4): Patrick → Ethan
+    *   From (6): Ethan → Benjamin
+    *   From (1): Benjamin → Kenneth
+    *   *Path 2:* **Joshua → Christine → Patrick → Ethan → Benjamin → Kenneth**
+
+4.  **Identify the relationship between Terry and Joshua:**
+    *   Looking at Path 1 and Path 2, both Terry and Joshua are ancestors of **Kenneth**.
+    *   Since Kenneth is a descendant of Terry AND a descendant of Joshua, Terry and Joshua share a common descendant.
+
+5.  **Evaluate the options:**
+    1.  Terry and Joshua share a common ancestor: (Not supported by the data).
+    2.  Terry is Joshua's ancestor: (No path exists from Terry to Joshua).
+    3.  Terry and Joshua share a common descendant: (Both are ancestors of Kenneth).
+    4.  Terry is Joshua's descendant: (No path exists from Joshua to Terry).
+    5.  None of the above is correct.
+
+Conclusion: Terry and Joshua share at least one common descendant, Kenneth.
+
+<ANSWER>3</ANSWER>"
+8,ANCESTOR,4,"Given the following lineage relationships:
+* Austin is Scott's descendant.
+* Douglas is Samantha's descendant.
+* Donald is Paul's descendant.
+* Paul is Larry's descendant.
+* Larry is Austin's descendant.
+* Scott is Megan's descendant.
+* Douglas is Megan's ancestor.
+Determine the lineage relationship between Samantha and Donald.
+Select the correct answer:
+1. Samantha and Donald share a common descendant.
+2. Samantha and Donald share a common ancestor.
+3. Samantha is Donald's descendant.
+4. Samantha is Donald's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Samantha and Donald, we can map out the relationships given:
+
+1.  **Douglas is Samantha's descendant**: This means Samantha is an ancestor of Douglas (Samantha → Douglas).
+2.  **Douglas is Megan's ancestor**: This means Douglas is an ancestor of Megan (Douglas → Megan).
+3.  **Scott is Megan's descendant**: This means Megan is an ancestor of Scott (Megan → Scott).
+4.  **Austin is Scott's descendant**: This means Scott is an ancestor of Austin (Scott → Austin).
+5.  **Larry is Austin's descendant**: This means Austin is an ancestor of Larry (Austin → Larry).
+6.  **Paul is Larry's descendant**: This means Larry is an ancestor of Paul (Larry → Paul).
+7.  **Donald is Paul's descendant**: This means Paul is an ancestor of Donald (Paul → Donald).
+
+When we combine these individual chains into a single lineage, we get the following sequence:
+**Samantha** → Douglas → Megan → Scott → Austin → Larry → Paul → **Donald**
+
+Tracing this direct line from Samantha to Donald, we see that Samantha is at the beginning of the chain and Donald is at the end. This signifies that Samantha is an ancestor of Donald.
+
+Looking at the provided options:
+1. Samantha and Donald share a common descendant.
+2. Samantha and Donald share a common ancestor.
+3. Samantha is Donald's descendant.
+4. Samantha is Donald's ancestor.
+5. None of the above is correct.
+
+Based on our established lineage chain, Samantha is Donald's ancestor.
+
+<ANSWER>4</ANSWER>"
+8,DESCENDANT,3,"Given the following lineage relationships:
+* Peter is Sara's descendant.
+* Christian is Richard's descendant.
+* Peter is George's ancestor.
+* Maria is Diane's descendant.
+* Richard is George's descendant.
+* Maria is Sara's ancestor.
+* Victoria is Christian's descendant.
+Determine the lineage relationship between Victoria and Diane.
+Select the correct answer:
+1. Victoria is Diane's ancestor.
+2. Victoria and Diane share a common descendant.
+3. Victoria is Diane's descendant.
+4. Victoria and Diane share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the relationship between Victoria and Diane, we can list the lineage relationships given and build a sequential chain:
+
+1.  **Peter is Sara's descendant**: Sara → Peter
+2.  **Christian is Richard's descendant**: Richard → Christian
+3.  **Peter is George's ancestor**: Peter → George
+4.  **Maria is Diane's descendant**: Diane → Maria
+5.  **Richard is George's descendant**: George → Richard
+6.  **Maria is Sara's ancestor**: Maria → Sara
+7.  **Victoria is Christian's descendant**: Christian → Victoria
+
+Now, let's connect these connections into a single lineage chain starting from Diane:
+*   From (4): Diane → Maria
+*   From (6): Maria → Sara
+*   From (1): Sara → Peter
+*   From (3): Peter → George
+*   From (5): George → Richard
+*   From (2): Richard → Christian
+*   From (7): Christian → Victoria
+
+The full chain is:
+**Diane → Maria → Sara → Peter → George → Richard → Christian → Victoria**
+
+From this chain, we can see that:
+*   Diane is at the top (the ancestor).
+*   Victoria is at the bottom (the descendant).
+*   Therefore, Victoria is a descendant of Diane.
+
+Comparing this to the given options:
+1. Victoria is Diane's ancestor. (Incorrect)
+2. Victoria and Diane share a common descendant. (Unknown/Not supported)
+3. Victoria is Diane's descendant. (Correct)
+4. Victoria and Diane share a common ancestor. (While they might share an ancestor further up the line, the direct relationship established is that Victoria is Diane's descendant.)
+
+<ANSWER>3</ANSWER>"
+8,COMMON_ANCESTOR,2,"Given the following lineage relationships:
+* Jason is Samuel's descendant.
+* Rebecca is Sophia's descendant.
+* Gloria is Jason's descendant.
+* Gloria is Joe's ancestor.
+* Barbara is Alan's descendant.
+* Samuel is Alan's ancestor.
+* Sophia is Barbara's descendant.
+Determine the lineage relationship between Joe and Rebecca.
+Select the correct answer:
+1. Joe is Rebecca's descendant.
+2. Joe and Rebecca share a common ancestor.
+3. Joe is Rebecca's ancestor.
+4. Joe and Rebecca share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google,,,"To determine the lineage relationship between Joe and Rebecca, let's map out the given relationships:
+
+1.  **Samuel is Alan's ancestor** (Samuel → ... → Alan).
+2.  **Barbara is Alan's descendant** (Alan → ... → Barbara).
+3.  **Sophia is Barbara's descendant** (Barbara → ... → Sophia).
+4.  **Rebecca is Sophia's descendant** (Sophia → ... → Rebecca).
+    *   *Conclusion 1*: Following this chain, Samuel is an ancestor of Rebecca (Samuel → Alan → Barbara → Sophia → Rebecca).
+
+5.  **Jason is Samuel's descendant** (Samuel → ... → Jason).
+6.  **Gloria is Jason's descendant** (Jason → ... → Gloria).
+7.  **Gloria is Joe's ancestor** (Gloria → ... → Joe).
+    *   *Conclusion 2*: Following this chain, Samuel is an ancestor of Joe (Samuel → Jason → Gloria → Joe).
+
+Since both Joe and Rebecca are descendants of Samuel, Samuel is a common ancestor for both of them. 
+
+Reviewing the options:
+1. Joe is Rebecca's descendant: There is no information to support that Joe descends from Rebecca.
+2. Joe and Rebecca share a common ancestor: This is correct, as Samuel is an ancestor to both.
+3. Joe is Rebecca's ancestor: There is no information to support that Joe is an ancestor of Rebecca.
+4. Joe and Rebecca share a common descendant: There is no information provided about their descendants.
+5. None of the above: Option 2 has been confirmed.
+
+<ANSWER>2</ANSWER>"
+8,COMMON_DESCENDANT,4,"Given the following lineage relationships:
+* Mason is Angela's descendant.
+* Sandra is Joan's ancestor.
+* Sharon is Diana's ancestor.
+* Brittany is Sandra's ancestor.
+* Joan is Sharon's ancestor.
+* Christina is Diana's descendant.
+* Christina is Mason's ancestor.
+Determine the lineage relationship between Angela and Brittany.
+Select the correct answer:
+1. Angela is Brittany's descendant.
+2. Angela and Brittany share a common ancestor.
+3. Angela is Brittany's ancestor.
+4. Angela and Brittany share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",google/gemini-3-flash-preview,Google AI Studio,,,"To determine the lineage relationship between Angela and Brittany, we can list and map the given relationships:
+
+1.  **Mason is Angela's descendant**: This means Angela is an ancestor of Mason (Angela → ... → Mason).
+2.  **Sandra is Joan's ancestor**: (Sandra → ... → Joan).
+3.  **Sharon is Diana's ancestor**: (Sharon → ... → Diana).
+4.  **Brittany is Sandra's ancestor**: (Brittany → ... → Sandra).
+5.  **Joan is Sharon's ancestor**: (Joan → ... → Sharon).
+6.  **Christina is Diana's descendant**: This means Diana is an ancestor of Christina (Diana → ... → Christina).
+7.  **Christina is Mason's ancestor**: (Christina → ... → Mason).
+
+Now, let's connect these relationships into a continuous lineage chain:
+*   From Brittany to Mason:
+    Brittany (4) → Sandra (2) → Joan (5) → Sharon (3) → Diana (6) → Christina (7) → Mason.
+    This establishes that **Brittany is an ancestor of Mason**.
+
+*   From Angela to Mason:
+    Angela (1) → Mason.
+    This establishes that **Angela is also an ancestor of Mason**.
+
+Evaluating the relationship between Angela and Brittany:
+*   We know both Angela and Brittany are ancestors of Mason.
+*   Therefore, Mason is a descendant of both Angela and Brittany.
+*   This means Angela and Brittany share Mason as a common descendant.
+
+Looking at the options provided:
+1.  Angela is Brittany's descendant. (Not necessarily true)
+2.  Angela and Brittany share a common ancestor. (Not necessarily true)
+3.  Angela is Brittany's ancestor. (Not necessarily true)
+4.  **Angela and Brittany share a common descendant.** (True, they both have Mason as a descendant)
+5.  None of the above is correct.
+
+Since both are confirmed ancestors of the same individual (Mason), they share a common descendant.
+
+<ANSWER>4</ANSWER>"
