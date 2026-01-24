@@ -5,15 +5,15 @@ This directory contains lineage-bench results for lineage-8, lineage-16, lineage
 
 ## Changelog
 
-* 2024-03-07 - Added results for qwq-32b (used Parasail provider with 0.01 temp, observed some infinite loop generations, but mostly for lineage-64 where the model performs bad anyway).
-* 2024-03-04 - Updated results for perplexity/r1-1776. (apparently there was a problem with the model serving stack, that's why r1-1776 initially performed worse than expected)
-* 2024-02-26 - Added results for claude-3.7-sonnet (also with :thinking) and r1-1776
-* 2024-02-20 - Updated results for deepseek/deepseek-r1-distill-llama-70b. (used Groq provider with 0.5 temperature)
-* 2024-02-18 - Added results for kimi-k1.5-preview and llama-3.1-tulu-3-405b.
-* 2024-02-06 - Added results for o1, o3-mini, qwen-max, gemini-exp-1206, deepseek-r1-distill-qwen-14b and deepseek-r1-distill-qwen-32b.
-* 2024-01-24 - Added results for deepseek-r1-distill-llama-70b.
-* 2024-01-20 - Added results for deepseek-r1.
-* 2024-01-15 - Added results for deepseek-v3, gemini-2.0-flash-exp, gemini-2.0-flash-thinking-exp-1219 and minimax-01.
+* 2025-03-07 - Added results for qwq-32b (used Parasail provider with 0.01 temp, observed some infinite loop generations, but mostly for lineage-64 where the model performs bad anyway).
+* 2025-03-04 - Updated results for perplexity/r1-1776. (apparently there was a problem with the model serving stack, that's why r1-1776 initially performed worse than expected)
+* 2025-02-26 - Added results for claude-3.7-sonnet (also with :thinking) and r1-1776
+* 2025-02-20 - Updated results for deepseek/deepseek-r1-distill-llama-70b. (used Groq provider with 0.5 temperature)
+* 2025-02-18 - Added results for kimi-k1.5-preview and llama-3.1-tulu-3-405b.
+* 2025-02-06 - Added results for o1, o3-mini, qwen-max, gemini-exp-1206, deepseek-r1-distill-qwen-14b and deepseek-r1-distill-qwen-32b.
+* 2025-01-24 - Added results for deepseek-r1-distill-llama-70b.
+* 2025-01-20 - Added results for deepseek-r1.
+* 2025-01-15 - Added results for deepseek-v3, gemini-2.0-flash-exp, gemini-2.0-flash-thinking-exp-1219 and minimax-01.
 
 ## Results
 
