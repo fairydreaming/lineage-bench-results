@@ -19,7 +19,7 @@ This directory contains lineage-bench results for lineage-8, lineage-64, lineage
 
 The plot below shows only the 30 top-performing models. See the table for all results.
 
-![results_stacked](https://github.com/user-attachments/assets/ed2af03e-024d-4a7c-ab8e-522d6f4958a5)
+![results_stacked](https://github.com/user-attachments/assets/ef8cf8c8-c07c-448f-a0f0-1cf11e0ca427)
 
 ### Table
 
@@ -28,8 +28,8 @@ The table below presents the benchmark results. If not explicitly stated default
 |   Nr | model_name                         |   lineage |   lineage-8 |   lineage-64 |   lineage-128 |   lineage-192 |
 |-----:|:-----------------------------------|----------:|------------:|-------------:|--------------:|--------------:|
 |    1 | deepseek/deepseek-v3.2-speciale    |     0.994 |       1.000 |        1.000 |         1.000 |         0.975 |
-|    2 | openai/gpt-5.1 (high)              |     0.969 |       1.000 |        0.975 |         0.975 |         0.925 |
-|    2 | google/gemini-3-pro-preview        |     0.969 |       1.000 |        1.000 |         0.925 |         0.950 |
+|    2 | google/gemini-3-pro-preview        |     0.981 |       1.000 |        1.000 |         0.925 |         1.000 |
+|    3 | openai/gpt-5.1 (high)              |     0.969 |       1.000 |        0.975 |         0.975 |         0.925 |
 |    4 | deepseek/deepseek-v3.2             |     0.956 |       1.000 |        1.000 |         0.975 |         0.850 |
 |    5 | anthropic/claude-sonnet-4.5        |     0.944 |       0.975 |        0.975 |         0.900 |         0.925 |
 |    6 | google/gemini-2.5-pro              |     0.925 |       1.000 |        0.900 |         0.900 |         0.900 |
