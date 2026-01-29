@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JAf8ayKY8grLrU6iUCHFfROTqXf",
+  "object": "chat.completion",
+  "created": 1769681049,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Lori is an ancestor of Logan → Joseph → Judith (and further descendants), while Harold is an ancestor of Mark (and further descendants). There is no stated connection linking these two lineage chains.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 329,
+    "total_tokens": 1313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 274,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

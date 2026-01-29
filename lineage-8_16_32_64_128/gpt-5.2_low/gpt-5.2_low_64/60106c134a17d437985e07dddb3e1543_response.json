@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IfbUaTCBRgUfH3xinRwbA02UGXK",
+  "object": "chat.completion",
+  "created": 1769679123,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Ruth is an ancestor of Arthur (Ruth → Rebecca → Noah → Henry → Diane → Martha → Amanda → Kimberly → … → Arthur), and Gerald is also an ancestor of Arthur (Gerald → Gary → Jonathan → Carol → Arthur).  \n\nTherefore, Ruth and Gerald **share a common descendant** (Arthur).\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 5112,
+    "total_tokens": 5649,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5032,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

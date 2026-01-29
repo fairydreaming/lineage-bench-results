@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Izx0L5Wk9VckL78b31fz1u7dnqG",
+  "object": "chat.completion",
+  "created": 1769680385,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage links connect Sarah’s lineage chain (Sarah → Jennifer → Ronald → Roger …) to Tyler’s lineage chain (Tyler → Zachary → Julia → Michael → Noah → Megan → Diane → Gary → Dorothy → …). With the given information, we cannot derive any ancestor/descendant/common-ancestor/common-descendant relationship between Sarah and Tyler.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 327,
+    "total_tokens": 1315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 240,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

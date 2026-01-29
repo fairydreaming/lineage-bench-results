@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JD35PqBjl4S7WdqC9eHXE3iKO8C",
+  "object": "chat.completion",
+  "created": 1769681197,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Elizabeth is an ancestor of Gregory, and the given relationships form a continuous lineage chain from **Elizabeth → … → Carl**, so **Carl is Elizabeth’s descendant**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 472,
+    "total_tokens": 671,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 423,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

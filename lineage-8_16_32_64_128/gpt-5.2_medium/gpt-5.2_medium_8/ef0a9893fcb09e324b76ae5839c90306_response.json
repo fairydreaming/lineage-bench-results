@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IrfLNJpMt8r1GnQFokMgS6AKRkl",
+  "object": "chat.completion",
+  "created": 1769679871,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Brittany is an ancestor of Sandra, who is an ancestor of Joan, who is an ancestor of Sharon, who is an ancestor of Diana, who is an ancestor of Christina, who is an ancestor of Mason. So Brittany is an ancestor of Mason.\n\nAlso, Mason is Angela’s descendant, so Mason is a descendant of Angela.\n\nTherefore, **Angela and Brittany share a common descendant (Mason)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 471,
+    "total_tokens": 614,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 372,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

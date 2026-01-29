@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JOa0wCELgxOC46aCgGaSMgW8c28",
+  "object": "chat.completion",
+  "created": 1769681912,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships, both Gary and Julie are descendants of Donna (Gary through Donna → Jonathan → Kimberly → Gary, and Julie through Donna → Teresa → Emma → Debra → Julie). Therefore, they share a common ancestor.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 953,
+    "total_tokens": 1098,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 891,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

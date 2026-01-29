@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDlERkd1yBGAvm8dduikWlvMLTT",
+  "object": "chat.completion",
+  "created": 1769681241,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Philip is an ancestor of Kathleen (Philip → Noah → Bobby → Laura → … → Justin → Kathleen), and Sean is also an ancestor of Kathleen (Sean → Ashley → Kathleen). Therefore, Sean and Philip share a common descendant.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 828,
+    "total_tokens": 1029,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 766,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

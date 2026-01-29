@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JFdYt6Vqi6e77jvwRnbmfsF580y",
+  "object": "chat.completion",
+  "created": 1769681357,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Vincent is an ancestor of Patricia, and the ancestor chain continues:\n\nVincent → Patricia → Kathleen → Matthew → Janice → Jordan → Roger → Patrick → Joseph → Linda → Ashley → Helen → Katherine → Walter → Timothy → Donna → Jason → Stephen → Gary → Michael → Donald → Zachary → Eric → Tyler → Jennifer → Bobby → Evelyn → Megan → Kevin → Heather → Diane → Diana.\n\nSo Vincent is Diana’s ancestor.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 1045,
+    "total_tokens": 1360,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 941,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

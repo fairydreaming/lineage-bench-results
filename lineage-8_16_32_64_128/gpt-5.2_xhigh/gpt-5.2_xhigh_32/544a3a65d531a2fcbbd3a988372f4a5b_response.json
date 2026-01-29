@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JVC7xheMP7OTScqGsdhDdZpArn0",
+  "object": "chat.completion",
+  "created": 1769682322,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Joan is an ancestor of Susan, who is an ancestor of Russell, who is an ancestor of Ashley, who is an ancestor of Joshua, who is an ancestor of Judith, who is an ancestor of George, who is an ancestor of Linda, who is an ancestor of Kathleen, who is an ancestor of Carl, who is an ancestor of Sophia, who is an ancestor of Ralph, who is an ancestor of Kimberly, who is an ancestor of Stephanie, who is an ancestor of Logan, who is an ancestor of Catherine, who is an ancestor of James, who is an ancestor of Diana, who is an ancestor of Emily, who is an ancestor of Brittany, who is an ancestor of Teresa, who is an ancestor of Frances, who is an ancestor of Vincent, who is an ancestor of Steven, who is an ancestor of Anna, who is an ancestor of Patricia, who is an ancestor of Henry, who is an ancestor of Karen, who is an ancestor of Nathan, who is an ancestor of Rebecca, who is an ancestor of Austin, who is an ancestor of Joe.\n\nTherefore, **Joan is Joe’s ancestor**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 2562,
+    "total_tokens": 2873,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2317,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

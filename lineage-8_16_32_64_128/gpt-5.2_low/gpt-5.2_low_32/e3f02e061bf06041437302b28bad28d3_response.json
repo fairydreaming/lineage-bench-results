@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ImVONWN4tQ7n9QWLYqsYfFoSD9y",
+  "object": "chat.completion",
+  "created": 1769679551,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Jose is a descendant of Alan, and following the given links upward:\n\nJose ←(descendant of) Alan ← Megan ← Kenneth ← Ashley ← Ralph ← George ← Pamela ← Amber ← Dennis ← Anthony ← Austin ← Russell ← Sara ← Victoria ← Natalie ← Charles ← Paul ← Charlotte ← Diane ← Gloria ← Debra ← Henry ← Melissa ← Adam ← Juan ← Jesse ← Michael ← Nathan ← Judy ← **Jacob**\n\nAlso, **Jacob is Abigail’s ancestor**, so Abigail is a descendant of Jacob.\n\nTherefore, **Jose and Abigail share a common ancestor (Jacob)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1130,
+    "total_tokens": 1441,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1000,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

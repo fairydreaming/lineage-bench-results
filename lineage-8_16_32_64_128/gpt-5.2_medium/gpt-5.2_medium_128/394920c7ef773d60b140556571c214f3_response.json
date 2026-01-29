@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IzGDvvmqKRJSRuKi5QpQic5w2Gn",
+  "object": "chat.completion",
+  "created": 1769680342,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage links connect Janet’s line (Janet ← Anthony ← Martha ← Arthur ← Marilyn ← Christina …) to Russell’s line (Russell → Julia → Larry → Frances → Teresa → Douglas → Marie → Dorothy → Susan …).  \n\nSo Janet and Russell are not shown to be ancestors/descendants of each other, nor to share a common ancestor or descendant based on the given facts.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 808,
+    "total_tokens": 1796,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 713,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

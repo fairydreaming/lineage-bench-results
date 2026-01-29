@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JR7v9otNRXAlxEzztdaq1Udn3J5",
+  "object": "chat.completion",
+  "created": 1769682069,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Philip is an ancestor of John (through the chain Philip → Deborah → Edward → Noah → Bradley → Janet → Vincent → Maria → Lawrence → Jean → William → Martha → Patricia → Gerald → John).  \nRachel is also an ancestor of John.  \nTherefore, Philip and Rachel share a common descendant (John).\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 2151,
+    "total_tokens": 2348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2073,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

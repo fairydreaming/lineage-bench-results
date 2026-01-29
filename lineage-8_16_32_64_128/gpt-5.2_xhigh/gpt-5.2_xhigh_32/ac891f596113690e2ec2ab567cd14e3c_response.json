@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JTXPpxRDhmTJqdz3eyxop1VxIHJ",
+  "object": "chat.completion",
+  "created": 1769682219,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Lori is Kathleen’s descendant (Kathleen → Mason → … → Justin → Lori).  \n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1463,
+    "total_tokens": 1774,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1428,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

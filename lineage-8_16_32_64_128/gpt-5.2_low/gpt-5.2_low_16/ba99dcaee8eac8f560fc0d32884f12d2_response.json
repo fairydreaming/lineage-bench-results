@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IleGrnbC7s5NDJ8xJod78jhKDX3",
+  "object": "chat.completion",
+  "created": 1769679498,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Andrew is George’s ancestor, and through the given links George is an ancestor of Kevin → Lisa → Timothy → Charlotte → Beverly → Bobby → Eric → Helen → Donald.  \nSeparately, Donald is an ancestor of Gary (Donald → Diane → Debra → Alan → Gloria → Gary).  \nTherefore, Andrew is an ancestor of Gary.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 433,
+    "total_tokens": 634,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 349,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDve9UNIHsiR0yjmybdiynIRTLi",
+  "object": "chat.completion",
+  "created": 1769681251,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relations we can build these two ancestry chains to **Terry**:\n\n- **Nathan → Margaret → Alice → Roger → Lori → Terry**\n- **Walter → Ryan → Richard → Marilyn → Jack → Sharon → Angela → Eugene → Debra → Jacob → Terry**\n\nSo **Terry is a descendant of both Walter and Nathan**, meaning they **share a common descendant**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 1050,
+    "total_tokens": 1251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 956,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

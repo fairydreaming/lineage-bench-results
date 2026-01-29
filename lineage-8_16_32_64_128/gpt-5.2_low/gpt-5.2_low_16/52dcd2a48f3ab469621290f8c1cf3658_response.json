@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IliFTYrM4WXRo6gJ16cBtSASdI0",
+  "object": "chat.completion",
+  "created": 1769679502,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Sean is Ashley’s ancestor, and Ashley is Kathleen’s ancestor ⟹ **Sean is Kathleen’s ancestor**.\n- Philip is Noah’s ancestor, Noah is Bobby’s ancestor, Bobby is Laura’s ancestor, Laura is Patricia’s ancestor, Patricia is Anthony’s ancestor, Anthony is Susan’s ancestor, Susan is Richard’s ancestor, Richard is Wayne’s ancestor, Wayne is Zachary’s ancestor, Zachary is George’s ancestor, George is Nancy’s ancestor, Nancy is Justin’s ancestor, and Justin is Kathleen’s ancestor ⟹ **Philip is Kathleen’s ancestor**.\n\nSo **Sean and Philip share a common descendant (Kathleen)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 576,
+    "total_tokens": 777,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 426,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

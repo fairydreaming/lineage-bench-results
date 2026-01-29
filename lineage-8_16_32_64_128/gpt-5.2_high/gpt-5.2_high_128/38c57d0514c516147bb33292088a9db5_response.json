@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JM7bkAKJ1jLOv6v5DDSJp1f0iod",
+  "object": "chat.completion",
+  "created": 1769681759,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage links connect Angela to Brian in the given relationships: Angela is only connected upward to Victoria (and thus to Christian), while Brian is connected upward to Patrick (and thus to Marilyn). There is no stated or implied overlap.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 428,
+    "total_tokens": 1416,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 366,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

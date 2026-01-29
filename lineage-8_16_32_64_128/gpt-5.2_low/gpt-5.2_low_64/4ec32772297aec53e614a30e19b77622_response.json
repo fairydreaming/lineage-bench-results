@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IfoggZp055ZA4dNhwJO7fRmJ4Eg",
+  "object": "chat.completion",
+  "created": 1769679136,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Nicole is an ancestor of Samantha (and thus of Samantha’s descendants), while Joan is an ancestor of Cheryl (and thus of Cheryl’s descendants, including Barbara → Vincent → …). There is no lineage link given that connects Nicole’s line to Joan’s line, so none of the listed relationships (common ancestor/descendant, or one being ancestor/descendant of the other) can be concluded.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 427,
+    "total_tokens": 964,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 331,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

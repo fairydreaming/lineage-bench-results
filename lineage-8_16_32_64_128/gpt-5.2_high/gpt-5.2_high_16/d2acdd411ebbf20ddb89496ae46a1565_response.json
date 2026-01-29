@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDl67yZsK8euGZx5zUddj9w5oyM",
+  "object": "chat.completion",
+  "created": 1769681241,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Madison is a descendant of Albert, and Betty is also a (more distant) descendant of Albert (through Albert → Kayla → Kelly → Eric → Julie → Russell → Brandon → Samuel → Raymond → Sophia → Alexis → Christina → Gregory → Grace → Betty). Therefore, Madison and Betty share a common ancestor.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 760,
+    "total_tokens": 961,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 681,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

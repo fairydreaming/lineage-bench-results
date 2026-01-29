@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JiDWMtxI7En0YPB339FdA5jlkVs",
+  "object": "chat.completion",
+  "created": 1769683129,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Keith is an ancestor of Jack, and Jack is an ancestor (through a long chain of descendants) of Bruce; Bruce is an ancestor of Angela. Therefore, Keith is an ancestor of Angela, meaning Angela is Keith’s descendant.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 6589,
+    "total_tokens": 7574,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 6527,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

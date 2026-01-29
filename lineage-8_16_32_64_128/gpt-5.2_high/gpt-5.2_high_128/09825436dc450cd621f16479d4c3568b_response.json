@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JMigT0qgRqG5qGccpkGNfPdT51b",
+  "object": "chat.completion",
+  "created": 1769681796,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage information connects Doris’s line (through Jeremy → Mary → Benjamin → …) to Edward’s line (through Michael → Frances → Aaron → David → …). Therefore, none of the listed relationships can be concluded.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 983,
+    "completion_tokens": 417,
+    "total_tokens": 1400,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 357,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

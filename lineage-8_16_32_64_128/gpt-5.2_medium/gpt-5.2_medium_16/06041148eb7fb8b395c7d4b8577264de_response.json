@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Iry8IlBbN39Xo2nmQdrK6KRSsdM",
+  "object": "chat.completion",
+  "created": 1769679890,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships, **Michael is an ancestor of Jessica** (since Jessica is Michael’s descendant), and Michael is also an ancestor of Kathryn via the chain:\n\nMichael → Willie → Megan → Cynthia → Andrew → Ralph → Madison → Karen → Anna → Elijah → Charles → Rachel → Jacob → Joyce → Kathryn.\n\nSo **Kathryn and Jessica share a common ancestor (Michael)**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 577,
+    "total_tokens": 776,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 484,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

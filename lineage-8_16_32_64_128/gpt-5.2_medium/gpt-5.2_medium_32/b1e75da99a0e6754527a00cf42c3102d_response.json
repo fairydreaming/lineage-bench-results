@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ItDLW2nMJblYBZZbLfJaTRqRUGV",
+  "object": "chat.completion",
+  "created": 1769679967,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Wayne’s ancestry chain includes:\n\nDaniel → Jordan → Andrew → Gabriel → Ashley → Frances → Grace → Betty → Timothy → Amanda → Marie → Deborah → Shirley → Jose → Kimberly → Willie → Billy → **Wayne**\n\nAlan’s ancestry chain includes:\n\nJudy → Ryan → William → Alexis → Megan → Edward → Janice → Gregory → Jeremy → Angela → Patrick → Christine → Benjamin → **Alan**\n\nSince **Judy is an ancestor of Daniel** (hence of Wayne) and also **an ancestor of Ryan** (hence of Alan), **Wayne and Alan share a common ancestor (Judy)**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 1081,
+    "total_tokens": 1394,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 939,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

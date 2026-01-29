@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCb0EfYxd7mo9floIpvgeOc2RQ2",
+  "object": "chat.completion",
+  "created": 1769681169,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts:\n\n- Gloria is an ancestor of Ryan, Ryan is an ancestor of Rachel, and Rachel is an ancestor of Henry ⇒ **Gloria is an ancestor of Henry**.\n- Kayla is an ancestor of Keith, Keith is an ancestor of Jean, Jean is an ancestor of Michelle, and Michelle is an ancestor of Henry ⇒ **Kayla is an ancestor of Henry**.\n\nSo **Gloria and Kayla share a common descendant (Henry)**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 603,
+    "total_tokens": 752,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 493,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IlSvGcF6tQMyG3ZUcOHgElzV0I7",
+  "object": "chat.completion",
+  "created": 1769679486,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts:\n\n- Jerry is **Henry’s ancestor**, and Henry is **Beverly’s ancestor** → Jerry is an ancestor of Beverly.  \n- Beverly is **Deborah’s ancestor**, and Deborah is **Gerald’s ancestor** → Jerry is an ancestor of Gerald.  \n- Gerald is **Amber’s ancestor** → Jerry is an ancestor of Amber.  \n- Amber is an ancestor of Diane → Brittany → Brenda → Julie.  \n- Julie is an ancestor of Harold → Ronald → Lawrence → Peter → Mason → Frank.\n\nSo there is a continuous ancestor chain:\n\n**Jerry → … → Amber → … → Julie → … → Frank**\n\nTherefore, **Jerry is Frank’s ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 510,
+    "total_tokens": 709,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 352,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

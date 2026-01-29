@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3It0R880gA9M8F2igSDFUM1n06Af",
+  "object": "chat.completion",
+  "created": 1769679954,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Gloria is an ancestor of Emma, and through the given descendant/ancestor links this line ultimately leads down to **Jacqueline**.  \nSeparately, Doris is an ancestor of Janet, and through the given links this line also ultimately leads down to **Jacqueline**.\n\nTherefore, **Gloria and Doris share a common descendant (Jacqueline)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1005,
+    "total_tokens": 1316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 918,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

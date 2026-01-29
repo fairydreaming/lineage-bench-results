@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JIhTEufYFD9lH3QSazMMOFwMmeK",
+  "object": "chat.completion",
+  "created": 1769681547,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Joshua’s ancestors include:\n\nJoshua ← Ryan ← Eric ← David ← Melissa ← Wayne ← Billy ← Abigail ← Mason ← Stephen ← Sandra ← Julie ← Shirley ← Willie ← Patrick ← Judy ← Jesse ← Joseph ← Jacob ← Zachary ← Nicholas ← Sophia ← Larry ← Theresa ← Peter ← Bryan ← Jean ← Adam ← Alexis ← Kenneth ← Sarah ← Jeffrey ← Marie ← Kayla ← Deborah ← Lisa ← Charles ← Tyler ← Edward ← Thomas ← Kathleen ← Olivia ← Donald ← Carol ← Grace ← Christian ← Daniel ← Steven ← Julia ← **John** ← **Timothy**\n\nLaura’s ancestors include:\n\nLaura ← Samuel ← Randy ← Rachel ← Carl ← Justin ← George ← Isabella ← Brittany ← Jack ← Aaron ← Jose ← Gary ← **Timothy**\n\nSo Joshua and Laura are both descendants of **Timothy**, meaning they share a common ancestor.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 2205,
+    "total_tokens": 2743,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2022,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

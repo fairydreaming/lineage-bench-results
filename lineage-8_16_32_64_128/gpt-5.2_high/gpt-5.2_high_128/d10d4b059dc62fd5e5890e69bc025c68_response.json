@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JKE187jJI8nPKAXul5JclC3SZob",
+  "object": "chat.completion",
+  "created": 1769681642,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage path connects Randy to Bobby (neither is an ancestor/descendant of the other, and no shared ancestor/descendant can be inferred from the given statements).\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 524,
+    "total_tokens": 1511,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 473,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

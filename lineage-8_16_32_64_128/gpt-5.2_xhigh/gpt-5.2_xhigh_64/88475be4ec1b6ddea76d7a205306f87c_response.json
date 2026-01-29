@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JXAOw7Dbat2UVbAOvtpPQtt4Ox4",
+  "object": "chat.completion",
+  "created": 1769682444,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Janet is an ancestor of Kevin (Janet → Douglas → … → Julie → Kevin), and Harold is also an ancestor of Kevin (Harold → Jeffrey → … → Anthony → Kevin). Therefore, Janet and Harold share a common descendant.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 5601,
+    "total_tokens": 6138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5536,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

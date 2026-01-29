@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Iw7a20TIGeES96g6ApEMypKMpzd",
+  "object": "chat.completion",
+  "created": 1769680147,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships, we can build this ancestor chain:\n\nElijah → Harold → Michael → Bobby → Philip → Ralph → Karen → Denise → Patricia → Mason → Diana → Amy → Gabriel → Dorothy → Andrea → Mary → Kathleen → Brian → Madison → Pamela → Kevin → William → Tyler → Carl → Danielle → Brenda → Heather → Jerry → Ruth → Mark → Logan → George → Vincent → Margaret → Zachary → Kelly → Jennifer → Richard → Bryan → Ryan → Christine → Janice → Stephen → Charles → Melissa → Jeffrey → Abigail → Albert → Sandra → Rachel → Justin → Teresa → Janet → Arthur → Amanda → Lawrence → Alice → Megan → Alan → Cynthia → Samantha → Beverly → Robert → Brandon\n\nSo **Brandon is a descendant of Elijah**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 1316,
+    "total_tokens": 1854,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1146,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

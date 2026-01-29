@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JEvlAhepTFHkmECBPrf5QIDdItg",
+  "object": "chat.completion",
+  "created": 1769681313,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Alan’s ancestors include (among others) **Maria** (via Sara → Alan and tracing back up to Maria).  \nDavid’s ancestors also include **Maria** (via Dennis → David and tracing back up through Alexis → … → Peter → Maria).\n\nSo **Alan and David share a common ancestor**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1151,
+    "total_tokens": 1462,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1074,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

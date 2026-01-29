@@ -1,0 +1,1674 @@
+32,ANCESTOR,3,"Given the following lineage relationships:
+* Thomas is Joseph's ancestor.
+* Victoria is Alexis's ancestor.
+* Kyle is Cynthia's ancestor.
+* Joseph is George's ancestor.
+* Kyle is Henry's descendant.
+* Samantha is Brian's ancestor.
+* George is Henry's ancestor.
+* Sarah is Thomas's ancestor.
+* Marilyn is Stephen's descendant.
+* Margaret is Zachary's descendant.
+* Victoria is Cynthia's descendant.
+* Janice is Jason's descendant.
+* Debra is Tyler's ancestor.
+* Jessica is Natalie's descendant.
+* Richard is Jeffrey's descendant.
+* Brian is Olivia's ancestor.
+* Beverly is Richard's descendant.
+* Beverly is Gerald's ancestor.
+* Margaret is Diane's ancestor.
+* Douglas is Stephen's ancestor.
+* Gerald is Jeremy's ancestor.
+* Jason is Marilyn's descendant.
+* Samantha is Janice's descendant.
+* Sarah is Olivia's descendant.
+* Alexis is Debra's ancestor.
+* Douglas is Jeremy's descendant.
+* Diane is Carl's ancestor.
+* Tyler is Cheryl's ancestor.
+* Andrea is Jeffrey's ancestor.
+* Zachary is Jessica's descendant.
+* Natalie is Cheryl's descendant.
+Determine the lineage relationship between Andrea and Carl.
+Select the correct answer:
+1. Andrea is Carl's descendant.
+2. Andrea and Carl share a common descendant.
+3. Andrea is Carl's ancestor.
+4. Andrea and Carl share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,DESCENDANT,3,"Given the following lineage relationships:
+* Jeffrey is Matthew's ancestor.
+* George is Rebecca's ancestor.
+* Stephen is Walter's descendant.
+* Jeffrey is Brandon's descendant.
+* Heather is Beverly's ancestor.
+* Patricia is Sharon's ancestor.
+* George is Matthew's descendant.
+* Julia is Bruce's descendant.
+* Pamela is Debra's ancestor.
+* Jennifer is Lori's ancestor.
+* Sharon is Jacqueline's ancestor.
+* Marilyn is Zachary's ancestor.
+* Emily is Hannah's ancestor.
+* Joan is Benjamin's descendant.
+* Hannah is Patricia's ancestor.
+* Terry is Larry's ancestor.
+* Zachary is Mason's ancestor.
+* Terry is Stephen's descendant.
+* Rebecca is Amy's ancestor.
+* Marilyn is Amy's descendant.
+* Nathan is Jacqueline's descendant.
+* Julia is Carolyn's ancestor.
+* Lori is Karen's ancestor.
+* Emily is Larry's descendant.
+* Heather is Karen's descendant.
+* Pamela is Beverly's descendant.
+* Benjamin is Sarah's descendant.
+* Brandon is Joan's descendant.
+* Debra is Walter's ancestor.
+* Nathan is Bruce's ancestor.
+* Mason is Jennifer's ancestor.
+Determine the lineage relationship between Carolyn and Sarah.
+Select the correct answer:
+1. Carolyn and Sarah share a common ancestor.
+2. Carolyn and Sarah share a common descendant.
+3. Carolyn is Sarah's descendant.
+4. Carolyn is Sarah's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,COMMON_ANCESTOR,3,"Given the following lineage relationships:
+* Paul is Robert's ancestor.
+* Dennis is Timothy's ancestor.
+* Stephanie is Gloria's ancestor.
+* Alexis is Donald's ancestor.
+* Christine is Diane's ancestor.
+* Stephanie is Nathan's descendant.
+* Elizabeth is Ann's descendant.
+* Zachary is Robert's descendant.
+* Gloria is Carl's ancestor.
+* Paul is Judy's descendant.
+* Marie is Peter's ancestor.
+* Noah is Kathleen's ancestor.
+* Evelyn is Donald's descendant.
+* Jeremy is Ann's ancestor.
+* Noah is Carl's descendant.
+* Judy is Evelyn's descendant.
+* Jeremy is Amanda's descendant.
+* Alexis is Andrew's descendant.
+* Thomas is Alan's descendant.
+* Amanda is Maria's descendant.
+* Zachary is Marie's ancestor.
+* Eric is Janet's ancestor.
+* Nathan is Nicole's descendant.
+* Eric is Nicole's ancestor.
+* Peter is Christine's ancestor.
+* Janet is Maria's ancestor.
+* Diana is Kathleen's descendant.
+* Elizabeth is Dennis's ancestor.
+* Timothy is Madison's ancestor.
+* Andrew is Thomas's descendant.
+* Diana is Alan's ancestor.
+Determine the lineage relationship between Diane and Madison.
+Select the correct answer:
+1. Diane is Madison's descendant.
+2. Diane and Madison share a common descendant.
+3. Diane and Madison share a common ancestor.
+4. Diane is Madison's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Diane is a descendant of Eric (Eric → Nicole → Nathan → … → Christine → Diane), and Madison is also a descendant of Eric (Eric → Janet → Maria → … → Timothy → Madison). Therefore, Diane and Madison share a common ancestor.
+
+<ANSWER>3</ANSWER>"
+32,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Kenneth is Kelly's ancestor.
+* Andrew is Julie's ancestor.
+* Alexis is Catherine's descendant.
+* Eric is Patricia's ancestor.
+* Roger is Bruce's ancestor.
+* Kelly is Charles's ancestor.
+* Catherine is Walter's descendant.
+* Ethan is Terry's descendant.
+* Emily is Jordan's ancestor.
+* Carolyn is Jacob's descendant.
+* Martha is Jessica's ancestor.
+* Roger is Jose's descendant.
+* Linda is Noah's descendant.
+* Gloria is Jean's descendant.
+* Patricia is Terry's ancestor.
+* Gloria is Jose's ancestor.
+* Alexis is Charles's descendant.
+* Noah is Sara's descendant.
+* Carolyn is Walter's ancestor.
+* Heather is Martha's ancestor.
+* Jacob is Linda's descendant.
+* Rachel is Heather's ancestor.
+* Eric is Megan's descendant.
+* Lori is Sara's ancestor.
+* Rachel is Shirley's descendant.
+* Shirley is Bruce's descendant.
+* Jessica is Kenneth's ancestor.
+* Jack is Andrew's ancestor.
+* Julie is Lori's ancestor.
+* Ethan is Jean's ancestor.
+* Jordan is Megan's ancestor.
+Determine the lineage relationship between Jack and Emily.
+Select the correct answer:
+1. Jack is Emily's descendant.
+2. Jack is Emily's ancestor.
+3. Jack and Emily share a common descendant.
+4. Jack and Emily share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,ANCESTOR,2,"Given the following lineage relationships:
+* Richard is Alice's ancestor.
+* Bryan is Roy's ancestor.
+* Elizabeth is Debra's descendant.
+* Charles is Nicholas's descendant.
+* Bradley is Edward's descendant.
+* Jean is Juan's descendant.
+* Barbara is Richard's ancestor.
+* Charlotte is Gloria's descendant.
+* Jean is Gloria's ancestor.
+* Barbara is Frank's descendant.
+* Brandon is Noah's ancestor.
+* Samuel is Noah's descendant.
+* Alexis is Vincent's ancestor.
+* Roy is Alexis's ancestor.
+* Frank is Samuel's descendant.
+* Bryan is Charles's descendant.
+* Ann is Walter's ancestor.
+* Jason is Teresa's descendant.
+* Debra is Randy's descendant.
+* Bradley is Christopher's ancestor.
+* Nicholas is Lisa's descendant.
+* Juan is Alice's descendant.
+* Edward is Benjamin's descendant.
+* Teresa is Walter's descendant.
+* Randy is Jason's descendant.
+* Kelly is Elizabeth's descendant.
+* Charlotte is Austin's ancestor.
+* Vincent is Adam's ancestor.
+* Ann is Adam's descendant.
+* Brandon is Kelly's descendant.
+* Austin is Benjamin's ancestor.
+Determine the lineage relationship between Lisa and Christopher.
+Select the correct answer:
+1. Lisa and Christopher share a common descendant.
+2. Lisa is Christopher's ancestor.
+3. Lisa is Christopher's descendant.
+4. Lisa and Christopher share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Lisa is Christopher’s ancestor through the chain: Lisa → Nicholas → Charles → … → Bradley → Christopher.  
+
+<ANSWER>2</ANSWER>"
+32,DESCENDANT,2,"Given the following lineage relationships:
+* Michelle is Sandra's descendant.
+* Sandra is Charlotte's descendant.
+* Ruth is Jacqueline's descendant.
+* Marilyn is Billy's descendant.
+* Juan is George's descendant.
+* Kelly is Judith's ancestor.
+* Kevin is Harold's descendant.
+* Martha is Kevin's descendant.
+* Noah is Marilyn's descendant.
+* Catherine is Lisa's ancestor.
+* Kelly is Juan's descendant.
+* Justin is Richard's descendant.
+* Dylan is Jesse's ancestor.
+* Sara is Nathan's descendant.
+* Charlotte is Sara's descendant.
+* Ruth is Catherine's ancestor.
+* Tyler is Justin's descendant.
+* Douglas is Billy's ancestor.
+* Douglas is Tyler's descendant.
+* Nathan is Amy's descendant.
+* Jacqueline is Joe's descendant.
+* Kathleen is Harold's ancestor.
+* Judith is Madison's ancestor.
+* Amanda is Amy's ancestor.
+* Alexander is Amanda's ancestor.
+* Adam is Lisa's descendant.
+* Noah is George's ancestor.
+* Madison is Kathleen's ancestor.
+* Martha is Alexander's ancestor.
+* Joe is Michelle's descendant.
+* Dylan is Adam's descendant.
+Determine the lineage relationship between Jesse and Richard.
+Select the correct answer:
+1. Jesse is Richard's ancestor.
+2. Jesse is Richard's descendant.
+3. Jesse and Richard share a common descendant.
+4. Jesse and Richard share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>2</ANSWER>
+32,COMMON_ANCESTOR,4,"Given the following lineage relationships:
+* Linda is Gloria's ancestor.
+* Maria is Bradley's descendant.
+* Pamela is Kayla's ancestor.
+* Nancy is Sean's ancestor.
+* Robert is Melissa's ancestor.
+* Randy is Robert's ancestor.
+* Jean is Nancy's ancestor.
+* Gregory is Linda's ancestor.
+* Melissa is Bradley's ancestor.
+* Albert is Amber's ancestor.
+* Maria is William's ancestor.
+* Eugene is Jessica's ancestor.
+* Pamela is Samantha's descendant.
+* William is Frances's ancestor.
+* Joseph is Jean's ancestor.
+* Donald is Jose's descendant.
+* Heather is Frances's descendant.
+* Doris is Kayla's descendant.
+* Gregory is Michelle's ancestor.
+* Doris is Jordan's ancestor.
+* Alice is Stephanie's ancestor.
+* Jose is Jessica's descendant.
+* Gloria is Albert's ancestor.
+* Sean is Alice's ancestor.
+* Joseph is Amber's descendant.
+* Victoria is Zachary's descendant.
+* Randy is Jordan's descendant.
+* Donald is Susan's ancestor.
+* Victoria is Samantha's ancestor.
+* Stephanie is Zachary's ancestor.
+* Heather is Eugene's ancestor.
+Determine the lineage relationship between Susan and Michelle.
+Select the correct answer:
+1. Susan is Michelle's descendant.
+2. Susan is Michelle's ancestor.
+3. Susan and Michelle share a common descendant.
+4. Susan and Michelle share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>4</ANSWER>
+32,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Andrew is Ralph's descendant.
+* Edward is Dorothy's ancestor.
+* Olivia is Austin's descendant.
+* Mason is Judith's descendant.
+* Cheryl is Sean's descendant.
+* Charles is Elijah's ancestor.
+* Jean is Michelle's ancestor.
+* Shirley is Cheryl's descendant.
+* Megan is Willie's ancestor.
+* Michael is Jessica's descendant.
+* Frank is Nancy's ancestor.
+* Madison is Karen's descendant.
+* Judith is Emily's descendant.
+* Karen is Anna's descendant.
+* Sean is Lauren's descendant.
+* Ralph is Madison's descendant.
+* Frank is Shirley's descendant.
+* Lisa is Mason's descendant.
+* Charles is Rachel's descendant.
+* Michael is Willie's descendant.
+* Jessica is Dorothy's descendant.
+* Brandon is Nancy's descendant.
+* Brandon is Emily's ancestor.
+* Pamela is Lauren's ancestor.
+* Olivia is Jean's ancestor.
+* Edward is Lisa's descendant.
+* Cynthia is Megan's ancestor.
+* Elijah is Anna's ancestor.
+* Deborah is Pamela's ancestor.
+* Andrew is Cynthia's ancestor.
+* Deborah is Michelle's descendant.
+Determine the lineage relationship between Rachel and Austin.
+Select the correct answer:
+1. Rachel is Austin's ancestor.
+2. Rachel is Austin's descendant.
+3. Rachel and Austin share a common descendant.
+4. Rachel and Austin share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"From the given statements we can form these two ancestor→descendant chains:
+
+**Rachel’s line to Michael:**
+Rachel → Charles → Elijah → Anna → Karen → Madison → Ralph → Andrew → Cynthia → Megan → Willie → **Michael**
+
+**Austin’s line to Michael:**
+Austin → Olivia → Jean → Michelle → Deborah → Pamela → Lauren → Sean → Cheryl → Shirley → Frank → Nancy → Brandon → Emily → Judith → Mason → Lisa → Edward → Dorothy → Jessica → **Michael**
+
+So **Michael is a descendant of both Rachel and Austin**, meaning they **share a common descendant**.
+
+<ANSWER>3</ANSWER>"
+32,ANCESTOR,4,"Given the following lineage relationships:
+* Dorothy is Jason's ancestor.
+* Ronald is Jerry's ancestor.
+* Christine is Arthur's ancestor.
+* Jesse is Frank's descendant.
+* Frances is Beverly's ancestor.
+* Denise is Christian's ancestor.
+* Anthony is Christine's ancestor.
+* Gerald is Daniel's ancestor.
+* Christian is Ann's ancestor.
+* Nicholas is Gerald's ancestor.
+* Beverly is Andrea's ancestor.
+* Michael is Jesse's descendant.
+* Jack is Willie's descendant.
+* Anna is Judy's descendant.
+* Harold is Janet's descendant.
+* Michael is Judy's ancestor.
+* Melissa is Betty's ancestor.
+* Nicholas is Anna's descendant.
+* Melissa is Carol's descendant.
+* Carol is Harold's descendant.
+* Mason is Frank's ancestor.
+* Jerry is Lawrence's ancestor.
+* Janet is Theresa's descendant.
+* Jason is Theresa's ancestor.
+* Dorothy is Andrea's descendant.
+* Jack is Denise's ancestor.
+* Arthur is Frances's ancestor.
+* Daniel is Anthony's ancestor.
+* Peter is Lawrence's descendant.
+* Betty is Willie's ancestor.
+* Peter is Mason's ancestor.
+Determine the lineage relationship between Ronald and Ann.
+Select the correct answer:
+1. Ronald and Ann share a common ancestor.
+2. Ronald is Ann's descendant.
+3. Ronald and Ann share a common descendant.
+4. Ronald is Ann's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>4</ANSWER>
+32,DESCENDANT,3,"Given the following lineage relationships:
+* Peter is Sara's descendant.
+* Natalie is Julie's ancestor.
+* Betty is Gary's descendant.
+* Abigail is Jesse's descendant.
+* Jean is Linda's descendant.
+* Betty is Dylan's ancestor.
+* Christian is Richard's descendant.
+* George is Richard's ancestor.
+* Laura is Nicole's descendant.
+* Joyce is Charles's descendant.
+* Janice is Austin's ancestor.
+* Sean is Linda's ancestor.
+* Lisa is Joe's descendant.
+* Victoria is Christian's descendant.
+* Michelle is Abigail's descendant.
+* Laura is Sean's ancestor.
+* William is Diane's ancestor.
+* Carolyn is Dylan's descendant.
+* Maria is Sara's ancestor.
+* Nicole is Rebecca's descendant.
+* Charles is Lisa's descendant.
+* Maria is Diane's descendant.
+* Jean is Jesse's ancestor.
+* Doris is Rebecca's ancestor.
+* Victoria is Joe's ancestor.
+* Joyce is Kenneth's ancestor.
+* Doris is Kenneth's descendant.
+* Michelle is Gary's ancestor.
+* William is Austin's descendant.
+* Peter is George's ancestor.
+* Carolyn is Natalie's ancestor.
+Determine the lineage relationship between Julie and Janice.
+Select the correct answer:
+1. Julie and Janice share a common ancestor.
+2. Julie and Janice share a common descendant.
+3. Julie is Janice's descendant.
+4. Julie is Janice's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Following the ancestry chain:
+
+Janice → Austin → William → Diane → Maria → Sara → Peter → George → Richard → Christian → Victoria → Joe → Lisa → Charles → Joyce → Kenneth → Doris → Rebecca → Nicole → Laura → Sean → Linda → Jean → Jesse → Abigail → Michelle → Gary → Betty → Dylan → Carolyn → Natalie → Julie
+
+So **Julie is a descendant of Janice**.
+
+<ANSWER>3</ANSWER>"
+32,COMMON_ANCESTOR,1,"Given the following lineage relationships:
+* Catherine is Diane's descendant.
+* Julia is Sharon's ancestor.
+* James is Austin's descendant.
+* Arthur is Julia's ancestor.
+* Brandon is Sharon's descendant.
+* Carol is Deborah's ancestor.
+* Jonathan is Andrew's ancestor.
+* Susan is Deborah's descendant.
+* Andrew is Gerald's ancestor.
+* James is Harold's ancestor.
+* Amy is Alice's descendant.
+* Megan is Brandon's descendant.
+* Jonathan is Brittany's descendant.
+* Joyce is Dennis's descendant.
+* Justin is Christine's ancestor.
+* Willie is Natalie's descendant.
+* Natalie is Gerald's descendant.
+* Sean is Susan's descendant.
+* Alice is Sean's descendant.
+* Cynthia is Austin's ancestor.
+* Jordan is Diane's ancestor.
+* Christine is Kimberly's ancestor.
+* Cynthia is Willie's descendant.
+* Catherine is Martha's ancestor.
+* Jeremy is Carol's ancestor.
+* Jeremy is Kimberly's descendant.
+* Dennis is Philip's ancestor.
+* Joyce is Brittany's ancestor.
+* Justin is Philip's descendant.
+* Amy is Arthur's ancestor.
+* Jordan is Harold's descendant.
+Determine the lineage relationship between Megan and Martha.
+Select the correct answer:
+1. Megan and Martha share a common ancestor.
+2. Megan is Martha's descendant.
+3. Megan and Martha share a common descendant.
+4. Megan is Martha's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>1</ANSWER>
+32,COMMON_DESCENDANT,4,"Given the following lineage relationships:
+* Ann is Raymond's ancestor.
+* Donna is Kyle's descendant.
+* Bradley is Virginia's descendant.
+* Donna is Andrea's ancestor.
+* Lawrence is Mark's descendant.
+* Keith is Emily's ancestor.
+* Ethan is Sharon's ancestor.
+* Justin is Lisa's descendant.
+* Emily is Janice's ancestor.
+* Janice is Teresa's ancestor.
+* Bradley is Kelly's ancestor.
+* Lisa is Bobby's descendant.
+* Vincent is Lawrence's descendant.
+* Emma is Barbara's ancestor.
+* Teresa is John's descendant.
+* Alexander is Patrick's ancestor.
+* Jeremy is Emma's ancestor.
+* Kyle is Larry's descendant.
+* Keith is Andrea's descendant.
+* Rachel is Barbara's descendant.
+* Patrick is Kenneth's ancestor.
+* Sharon is Heather's ancestor.
+* Michelle is John's ancestor.
+* Ethan is Beverly's descendant.
+* Alexander is Raymond's descendant.
+* Kenneth is Virginia's ancestor.
+* Bobby is Vincent's descendant.
+* Jeremy is Justin's descendant.
+* Beverly is Kelly's descendant.
+* Larry is Heather's descendant.
+* Rachel is Ann's ancestor.
+Determine the lineage relationship between Mark and Michelle.
+Select the correct answer:
+1. Mark is Michelle's descendant.
+2. Mark and Michelle share a common ancestor.
+3. Mark is Michelle's ancestor.
+4. Mark and Michelle share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Mark is an ancestor of Teresa (through the chain Mark → Lawrence → … → Janice → Teresa), and Michelle is also an ancestor of Teresa (Michelle → John → Teresa). Therefore, Mark and Michelle share a common descendant (Teresa).
+
+<ANSWER>4</ANSWER>"
+32,ANCESTOR,3,"Given the following lineage relationships:
+* Bobby is Andrea's descendant.
+* Diana is Douglas's ancestor.
+* Terry is Michael's descendant.
+* Gary is Pamela's descendant.
+* Bradley is Heather's descendant.
+* Doris is Julia's ancestor.
+* Pamela is Terry's descendant.
+* Patricia is Helen's ancestor.
+* Virginia is Logan's descendant.
+* Roy is Helen's descendant.
+* Kelly is Debra's ancestor.
+* Brittany is George's descendant.
+* Isabella is Kyle's ancestor.
+* Carol is Kyle's descendant.
+* Marilyn is Julia's descendant.
+* Ralph is Doris's ancestor.
+* Isabella is Edward's descendant.
+* Heather is Marilyn's descendant.
+* Douglas is Janice's ancestor.
+* Sara is Patricia's ancestor.
+* Sara is Amber's descendant.
+* Gary is Kimberly's ancestor.
+* Richard is Kelly's ancestor.
+* Brittany is Michael's ancestor.
+* Bobby is Edward's ancestor.
+* Ralph is Kimberly's descendant.
+* Carol is Richard's ancestor.
+* Debra is Logan's ancestor.
+* Janice is Amber's ancestor.
+* Bradley is Andrea's ancestor.
+* Roy is George's ancestor.
+Determine the lineage relationship between Diana and Virginia.
+Select the correct answer:
+1. Diana and Virginia share a common ancestor.
+2. Diana and Virginia share a common descendant.
+3. Diana is Virginia's ancestor.
+4. Diana is Virginia's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,DESCENDANT,2,"Given the following lineage relationships:
+* Brenda is Ryan's descendant.
+* Julie is James's descendant.
+* Margaret is Mason's descendant.
+* Diana is Michael's descendant.
+* Kathleen is Mason's ancestor.
+* Patrick is Christian's ancestor.
+* Marie is Gerald's ancestor.
+* Marie is Eric's descendant.
+* Charlotte is Terry's descendant.
+* Nicholas is Anthony's ancestor.
+* Madison is Richard's descendant.
+* Ryan is Steven's descendant.
+* Diane is Joe's descendant.
+* Jeffrey is Madison's descendant.
+* Eric is Nicole's descendant.
+* Diana is Richard's ancestor.
+* Vincent is Noah's descendant.
+* Jessica is Brenda's descendant.
+* Lori is Justin's descendant.
+* Amanda is Margaret's descendant.
+* Patrick is Jeffrey's descendant.
+* Amanda is Steven's ancestor.
+* Terry is Anthony's descendant.
+* Jessica is Nicholas's ancestor.
+* Julie is Justin's ancestor.
+* Charlotte is David's ancestor.
+* Christian is Nicole's ancestor.
+* Noah is Diane's descendant.
+* Vincent is Michael's ancestor.
+* James is Gerald's descendant.
+* David is Joe's ancestor.
+Determine the lineage relationship between Lori and Kathleen.
+Select the correct answer:
+1. Lori and Kathleen share a common descendant.
+2. Lori is Kathleen's descendant.
+3. Lori and Kathleen share a common ancestor.
+4. Lori is Kathleen's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Lori is Kathleen’s descendant (Kathleen → Mason → … → Justin → Lori).  
+<ANSWER>2</ANSWER>"
+32,COMMON_ANCESTOR,1,"Given the following lineage relationships:
+* Karen is Jean's descendant.
+* Debra is Karen's descendant.
+* Teresa is Randy's ancestor.
+* Kayla is Jason's descendant.
+* Teresa is Theresa's descendant.
+* Cynthia is Nathan's descendant.
+* Anthony is Grace's ancestor.
+* Brandon is Nathan's ancestor.
+* Cynthia is Maria's ancestor.
+* Barbara is Gary's ancestor.
+* Grace is Sarah's ancestor.
+* Deborah is Martha's ancestor.
+* Janet is Carl's descendant.
+* Barbara is Randy's descendant.
+* Jason is Maria's descendant.
+* Carl is Ryan's descendant.
+* Ryan is Ralph's descendant.
+* Billy is Kayla's descendant.
+* Joyce is Billy's descendant.
+* Joyce is Dylan's ancestor.
+* Helen is Ralph's ancestor.
+* Theresa is Sarah's descendant.
+* Jean is Janet's descendant.
+* Dylan is Anthony's ancestor.
+* Helen is Wayne's descendant.
+* Christina is Debra's descendant.
+* Deborah is Douglas's descendant.
+* Gary is Gloria's ancestor.
+* Martha is Brandon's ancestor.
+* Edward is Douglas's descendant.
+* Edward is Wayne's ancestor.
+Determine the lineage relationship between Gloria and Christina.
+Select the correct answer:
+1. Gloria and Christina share a common ancestor.
+2. Gloria is Christina's descendant.
+3. Gloria and Christina share a common descendant.
+4. Gloria is Christina's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Gloria and Christina are both descendants of **Douglas** (Gloria through Gary → … → Deborah → Douglas, and Christina through Debra → … → Edward → Douglas), so they **share a common ancestor**.
+
+<ANSWER>1</ANSWER>"
+32,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Patricia is Paul's ancestor.
+* Peter is Laura's descendant.
+* Alice is Peter's descendant.
+* David is Nancy's ancestor.
+* Debra is Laura's ancestor.
+* Gloria is Debra's ancestor.
+* Nancy is Charles's ancestor.
+* Karen is Janet's descendant.
+* Keith is Arthur's ancestor.
+* Emily is David's ancestor.
+* Kayla is Stephen's ancestor.
+* Robert is Sharon's ancestor.
+* Karen is Maria's ancestor.
+* Joshua is Bruce's descendant.
+* Jacob is Logan's descendant.
+* Robert is Jacob's descendant.
+* Emily is Joshua's descendant.
+* Bruce is Maria's descendant.
+* Stephen is Doris's ancestor.
+* Eric is Patrick's descendant.
+* Alice is Anna's ancestor.
+* Gloria is Randy's descendant.
+* Logan is Arthur's descendant.
+* Patrick is Lisa's descendant.
+* Kayla is Nathan's descendant.
+* Eric is Bradley's ancestor.
+* Keith is Doris's descendant.
+* Sharon is Lisa's ancestor.
+* Bradley is Anna's descendant.
+* Randy is Paul's descendant.
+* Patricia is Charles's descendant.
+Determine the lineage relationship between Nathan and Janet.
+Select the correct answer:
+1. Nathan and Janet share a common ancestor.
+2. Nathan is Janet's descendant.
+3. Nathan and Janet share a common descendant.
+4. Nathan is Janet's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,ANCESTOR,3,"Given the following lineage relationships:
+* Willie is Kevin's ancestor.
+* George is Lauren's ancestor.
+* Donna is Philip's descendant.
+* Danielle is Donald's descendant.
+* Betty is Walter's descendant.
+* Jason is Willie's ancestor.
+* Dylan is Joshua's ancestor.
+* Alexis is Diana's descendant.
+* Marilyn is Patrick's descendant.
+* Danielle is Jason's ancestor.
+* Julie is Lauren's descendant.
+* Philip is Cynthia's descendant.
+* Dennis is Joe's ancestor.
+* Donna is Catherine's ancestor.
+* Laura is Amanda's descendant.
+* Amanda is Victoria's descendant.
+* Megan is George's ancestor.
+* Scott is Donald's ancestor.
+* Joshua is Megan's ancestor.
+* Alexis is Patrick's ancestor.
+* Christine is Charles's ancestor.
+* Cheryl is Janet's descendant.
+* Ashley is Janet's ancestor.
+* Catherine is Christine's ancestor.
+* Diana is Kevin's descendant.
+* Charles is Ashley's ancestor.
+* Cynthia is Julie's descendant.
+* Laura is Scott's ancestor.
+* Marilyn is Walter's ancestor.
+* Joe is Victoria's ancestor.
+* Cheryl is Dennis's ancestor.
+Determine the lineage relationship between Dylan and Betty.
+Select the correct answer:
+1. Dylan and Betty share a common ancestor.
+2. Dylan is Betty's descendant.
+3. Dylan is Betty's ancestor.
+4. Dylan and Betty share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Dylan is an ancestor of Joshua, Joshua is an ancestor of Megan, and following the given ancestor/descendant links forward eventually reaches Walter, who is an ancestor of Betty. Therefore, Dylan is also an ancestor of Betty.
+
+<ANSWER>3</ANSWER>"
+32,DESCENDANT,2,"Given the following lineage relationships:
+* Bradley is Diana's ancestor.
+* Ethan is Billy's descendant.
+* Anna is Kyle's ancestor.
+* Anthony is Christian's ancestor.
+* Stephen is Christian's descendant.
+* Stephen is Victoria's ancestor.
+* Janet is Betty's descendant.
+* Aaron is Samuel's ancestor.
+* Janice is Roy's ancestor.
+* Donna is Betty's ancestor.
+* Theresa is Natalie's descendant.
+* Emma is Jessica's descendant.
+* Grace is Janice's ancestor.
+* Harold is Theresa's descendant.
+* Billy is Carol's descendant.
+* Virginia is Sandra's ancestor.
+* Emma is Laura's ancestor.
+* Jerry is Carol's ancestor.
+* Natalie is Margaret's descendant.
+* Harold is Virginia's ancestor.
+* Noah is Grace's ancestor.
+* Margaret is Kyle's descendant.
+* Samuel is Jessica's ancestor.
+* Ralph is Lori's descendant.
+* Laura is Bradley's ancestor.
+* Noah is Sandra's descendant.
+* Janet is Lori's ancestor.
+* Ethan is Anna's ancestor.
+* Victoria is Aaron's ancestor.
+* Jerry is Ralph's descendant.
+* Donna is Diana's descendant.
+Determine the lineage relationship between Roy and Anthony.
+Select the correct answer:
+1. Roy and Anthony share a common ancestor.
+2. Roy is Anthony's descendant.
+3. Roy and Anthony share a common descendant.
+4. Roy is Anthony's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>2</ANSWER>
+32,COMMON_ANCESTOR,3,"Given the following lineage relationships:
+* Randy is Diana's ancestor.
+* William is Eugene's ancestor.
+* Susan is Jack's ancestor.
+* Gloria is Kevin's ancestor.
+* Cynthia is Samantha's descendant.
+* Susan is Janet's descendant.
+* Julia is Ethan's descendant.
+* Andrew is Mason's descendant.
+* Karen is Arthur's descendant.
+* Brenda is Mason's ancestor.
+* Cynthia is Janice's ancestor.
+* Teresa is Jack's descendant.
+* Janet is Diana's descendant.
+* Janice is Christine's ancestor.
+* Ethan is Maria's descendant.
+* Pamela is David's descendant.
+* Kathleen is Maria's ancestor.
+* James is Karen's descendant.
+* Gloria is Teresa's descendant.
+* Kathleen is Evelyn's descendant.
+* Carol is Eugene's descendant.
+* Larry is Julia's descendant.
+* Samantha is Frances's descendant.
+* David is Evelyn's ancestor.
+* William is Christine's descendant.
+* Julie is Pamela's descendant.
+* Frances is Andrew's descendant.
+* Arthur is Larry's descendant.
+* James is Lauren's ancestor.
+* Randy is Lauren's descendant.
+* Kevin is Brenda's ancestor.
+Determine the lineage relationship between Julie and Carol.
+Select the correct answer:
+1. Julie is Carol's descendant.
+2. Julie is Carol's ancestor.
+3. Julie and Carol share a common ancestor.
+4. Julie and Carol share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Both Julie and Carol are descendants of **David** (David → Pamela → Julie, and David → Evelyn → … → Eugene → Carol), so they share a common ancestor.
+
+<ANSWER>3</ANSWER>"
+32,COMMON_DESCENDANT,4,"Given the following lineage relationships:
+* Lori is Madison's ancestor.
+* Sandra is Wayne's descendant.
+* Lawrence is Samantha's descendant.
+* Victoria is Margaret's ancestor.
+* Gloria is Amber's descendant.
+* Bryan is Margaret's descendant.
+* Jason is Kenneth's descendant.
+* Randy is Charles's ancestor.
+* Gerald is Andrea's descendant.
+* Wayne is Charlotte's descendant.
+* Abigail is Gregory's ancestor.
+* Charles is Charlotte's ancestor.
+* Madison is Logan's ancestor.
+* Kathleen is Roy's ancestor.
+* Victoria is Julia's descendant.
+* Mark is Andrea's ancestor.
+* Mark is Joshua's descendant.
+* Gregory is Karen's ancestor.
+* Linda is Roy's descendant.
+* Julia is Karen's descendant.
+* Nancy is Lauren's ancestor.
+* Lori is Bryan's descendant.
+* Joe is Jason's descendant.
+* Benjamin is Kathleen's ancestor.
+* Joe is Lawrence's ancestor.
+* Abigail is Sandra's descendant.
+* Gloria is Joshua's ancestor.
+* Gerald is Nancy's ancestor.
+* Lauren is Randy's ancestor.
+* Linda is Amber's ancestor.
+* Logan is Kenneth's ancestor.
+Determine the lineage relationship between Samantha and Benjamin.
+Select the correct answer:
+1. Samantha and Benjamin share a common ancestor.
+2. Samantha is Benjamin's descendant.
+3. Samantha is Benjamin's ancestor.
+4. Samantha and Benjamin share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Since **Lawrence is Samantha’s descendant**, and **Benjamin is an ancestor of Kathleen**, with a chain of descendants leading from **Kathleen → … → Joe → Lawrence**, it follows that **Lawrence is also Benjamin’s descendant**. Therefore, **Samantha and Benjamin share a common descendant (Lawrence)**.
+
+<ANSWER>4</ANSWER>"
+32,ANCESTOR,2,"Given the following lineage relationships:
+* Brenda is Barbara's ancestor.
+* Ashley is Kayla's ancestor.
+* Brian is Virginia's descendant.
+* Christine is Janet's ancestor.
+* Barbara is Elizabeth's ancestor.
+* Maria is Paul's ancestor.
+* Nicholas is Gabriel's ancestor.
+* Michelle is Ralph's descendant.
+* Grace is Melissa's ancestor.
+* Billy is Steven's descendant.
+* Paul is Nicholas's ancestor.
+* Andrea is Doris's descendant.
+* Ashley is Judy's descendant.
+* Angela is Ann's descendant.
+* Alice is Elijah's descendant.
+* Hannah is Judy's ancestor.
+* Grace is Julia's descendant.
+* Steven is Brian's descendant.
+* Julia is Patricia's descendant.
+* Gabriel is Hannah's ancestor.
+* Andrea is Diane's ancestor.
+* Billy is Patricia's ancestor.
+* Doris is Alice's descendant.
+* Elijah is Angela's descendant.
+* Marie is Michelle's descendant.
+* Ralph is Janet's descendant.
+* Elizabeth is Maria's ancestor.
+* Brenda is Melissa's descendant.
+* Marie is Eric's ancestor.
+* Ann is Kayla's descendant.
+* Virginia is Eric's descendant.
+Determine the lineage relationship between Christine and Diane.
+Select the correct answer:
+1. Christine and Diane share a common descendant.
+2. Christine is Diane's ancestor.
+3. Christine is Diane's descendant.
+4. Christine and Diane share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>2</ANSWER>
+32,DESCENDANT,2,"Given the following lineage relationships:
+* Walter is Ashley's ancestor.
+* Maria is Bruce's descendant.
+* Jean is Sharon's descendant.
+* Sharon is Alexis's descendant.
+* Austin is Gary's ancestor.
+* Edward is Debra's ancestor.
+* Jessica is Lauren's ancestor.
+* Alexis is Theresa's descendant.
+* Theresa is Janice's descendant.
+* Gabriel is Ethan's descendant.
+* Edward is Gabriel's descendant.
+* Bryan is Janice's ancestor.
+* Jean is Dennis's ancestor.
+* Benjamin is Logan's descendant.
+* Matthew is Timothy's ancestor.
+* Teresa is Bryan's ancestor.
+* Benjamin is Marilyn's ancestor.
+* Dennis is Bruce's ancestor.
+* Arthur is Philip's descendant.
+* Austin is Ashley's descendant.
+* Logan is Maria's descendant.
+* Kathleen is Ralph's ancestor.
+* Larry is Walter's ancestor.
+* Jessica is Marilyn's descendant.
+* Ethan is Michelle's descendant.
+* Gary is Michelle's ancestor.
+* Matthew is Arthur's descendant.
+* Philip is Lauren's descendant.
+* Larry is Timothy's descendant.
+* Kathleen is Debra's descendant.
+* Brittany is Ralph's descendant.
+Determine the lineage relationship between Brittany and Teresa.
+Select the correct answer:
+1. Brittany and Teresa share a common ancestor.
+2. Brittany is Teresa's descendant.
+3. Brittany is Teresa's ancestor.
+4. Brittany and Teresa share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Brittany is a descendant of Teresa (Teresa → Bryan → Janice → … → Kathleen → Ralph → Brittany).
+
+<ANSWER>2</ANSWER>"
+32,COMMON_ANCESTOR,2,"Given the following lineage relationships:
+* Brenda is Alexander's descendant.
+* Thomas is Jeremy's descendant.
+* Sara is Alan's ancestor.
+* Susan is Heather's descendant.
+* Amanda is Terry's descendant.
+* Bradley is Justin's ancestor.
+* Melissa is Doris's descendant.
+* Richard is Julie's descendant.
+* Terry is Jacqueline's descendant.
+* Catherine is Maria's descendant.
+* Abigail is Evelyn's descendant.
+* Jeffrey is Susan's descendant.
+* Amber is Bryan's ancestor.
+* Doris is Anthony's descendant.
+* Evelyn is Richard's descendant.
+* Natalie is Brenda's descendant.
+* Dennis is David's ancestor.
+* Jeremy is Justin's descendant.
+* Kelly is Bradley's ancestor.
+* Alexis is Janet's descendant.
+* Jeffrey is Sara's ancestor.
+* Peter is Maria's descendant.
+* Alexander is Melissa's descendant.
+* Anthony is Peter's descendant.
+* Janet is Thomas's descendant.
+* Abigail is Amber's ancestor.
+* Natalie is Kelly's ancestor.
+* Dennis is Alexis's descendant.
+* Heather is Bryan's descendant.
+* Catherine is Jacqueline's ancestor.
+* Amanda is Julie's ancestor.
+Determine the lineage relationship between Alan and David.
+Select the correct answer:
+1. Alan and David share a common descendant.
+2. Alan and David share a common ancestor.
+3. Alan is David's ancestor.
+4. Alan is David's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>2</ANSWER>
+32,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Barbara is Ronald's descendant.
+* Megan is Abigail's ancestor.
+* Jacqueline is Elizabeth's descendant.
+* Andrea is Douglas's descendant.
+* Aaron is Cheryl's ancestor.
+* Dylan is Aaron's ancestor.
+* Jacqueline is Amanda's descendant.
+* Ann is Diana's descendant.
+* Benjamin is Elizabeth's ancestor.
+* Alan is Julia's ancestor.
+* Diana is Carol's descendant.
+* Alan is Barbara's descendant.
+* Anthony is Kyle's descendant.
+* Cheryl is Melissa's ancestor.
+* Katherine is Robert's descendant.
+* Andrea is Kyle's ancestor.
+* Melissa is Amanda's ancestor.
+* Gloria is Emma's ancestor.
+* Frances is Janet's descendant.
+* Carol is Julia's descendant.
+* Abigail is Joe's ancestor.
+* Katherine is Benjamin's ancestor.
+* Stephen is Ann's descendant.
+* Brian is Frances's descendant.
+* Donald is Megan's ancestor.
+* Robert is Stephen's descendant.
+* Ronald is Anthony's descendant.
+* Douglas is Emma's descendant.
+* Donald is Brian's descendant.
+* Doris is Janet's ancestor.
+* Dylan is Joe's descendant.
+Determine the lineage relationship between Gloria and Doris.
+Select the correct answer:
+1. Gloria is Doris's descendant.
+2. Gloria is Doris's ancestor.
+3. Gloria and Doris share a common descendant.
+4. Gloria and Doris share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Gloria is an ancestor of Jacqueline (via Emma → Douglas → … → Elizabeth → Jacqueline), and Doris is also an ancestor of Jacqueline (via Janet → Frances → … → Amanda → Jacqueline). Therefore, Gloria and Doris share a common descendant.
+
+<ANSWER>3</ANSWER>"
+32,ANCESTOR,3,"Given the following lineage relationships:
+* Henry is Walter's ancestor.
+* Lauren is Ralph's descendant.
+* Donald is Teresa's ancestor.
+* Lori is Pamela's descendant.
+* Benjamin is Bryan's descendant.
+* Ruth is Bobby's ancestor.
+* Abigail is Billy's descendant.
+* Isabella is Zachary's descendant.
+* Kathryn is Laura's ancestor.
+* Lawrence is Andrea's descendant.
+* Linda is Benjamin's descendant.
+* Alexis is Andrea's ancestor.
+* Melissa is Brandon's ancestor.
+* Laura is Alice's ancestor.
+* Alice is Billy's ancestor.
+* Kathryn is Linda's descendant.
+* Ruth is Kimberly's descendant.
+* Teresa is Jacob's ancestor.
+* Michelle is Bryan's ancestor.
+* Isabella is Jonathan's ancestor.
+* Carol is Katherine's descendant.
+* Abigail is Alexis's ancestor.
+* Henry is Lori's descendant.
+* Ralph is Lawrence's descendant.
+* Lauren is Zachary's ancestor.
+* Jacob is Michelle's ancestor.
+* Katherine is Susan's descendant.
+* Pamela is Carol's descendant.
+* Melissa is Jonathan's descendant.
+* Susan is Bobby's descendant.
+* Kimberly is Brandon's descendant.
+Determine the lineage relationship between Donald and Walter.
+Select the correct answer:
+1. Donald is Walter's descendant.
+2. Donald and Walter share a common ancestor.
+3. Donald is Walter's ancestor.
+4. Donald and Walter share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,DESCENDANT,2,"Given the following lineage relationships:
+* William is James's ancestor.
+* Gerald is Dennis's descendant.
+* Jordan is William's ancestor.
+* James is Douglas's ancestor.
+* Peter is Walter's descendant.
+* Mary is Emma's descendant.
+* Samantha is Sarah's descendant.
+* Mary is Pamela's ancestor.
+* Samantha is Grace's ancestor.
+* Jessica is Lauren's descendant.
+* Jeffrey is Thomas's descendant.
+* Sara is Donna's ancestor.
+* Denise is Douglas's descendant.
+* Elijah is Brandon's descendant.
+* Sarah is Anna's descendant.
+* Jordan is Donna's descendant.
+* Anna is Bradley's descendant.
+* Jeffrey is Dennis's ancestor.
+* Walter is Emily's descendant.
+* Emily is Elijah's descendant.
+* Grace is Sara's ancestor.
+* Wayne is Jacob's descendant.
+* Peter is Bradley's ancestor.
+* Pamela is Frank's ancestor.
+* Jacob is Frank's descendant.
+* Nicholas is Emma's ancestor.
+* Nicholas is Denise's descendant.
+* Wayne is Jacqueline's ancestor.
+* Thomas is Madison's descendant.
+* Madison is Jessica's descendant.
+* Gerald is Brandon's ancestor.
+Determine the lineage relationship between Jacqueline and Lauren.
+Select the correct answer:
+1. Jacqueline and Lauren share a common ancestor.
+2. Jacqueline is Lauren's descendant.
+3. Jacqueline is Lauren's ancestor.
+4. Jacqueline and Lauren share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Lauren is an ancestor of Jessica, and through the given ancestor/descendant links this line continues all the way down to Wayne, who is an ancestor of Jacqueline. Therefore, Jacqueline is a (transitive) descendant of Lauren.
+
+<ANSWER>2</ANSWER>"
+32,COMMON_ANCESTOR,3,"Given the following lineage relationships:
+* Nathan is Michael's ancestor.
+* Ralph is Ashley's ancestor.
+* Sara is Victoria's descendant.
+* Jose is Alan's descendant.
+* Charles is Paul's descendant.
+* Michael is Jesse's ancestor.
+* Kenneth is Megan's ancestor.
+* Kenneth is Ashley's descendant.
+* Judy is Nathan's ancestor.
+* Charlotte is Diane's descendant.
+* Megan is Alan's ancestor.
+* Gloria is Debra's descendant.
+* Adam is Juan's descendant.
+* Natalie is Charles's descendant.
+* Ralph is George's descendant.
+* Amber is Dennis's descendant.
+* Debra is Henry's descendant.
+* Russell is Austin's ancestor.
+* Melissa is Adam's descendant.
+* Natalie is Victoria's ancestor.
+* Jesse is Juan's ancestor.
+* Dennis is Anthony's descendant.
+* Austin is Anthony's ancestor.
+* Charlotte is Paul's ancestor.
+* Jacob is Abigail's ancestor.
+* Sara is Russell's ancestor.
+* Pamela is George's ancestor.
+* Jacob is Judy's ancestor.
+* Diane is Gloria's descendant.
+* Melissa is Henry's ancestor.
+* Amber is Pamela's ancestor.
+Determine the lineage relationship between Jose and Abigail.
+Select the correct answer:
+1. Jose is Abigail's descendant.
+2. Jose and Abigail share a common descendant.
+3. Jose and Abigail share a common ancestor.
+4. Jose is Abigail's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>3</ANSWER>
+32,COMMON_DESCENDANT,3,"Given the following lineage relationships:
+* Laura is Alice's ancestor.
+* Dylan is Pamela's ancestor.
+* Anna is Christine's descendant.
+* Donald is Kelly's descendant.
+* Donald is Bobby's descendant.
+* Frank is Lisa's ancestor.
+* Kimberly is Bobby's ancestor.
+* Timothy is Edward's ancestor.
+* Gerald is Emma's ancestor.
+* Henry is John's descendant.
+* Gerald is Pamela's descendant.
+* Edward is Frank's ancestor.
+* Henry is Cynthia's ancestor.
+* David is Robert's descendant.
+* Martha is Deborah's ancestor.
+* Deborah is Lauren's ancestor.
+* Barbara is Michael's descendant.
+* Brenda is Timothy's ancestor.
+* Denise is Michael's ancestor.
+* Anna is Robert's ancestor.
+* Dylan is Alice's descendant.
+* Sara is Laura's ancestor.
+* Kimberly is Cynthia's descendant.
+* David is Stephanie's ancestor.
+* Lisa is Sara's ancestor.
+* Martha is Stephanie's descendant.
+* Teresa is Lauren's descendant.
+* Christine is Barbara's descendant.
+* Emma is Denise's ancestor.
+* Andrea is Kelly's ancestor.
+* Andrea is Teresa's descendant.
+Determine the lineage relationship between John and Brenda.
+Select the correct answer:
+1. John and Brenda share a common ancestor.
+2. John is Brenda's descendant.
+3. John and Brenda share a common descendant.
+4. John is Brenda's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"John is an ancestor of Donald (John → Henry → Cynthia → Kimberly → Bobby → Donald), and Brenda is also an ancestor of Donald (Brenda → Timothy → Edward → … → Kelly → Donald). Therefore, John and Brenda share a common descendant (Donald).
+
+<ANSWER>3</ANSWER>"
+32,ANCESTOR,4,"Given the following lineage relationships:
+* Vincent is Peter's descendant.
+* Abigail is Paul's descendant.
+* Christine is Russell's ancestor.
+* Brandon is Austin's descendant.
+* Patricia is Julie's descendant.
+* Lawrence is Kelly's descendant.
+* Abigail is Austin's ancestor.
+* Lisa is Jack's ancestor.
+* Ann is Heather's ancestor.
+* Lisa is Russell's descendant.
+* Logan is Joseph's ancestor.
+* Patricia is Logan's ancestor.
+* Ann is Jack's descendant.
+* Willie is Joshua's descendant.
+* Bradley is Madison's descendant.
+* Sophia is Brandon's descendant.
+* Joseph is Judith's ancestor.
+* Walter is Paul's ancestor.
+* Vincent is Christine's ancestor.
+* Sean is Judith's descendant.
+* Joshua is Kyle's descendant.
+* Victoria is Willie's descendant.
+* Lauren is Victoria's descendant.
+* Dorothy is Ashley's descendant.
+* Sean is Ashley's ancestor.
+* Peter is Dorothy's descendant.
+* Kelly is Kevin's descendant.
+* Lauren is Julie's ancestor.
+* Madison is Heather's descendant.
+* Lawrence is Walter's ancestor.
+* Kevin is Bradley's descendant.
+Determine the lineage relationship between Kyle and Sophia.
+Select the correct answer:
+1. Kyle and Sophia share a common ancestor.
+2. Kyle is Sophia's descendant.
+3. Kyle and Sophia share a common descendant.
+4. Kyle is Sophia's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Kyle is an ancestor of Sophia (Kyle → Joshua → Willie → Victoria → Lauren → Julie → Patricia → Logan → Joseph → Judith → Sean → Ashley → Dorothy → Peter → Vincent → Christine → Russell → Lisa → Jack → Ann → Heather → Madison → Bradley → Kevin → Kelly → Lawrence → Walter → Paul → Abigail → Austin → Brandon → Sophia).
+
+<ANSWER>4</ANSWER>"
+32,DESCENDANT,1,"Given the following lineage relationships:
+* Lisa is Cheryl's descendant.
+* Sophia is Aaron's descendant.
+* Juan is Patricia's ancestor.
+* Judith is Dorothy's descendant.
+* Lori is Frank's ancestor.
+* Judith is Arthur's ancestor.
+* Maria is Dorothy's ancestor.
+* Jordan is Joe's descendant.
+* Jordan is Jonathan's ancestor.
+* Roy is Mary's ancestor.
+* Bradley is Alan's descendant.
+* Jeremy is Logan's descendant.
+* Aaron is Melissa's descendant.
+* Lisa is Alexis's ancestor.
+* Jonathan is Julie's ancestor.
+* Victoria is Joe's ancestor.
+* Juan is Kelly's descendant.
+* Julie is Cheryl's ancestor.
+* Gabriel is Lori's ancestor.
+* Logan is Russell's descendant.
+* Victoria is Sophia's descendant.
+* Robert is Patricia's descendant.
+* Maria is Jeremy's descendant.
+* Arthur is Gabriel's ancestor.
+* Alan is Betty's descendant.
+* Bruce is Melissa's ancestor.
+* Russell is Carl's descendant.
+* Alexis is Betty's ancestor.
+* Bruce is Frank's descendant.
+* Carl is Mary's descendant.
+* Bradley is Kelly's ancestor.
+Determine the lineage relationship between Robert and Roy.
+Select the correct answer:
+1. Robert is Roy's descendant.
+2. Robert and Roy share a common descendant.
+3. Robert and Roy share a common ancestor.
+4. Robert is Roy's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Roy is an ancestor of Mary, and through the given ancestor/descendant links this ancestry continues down the chain until Patricia, who is an ancestor of Robert. Therefore, Robert is a descendant of Roy.
+
+<ANSWER>1</ANSWER>"
+32,COMMON_ANCESTOR,2,"Given the following lineage relationships:
+* Betty is Grace's descendant.
+* Jordan is Andrew's ancestor.
+* Janice is Edward's descendant.
+* Willie is Kimberly's descendant.
+* Christine is Patrick's descendant.
+* Timothy is Betty's descendant.
+* Jordan is Daniel's descendant.
+* Timothy is Amanda's ancestor.
+* Billy is Willie's descendant.
+* Jose is Shirley's descendant.
+* William is Ryan's descendant.
+* Jose is Kimberly's ancestor.
+* Grace is Frances's descendant.
+* Judy is Ryan's ancestor.
+* Judy is Daniel's ancestor.
+* Edward is Megan's descendant.
+* Christine is Benjamin's ancestor.
+* Marie is Deborah's ancestor.
+* Wayne is Billy's descendant.
+* Jeremy is Angela's ancestor.
+* Benjamin is Alan's ancestor.
+* Megan is Alexis's descendant.
+* Angela is Patrick's ancestor.
+* Gregory is Janice's descendant.
+* Shirley is Deborah's descendant.
+* William is Alexis's ancestor.
+* Frances is Ashley's descendant.
+* Jeremy is Gregory's descendant.
+* Amanda is Marie's ancestor.
+* Gabriel is Andrew's descendant.
+* Gabriel is Ashley's ancestor.
+Determine the lineage relationship between Wayne and Alan.
+Select the correct answer:
+1. Wayne is Alan's ancestor.
+2. Wayne and Alan share a common ancestor.
+3. Wayne and Alan share a common descendant.
+4. Wayne is Alan's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Wayne’s ancestry chain includes: Judy → Daniel → Jordan → Andrew → Gabriel → Ashley → … → Billy → Wayne.  
+Alan’s ancestry chain includes: Judy → Ryan → William → Alexis → … → Benjamin → Alan.  
+
+So Wayne and Alan both descend from **Judy**, meaning they **share a common ancestor**.
+
+<ANSWER>2</ANSWER>"
+32,COMMON_DESCENDANT,2,"Given the following lineage relationships:
+* Anthony is Kelly's descendant.
+* Pamela is Douglas's ancestor.
+* Jacqueline is Cynthia's ancestor.
+* Jonathan is Jerry's ancestor.
+* Thomas is Gerald's descendant.
+* Jack is Stephen's descendant.
+* Bruce is Ashley's ancestor.
+* Philip is Jerry's ancestor.
+* Arthur is Zachary's ancestor.
+* Vincent is John's ancestor.
+* Sandra is Susan's ancestor.
+* Gregory is Kevin's descendant.
+* Stephanie is John's descendant.
+* Gregory is Judy's ancestor.
+* Debra is Cynthia's descendant.
+* Bruce is Jack's descendant.
+* Philip is Debra's descendant.
+* Jonathan is Stephanie's descendant.
+* Judy is Sandra's ancestor.
+* Thomas is Arthur's ancestor.
+* Kelly is Ashley's descendant.
+* Kathryn is Elizabeth's ancestor.
+* Kathryn is Dorothy's descendant.
+* Elizabeth is Rebecca's ancestor.
+* Zachary is Joseph's ancestor.
+* Douglas is Gerald's ancestor.
+* Rachel is Kevin's ancestor.
+* Dorothy is Susan's descendant.
+* Rebecca is Jacqueline's ancestor.
+* Rachel is Joseph's descendant.
+* Vincent is Anthony's descendant.
+Determine the lineage relationship between Stephen and Pamela.
+Select the correct answer:
+1. Stephen is Pamela's ancestor.
+2. Stephen and Pamela share a common descendant.
+3. Stephen and Pamela share a common ancestor.
+4. Stephen is Pamela's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Stephen is an ancestor of Jerry (Stephen → Jack → Bruce → Ashley → Kelly → Anthony → Vincent → John → Stephanie → Jonathan → Jerry).  
+Pamela is also an ancestor of Jerry (Pamela → Douglas → Gerald → Thomas → Arthur → Zachary → Joseph → Rachel → Kevin → Gregory → Judy → Sandra → Susan → Dorothy → Kathryn → Elizabeth → Rebecca → Jacqueline → Cynthia → Debra → Philip → Jerry).
+
+So Stephen and Pamela share a common descendant (Jerry).
+
+<ANSWER>2</ANSWER>"
+32,ANCESTOR,4,"Given the following lineage relationships:
+* Henry is Patricia's descendant.
+* Austin is Rebecca's descendant.
+* Vincent is Steven's ancestor.
+* Carl is Kathleen's descendant.
+* Kimberly is Stephanie's ancestor.
+* Brittany is Teresa's ancestor.
+* George is Judith's descendant.
+* Anna is Steven's descendant.
+* George is Linda's ancestor.
+* Diana is James's descendant.
+* Ralph is Kimberly's ancestor.
+* Linda is Kathleen's ancestor.
+* Russell is Ashley's ancestor.
+* Stephanie is Logan's ancestor.
+* Nathan is Karen's descendant.
+* Anna is Patricia's ancestor.
+* Joan is Susan's ancestor.
+* Logan is Catherine's ancestor.
+* Joshua is Ashley's descendant.
+* Teresa is Frances's ancestor.
+* Susan is Russell's ancestor.
+* Vincent is Frances's descendant.
+* Nathan is Rebecca's ancestor.
+* James is Catherine's descendant.
+* Austin is Joe's ancestor.
+* Judith is Joshua's descendant.
+* Emily is Brittany's ancestor.
+* Diana is Emily's ancestor.
+* Ralph is Sophia's descendant.
+* Carl is Sophia's ancestor.
+* Henry is Karen's ancestor.
+Determine the lineage relationship between Joan and Joe.
+Select the correct answer:
+1. Joan and Joe share a common descendant.
+2. Joan and Joe share a common ancestor.
+3. Joan is Joe's descendant.
+4. Joan is Joe's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Joan is an ancestor of Susan, who is an ancestor of Russell, who is an ancestor of Ashley, who is an ancestor of Joshua, who is an ancestor of Judith, who is an ancestor of George, who is an ancestor of Linda, who is an ancestor of Kathleen, who is an ancestor of Carl, who is an ancestor of Sophia, who is an ancestor of Ralph, who is an ancestor of Kimberly, who is an ancestor of Stephanie, who is an ancestor of Logan, who is an ancestor of Catherine, who is an ancestor of James, who is an ancestor of Diana, who is an ancestor of Emily, who is an ancestor of Brittany, who is an ancestor of Teresa, who is an ancestor of Frances, who is an ancestor of Vincent, who is an ancestor of Steven, who is an ancestor of Anna, who is an ancestor of Patricia, who is an ancestor of Henry, who is an ancestor of Karen, who is an ancestor of Nathan, who is an ancestor of Rebecca, who is an ancestor of Austin, who is an ancestor of Joe.
+
+Therefore, **Joan is Joe’s ancestor**.
+
+<ANSWER>4</ANSWER>"
+32,DESCENDANT,1,"Given the following lineage relationships:
+* Sandra is Kathryn's ancestor.
+* Diane is Philip's descendant.
+* Hannah is Janice's descendant.
+* Bradley is Stephen's ancestor.
+* Virginia is Cheryl's descendant.
+* Gary is Diane's descendant.
+* Lauren is Kathryn's descendant.
+* Virginia is John's ancestor.
+* Sandra is Henry's descendant.
+* Lori is Ronald's ancestor.
+* Wayne is Betty's ancestor.
+* Jonathan is Theresa's ancestor.
+* Betty is Gregory's ancestor.
+* Wayne is Nathan's descendant.
+* Brian is Henry's ancestor.
+* Larry is Janice's ancestor.
+* Scott is Joan's ancestor.
+* Jordan is Stephen's descendant.
+* Emma is Rachel's descendant.
+* Scott is Barbara's descendant.
+* Nathan is Joan's descendant.
+* Lori is Gary's descendant.
+* Theresa is Bradley's ancestor.
+* Lauren is Barbara's ancestor.
+* Andrew is Emma's descendant.
+* Andrew is Larry's ancestor.
+* Jonathan is Hannah's descendant.
+* Ronald is Brian's ancestor.
+* John is Rachel's ancestor.
+* Gregory is Cheryl's ancestor.
+* Philip is Julia's descendant.
+Determine the lineage relationship between Jordan and Julia.
+Select the correct answer:
+1. Jordan is Julia's descendant.
+2. Jordan is Julia's ancestor.
+3. Jordan and Julia share a common ancestor.
+4. Jordan and Julia share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"From the given relationships, we can form this ancestor → descendant chain:
+
+Julia → Philip → Diane → Gary → Lori → Ronald → Brian → Henry → Sandra → Kathryn → Lauren → Barbara → Scott → Joan → Nathan → Wayne → Betty → Gregory → Cheryl → Virginia → John → Rachel → Emma → Andrew → Larry → Janice → Hannah → Jonathan → Theresa → Bradley → Stephen → Jordan
+
+So Julia is an ancestor of Jordan, meaning **Jordan is Julia’s descendant**.
+
+<ANSWER>1</ANSWER>"
+32,COMMON_ANCESTOR,1,"Given the following lineage relationships:
+* Bobby is Nicholas's ancestor.
+* Brian is Jeremy's ancestor.
+* Brittany is Ruth's ancestor.
+* Nicholas is Austin's ancestor.
+* Samuel is Sharon's descendant.
+* Roger is Angela's descendant.
+* Stephen is John's descendant.
+* Nancy is Frances's ancestor.
+* Mark is Ethan's ancestor.
+* Jacob is Patrick's ancestor.
+* Mark is Jeremy's descendant.
+* Stephen is Michael's ancestor.
+* Ryan is Kimberly's descendant.
+* Alexis is Brian's ancestor.
+* Gregory is Roger's descendant.
+* Virginia is Ruth's descendant.
+* Marie is Teresa's descendant.
+* Martha is Teresa's ancestor.
+* John is Samuel's descendant.
+* Michael is Jacob's ancestor.
+* Elijah is Sharon's ancestor.
+* Denise is Nancy's ancestor.
+* Patrick is Martha's ancestor.
+* Ryan is Alexis's ancestor.
+* Brittany is Marie's descendant.
+* Shirley is Angela's ancestor.
+* Kimberly is Virginia's descendant.
+* Billy is Frances's descendant.
+* Shirley is Elijah's descendant.
+* Denise is Ethan's descendant.
+* Gregory is Bobby's ancestor.
+Determine the lineage relationship between Billy and Austin.
+Select the correct answer:
+1. Billy and Austin share a common ancestor.
+2. Billy is Austin's descendant.
+3. Billy is Austin's ancestor.
+4. Billy and Austin share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>1</ANSWER>
+32,COMMON_DESCENDANT,1,"Given the following lineage relationships:
+* James is Martha's descendant.
+* Elijah is Judith's descendant.
+* Jason is Jose's descendant.
+* Elizabeth is Richard's descendant.
+* Martha is Russell's descendant.
+* Nicole is Kyle's ancestor.
+* Christina is Jeremy's ancestor.
+* Samantha is Danielle's ancestor.
+* Aaron is Arthur's ancestor.
+* Kyle is Richard's ancestor.
+* Rebecca is Olivia's ancestor.
+* Juan is John's ancestor.
+* Jeremy is Donna's ancestor.
+* Nicole is Elijah's descendant.
+* Rebecca is Tyler's descendant.
+* Russell is Bryan's descendant.
+* Beverly is Jesse's descendant.
+* James is Juan's ancestor.
+* Diana is Scott's descendant.
+* Danielle is Tyler's ancestor.
+* Jose is Emma's descendant.
+* Robert is Elizabeth's descendant.
+* Ralph is Donna's descendant.
+* Bryan is Jason's descendant.
+* Rachel is Jesse's ancestor.
+* Olivia is Ralph's ancestor.
+* John is Judith's ancestor.
+* Christina is Beverly's descendant.
+* Arthur is Rachel's ancestor.
+* Robert is Scott's ancestor.
+* Samantha is Diana's descendant.
+Determine the lineage relationship between Aaron and Emma.
+Select the correct answer:
+1. Aaron and Emma share a common descendant.
+2. Aaron and Emma share a common ancestor.
+3. Aaron is Emma's ancestor.
+4. Aaron is Emma's descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Aaron is an ancestor of Ralph (Aaron → Arthur → Rachel → Jesse → Beverly → Christina → Jeremy → Donna → Ralph), and Emma is also an ancestor of Ralph (Emma → Jose → Jason → Bryan → Russell → Martha → James → Juan → John → Judith → Elijah → Nicole → Kyle → Richard → Elizabeth → Robert → Scott → Diana → Samantha → Danielle → Tyler → Rebecca → Olivia → Ralph).  
+So Aaron and Emma share a common descendant.
+
+<ANSWER>1</ANSWER>"
+32,ANCESTOR,4,"Given the following lineage relationships:
+* Tyler is Eric's descendant.
+* Timothy is Walter's descendant.
+* Linda is Joseph's descendant.
+* Zachary is Eric's ancestor.
+* Jason is Stephen's ancestor.
+* Michael is Donald's ancestor.
+* Jason is Donna's descendant.
+* Bobby is Jennifer's descendant.
+* Kevin is Megan's descendant.
+* Joseph is Patrick's descendant.
+* Katherine is Walter's ancestor.
+* Helen is Katherine's ancestor.
+* Evelyn is Bobby's descendant.
+* Ashley is Linda's descendant.
+* Stephen is Gary's ancestor.
+* Roger is Jordan's descendant.
+* Gary is Michael's ancestor.
+* Tyler is Jennifer's ancestor.
+* Patricia is Kathleen's ancestor.
+* Janice is Matthew's descendant.
+* Helen is Ashley's descendant.
+* Diana is Diane's descendant.
+* Jordan is Janice's descendant.
+* Donna is Timothy's descendant.
+* Zachary is Donald's descendant.
+* Patrick is Roger's descendant.
+* Heather is Kevin's descendant.
+* Vincent is Patricia's ancestor.
+* Kathleen is Matthew's ancestor.
+* Megan is Evelyn's descendant.
+* Heather is Diane's ancestor.
+Determine the lineage relationship between Vincent and Diana.
+Select the correct answer:
+1. Vincent and Diana share a common ancestor.
+2. Vincent and Diana share a common descendant.
+3. Vincent is Diana's descendant.
+4. Vincent is Diana's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>4</ANSWER>
+32,DESCENDANT,2,"Given the following lineage relationships:
+* Martha is Walter's ancestor.
+* Austin is Anna's descendant.
+* Patrick is Frank's descendant.
+* Kyle is Heather's ancestor.
+* Noah is Olivia's descendant.
+* Benjamin is Ronald's descendant.
+* Zachary is Maria's descendant.
+* Mark is Anna's ancestor.
+* Austin is Ethan's ancestor.
+* Mark is Zachary's descendant.
+* Olivia is Gabriel's descendant.
+* Kayla is Heather's descendant.
+* Gloria is Larry's ancestor.
+* Frances is Joseph's descendant.
+* Dennis is Gloria's ancestor.
+* Frances is Alexis's ancestor.
+* Eugene is Randy's descendant.
+* Carol is Emma's descendant.
+* Frank is Noah's descendant.
+* Walter is Ronald's ancestor.
+* Alexis is Gabriel's ancestor.
+* Kayla is Vincent's ancestor.
+* Emma is Vincent's descendant.
+* Rachel is Carolyn's ancestor.
+* Benjamin is Kyle's ancestor.
+* Martha is Ethan's descendant.
+* Patrick is Randy's ancestor.
+* Eugene is Maria's ancestor.
+* Rachel is Larry's descendant.
+* Isabella is Joseph's ancestor.
+* Isabella is Carolyn's descendant.
+Determine the lineage relationship between Carol and Dennis.
+Select the correct answer:
+1. Carol and Dennis share a common ancestor.
+2. Carol is Dennis's descendant.
+3. Carol and Dennis share a common descendant.
+4. Carol is Dennis's ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"From the given statements we can form this ancestor chain:
+
+Dennis → Gloria → Larry → Rachel → Carolyn → Isabella → Joseph → Frances → Alexis → Gabriel → Olivia → Noah → Frank → Patrick → Randy → Eugene → Maria → Zachary → Mark → Anna → Austin → Ethan → Martha → Walter → Ronald → Benjamin → Kyle → Heather → Kayla → Vincent → Emma → **Carol**
+
+So **Dennis is an ancestor of Carol**, meaning **Carol is a descendant of Dennis**.
+
+<ANSWER>2</ANSWER>"
+32,COMMON_ANCESTOR,4,"Given the following lineage relationships:
+* Jessica is Lori's descendant.
+* Edward is Keith's ancestor.
+* Wayne is Keith's descendant.
+* Judy is Brian's ancestor.
+* Walter is Adam's ancestor.
+* Gloria is Judy's ancestor.
+* Samantha is Julia's descendant.
+* Sara is Ronald's ancestor.
+* Sophia is Walter's ancestor.
+* Terry is Adam's descendant.
+* Andrea is Denise's descendant.
+* Rebecca is Russell's descendant.
+* Betty is Jessica's descendant.
+* Samantha is Sara's ancestor.
+* Matthew is James's ancestor.
+* Margaret is Juan's ancestor.
+* John is Terry's descendant.
+* Gabriel is Gregory's descendant.
+* John is Margaret's ancestor.
+* Judith is Gregory's ancestor.
+* Judith is Brian's descendant.
+* Andrew is Sophia's ancestor.
+* Gloria is Andrea's descendant.
+* Juan is Denise's ancestor.
+* Philip is Betty's descendant.
+* Lori is Barbara's descendant.
+* Philip is Matthew's ancestor.
+* James is Edward's ancestor.
+* Russell is Julia's ancestor.
+* Rebecca is Barbara's ancestor.
+* Wayne is Andrew's ancestor.
+Determine the lineage relationship between Gabriel and Ronald.
+Select the correct answer:
+1. Gabriel and Ronald share a common descendant.
+2. Gabriel is Ronald's descendant.
+3. Gabriel is Ronald's ancestor.
+4. Gabriel and Ronald share a common ancestor.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,<ANSWER>4</ANSWER>
+32,COMMON_DESCENDANT,4,"Given the following lineage relationships:
+* Madison is Terry's ancestor.
+* Michelle is Betty's ancestor.
+* Danielle is Marilyn's descendant.
+* Dorothy is Madison's ancestor.
+* Scott is Teresa's descendant.
+* Carol is Dorothy's ancestor.
+* Scott is Donald's ancestor.
+* Douglas is Austin's descendant.
+* Jack is Eugene's descendant.
+* Nicole is Elijah's ancestor.
+* Hannah is Samantha's ancestor.
+* Bryan is Ryan's descendant.
+* Ralph is Jack's descendant.
+* Austin is Rachel's descendant.
+* George is Terry's descendant.
+* Carol is Patricia's descendant.
+* Samantha is Eugene's ancestor.
+* Michelle is Judy's descendant.
+* Kevin is Timothy's ancestor.
+* Kevin is Elijah's descendant.
+* Margaret is Marilyn's ancestor.
+* Douglas is Judy's ancestor.
+* Timothy is Teresa's ancestor.
+* Bradley is Danielle's ancestor.
+* Daniel is Margaret's ancestor.
+* Bradley is Ralph's descendant.
+* Patricia is Bryan's descendant.
+* Daniel is Diana's descendant.
+* Hannah is George's descendant.
+* Diana is Betty's descendant.
+* Rachel is Donald's descendant.
+Determine the lineage relationship between Ryan and Nicole.
+Select the correct answer:
+1. Ryan is Nicole's descendant.
+2. Ryan and Nicole share a common ancestor.
+3. Ryan is Nicole's ancestor.
+4. Ryan and Nicole share a common descendant.
+5. None of the above is correct.
+Enclose the selected answer number in the <ANSWER> tag, for example: <ANSWER>1</ANSWER>.",gpt-5.2,,xhigh,,"Ryan is an ancestor of Danielle (Ryan → Bryan → Patricia → … → Bradley → Danielle), and Nicole is also an ancestor of Danielle (Nicole → Elijah → Kevin → … → Marilyn → Danielle). Therefore, Ryan and Nicole share a common descendant.
+
+<ANSWER>4</ANSWER>"

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ImTkAUOJNrk58CfcyizIk9m8Q4y",
+  "object": "chat.completion",
+  "created": 1769679549,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given statements, we can form this ancestor/descendant chain:\n\nLauren is **ancestor** of Jessica → Madison → Thomas → Jeffrey → Dennis → Gerald → Brandon → Elijah → Emily → Walter → Peter → Bradley → Anna → Sarah → Samantha → Grace → Sara → Donna → Jordan → William → James → Douglas → Denise → Nicholas → Emma → Mary → Pamela → Frank → Jacob → Wayne → Jacqueline.\n\nSo **Jacqueline is a descendant of Lauren**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 669,
+    "total_tokens": 980,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 559,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

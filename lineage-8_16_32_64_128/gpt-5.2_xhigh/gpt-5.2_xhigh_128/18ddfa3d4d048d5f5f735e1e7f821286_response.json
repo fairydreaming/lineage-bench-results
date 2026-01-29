@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JlgIQALly4CWv8IFCczDTMQ5VO8",
+  "object": "chat.completion",
+  "created": 1769683344,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Robert is an ancestor of **Jean** (Robert → Melissa → … → Eric → Joan → Jean), and Keith is also an ancestor of **Jean** (Keith → Doris → … → Janet → Mark → Jean).  \nSo Robert and Keith share a common descendant.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 13911,
+    "total_tokens": 14901,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 13841,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

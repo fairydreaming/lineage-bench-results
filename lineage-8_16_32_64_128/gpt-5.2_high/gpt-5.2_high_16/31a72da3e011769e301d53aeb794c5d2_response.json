@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDeHHXBPxGwOvoqNHrngVcZx6Hz",
+  "object": "chat.completion",
+  "created": 1769681234,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships, we can form a continuous ancestor → descendant chain:\n\nWillie → Kimberly → Jessica → Russell → Henry → Emma → Natalie → George → Joseph → Judith → Beverly → Andrew → Jennifer → Martha → Rachel → Larry\n\nSo **Willie is an ancestor of Larry**, meaning **Larry is Willie’s descendant**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 666,
+    "total_tokens": 865,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 582,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

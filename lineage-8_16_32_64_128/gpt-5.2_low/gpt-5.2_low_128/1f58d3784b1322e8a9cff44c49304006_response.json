@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JAkb05djBho4rmwI21xlFmdocaJ",
+  "object": "chat.completion",
+  "created": 1769681054,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "There is no chain of ancestor/descendant relationships connecting **Christopher** to **James** in the given facts, and they also do not share any stated common ancestor or common descendant.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 351,
+    "total_tokens": 1336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 298,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

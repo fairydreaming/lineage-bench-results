@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Iu4i2euXK0GtgpVfq7UKW4lU4QQ",
+  "object": "chat.completion",
+  "created": 1769680020,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Roy is an ancestor of Bobby, and through the given ancestor/descendant links there is a continuous lineage chain from **Roy → … → Christopher → Brittany**, so **Roy is Brittany’s ancestor**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 1145,
+    "total_tokens": 1683,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

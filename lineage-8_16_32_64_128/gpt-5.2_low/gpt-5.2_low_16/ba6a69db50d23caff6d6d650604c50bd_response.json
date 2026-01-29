@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IlQJvvm07aTbTTNUQu0Jy8mlOA1",
+  "object": "chat.completion",
+  "created": 1769679484,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Jonathan is an ancestor of Donna, and through the given chain Donna → Teresa → Emma → Debra → Julie → Gabriel → Diana → Sandra → Virginia → Grace → Cynthia → Karen, Jonathan is also an ancestor of **Karen**.\n\nBenjamin is an ancestor of Margaret, and through Margaret → Katherine → Karen, Benjamin is also an ancestor of **Karen**.\n\nSo, Jonathan and Benjamin **share a common descendant (Karen)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 749,
+    "total_tokens": 950,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 647,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

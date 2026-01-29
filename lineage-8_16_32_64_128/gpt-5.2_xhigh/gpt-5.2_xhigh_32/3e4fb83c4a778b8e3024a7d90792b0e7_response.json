@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JUPXmTdj1RWm2uypJ1cbWxXA2OA",
+  "object": "chat.completion",
+  "created": 1769682273,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Gloria is an ancestor of Jacqueline (via Emma → Douglas → … → Elizabeth → Jacqueline), and Doris is also an ancestor of Jacqueline (via Janet → Frances → … → Amanda → Jacqueline). Therefore, Gloria and Doris share a common descendant.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 3078,
+    "total_tokens": 3389,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3013,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

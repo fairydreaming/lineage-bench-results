@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ImMX52q5nbJXlIVnMAZpODoWpds",
+  "object": "chat.completion",
+  "created": 1769679542,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts:\n\n- **Teresa** is an ancestor of **Bryan** (and thus of Bryan’s descendants), but no link is provided connecting Teresa’s line to **Ralph/Kathleen/Debra/Edward/...**\n- **Brittany** is a **descendant of Ralph**, and Ralph’s known lineage goes through **Kathleen → Debra → Edward → ...**, with no connection stated to **Teresa** or **Bryan**.\n\nSo, none of the listed relationships (common ancestor, ancestor/descendant, common descendant) can be derived between **Brittany** and **Teresa** from the provided information.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 428,
+    "total_tokens": 743,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 279,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

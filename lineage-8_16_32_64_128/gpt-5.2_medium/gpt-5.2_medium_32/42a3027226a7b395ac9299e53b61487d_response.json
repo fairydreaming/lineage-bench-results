@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ItXJeSWzFqkGMh0lenzO5tcvHQO",
+  "object": "chat.completion",
+  "created": 1769679987,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Ryan is an ancestor of Danielle (via Ryan → Bryan → Patricia → Carol → Dorothy → Madison → Terry → George → Hannah → Samantha → Eugene → Jack → Ralph → Bradley → Danielle), and Nicole is also an ancestor of Danielle (via Nicole → Elijah → Kevin → Timothy → Teresa → Scott → Donald → Rachel → Austin → Douglas → Judy → Michelle → Betty → Diana → Daniel → Margaret → Marilyn → Danielle). Therefore, Ryan and Nicole share a common descendant.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1093,
+    "total_tokens": 1404,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 983,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

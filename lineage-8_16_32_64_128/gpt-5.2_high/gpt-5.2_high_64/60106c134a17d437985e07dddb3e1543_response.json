@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JI9YPZobzS61UAvyXnRnmWC8Jt3",
+  "object": "chat.completion",
+  "created": 1769681513,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Ruth is an ancestor of Jack (Ruth → Rebecca → Noah → Henry → Diane → Martha → Amanda → Kimberly → Elizabeth → Sandra → Kenneth → Joyce → Marilyn → Robert → Jeremy → Katherine → Carl → Kelly → Joan → Helen → Adam → Matthew → Jack).\n\nGerald is also an ancestor of Jack (Gerald → Gary → Jonathan → Carol → Arthur → Steven → Grace → Karen → Andrew → Bradley → Ralph → Joe → Ann → George → Sara → Mason → Catherine → Theresa → Evelyn → Debra → Janet → Julie → Virginia → Harold → Samuel → Frank → Susan → Edward → Frances → Brian → Alan → Jordan → Victoria → Maria → Thomas → Abigail → Christopher → Wayne → Jacqueline → Mark → Justin → Jack).\n\nSo Ruth and Gerald share a common descendant.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 6003,
+    "total_tokens": 6540,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5828,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

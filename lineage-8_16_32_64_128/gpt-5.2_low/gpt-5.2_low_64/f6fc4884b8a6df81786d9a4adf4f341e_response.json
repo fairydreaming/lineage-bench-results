@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IflEyhxjau8agKBWZO3qf9C5Z42",
+  "object": "chat.completion",
+  "created": 1769679133,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Brandon is a descendant of **Robert** (and thus of **Beverly**, **Samantha**, etc.).  \nElijah is an ancestor of **Harold** (and thus of **Michael**, **Bobby**, **Philip**, etc.).\n\nThere is no stated link connecting Brandon’s lineage to Elijah’s lineage (no shared ancestor, no shared descendant, and neither is stated to be an ancestor/descendant of the other).\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 1053,
+    "total_tokens": 1591,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 949,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

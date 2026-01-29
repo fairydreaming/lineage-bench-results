@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCRF0KGoBj38VTfOfXOY6uTc7QL",
+  "object": "chat.completion",
+  "created": 1769681159,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Jonathan is a descendant of Terry, and Terry is a descendant of Ryan, and Ryan is a descendant of Edward ⟹ **Jonathan is a descendant of Edward**.\n- Sean is a descendant of Brandon, and Brandon is a descendant of Christine, and Christine is a descendant of Charlotte, and Charlotte is a descendant of Edward ⟹ **Sean is a descendant of Edward**.\n\nSo **Jonathan and Sean share a common ancestor (Edward)**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 399,
+    "total_tokens": 542,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 288,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

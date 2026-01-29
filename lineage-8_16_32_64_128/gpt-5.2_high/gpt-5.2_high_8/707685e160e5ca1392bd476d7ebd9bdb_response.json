@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCYscYFvwgYvSknmeJRRpTSB7fx",
+  "object": "chat.completion",
+  "created": 1769681166,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements, we can form the chain:\n\nNicole → Gabriel → Juan → Sean → Noah → Dylan → Isabella\n\nSo **Nicole is an ancestor of Isabella**. Also given: **Joshua is an ancestor of Isabella**.\n\nTherefore, **Joshua and Nicole share a common descendant (Isabella)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 553,
+    "total_tokens": 696,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 476,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

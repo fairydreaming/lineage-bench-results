@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JRwJ84XXeEPNv7BMCo5UshuQGat",
+  "object": "chat.completion",
+  "created": 1769682120,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Steven is an ancestor of Jeffrey, who is an ancestor of Sharon, who is an ancestor of Julie, who is an ancestor of Pamela, who is an ancestor of David, who is an ancestor of Evelyn, who is an ancestor of Kathleen, who is an ancestor of Maria, who is an ancestor of Ethan, who is an ancestor of Julia, who is an ancestor of Larry, who is an ancestor of Arthur, who is an ancestor of Karen, who is an ancestor of James, who is an ancestor of Lauren. Therefore, Steven is Lauren’s ancestor.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1199,
+    "total_tokens": 1398,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1070,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

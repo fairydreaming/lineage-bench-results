@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCY7CuDg04BeVcExjcxU5J2jv3K",
+  "object": "chat.completion",
+  "created": 1769681166,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements we can build these chains:\n\n- Donna → Jonathan → Kimberly → Gary  \n- Donna → Teresa → Emma → Debra → Julie  \n\nSo **Donna is an ancestor of both Gary and Julie**, meaning they **share a common ancestor**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 430,
+    "total_tokens": 575,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 363,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

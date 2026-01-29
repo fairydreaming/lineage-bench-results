@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCHsZ00xIwjwtlRf5M3JXdpgbsi",
+  "object": "chat.completion",
+  "created": 1769681149,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Jean is an ancestor of Ann, and Ann is an ancestor of Megan, and Megan is an ancestor of Paul.\n- Paul is an ancestor of Ruth, and Ruth is an ancestor of Judith, and Judith is an ancestor of Alexander.\n  So **Jean is an ancestor of Alexander**.\n- Also, **Alexander is a descendant of Anna**, so **Anna is an ancestor of Alexander**.\n\nTherefore, **Jean and Anna both have Alexander as a common descendant**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 600,
+    "total_tokens": 742,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 485,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

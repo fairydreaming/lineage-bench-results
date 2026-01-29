@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JNwctWARNylyUXiDG7AC6xPWnzA",
+  "object": "chat.completion",
+  "created": 1769681872,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Jordan → Andrea → Ruth → Tyler → Brandon, so **Jordan is Brandon’s ancestor**.  \n- Jordan → Joan → Edward → Cynthia, so **Jordan is Cynthia’s ancestor**.\n\nTherefore, **Cynthia and Brandon share a common ancestor (Jordan)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 758,
+    "total_tokens": 901,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 684,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

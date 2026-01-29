@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JBMx7Pwcc8tMhmkoo8uwrLBaZSd",
+  "object": "chat.completion",
+  "created": 1769681092,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Stephanie is an ancestor of Alexis, who is an ancestor of Juan, who is an ancestor of Ann.  \nFrom Ann’s descendants we can reach Jason (via Daniel → Matthew → Bruce → … → Kathleen → Jason), and Jason is an ancestor of Patrick. Donald is a descendant of Mason, and following Mason’s ancestors eventually reaches Patrick.  \n\nSo Donald is descended from Patrick, and Patrick is descended from Stephanie → therefore **Donald is Stephanie’s descendant**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 1833,
+    "total_tokens": 2820,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1725,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsBT8nDRQQhB50BMJZVQwh0iHJC",
+  "object": "chat.completion",
+  "created": 1769679903,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Jennifer is an ancestor of Justin (via Jennifer → Karen → … → Ruth → Justin), and Christina is also an ancestor of Justin (via Christina → Gerald → Nicholas → Steven → Justin). Therefore, Jennifer and Christina share a common descendant (Justin).\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 650,
+    "total_tokens": 848,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 584,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

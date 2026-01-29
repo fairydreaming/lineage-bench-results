@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IvSvVV5LJe2OaNkLZ1yiM6Jwx5q",
+  "object": "chat.completion",
+  "created": 1769680106,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Douglas is a descendant of **Joan** (via Scott → Willie → Mary → Martha → Stephen → Brian → Denise → Bradley → Shirley → Janice → Virginia → **Joan**).\n\nPamela is also a descendant of **Joan** because **Kathryn is Joan’s ancestor**, and Pamela descends from Kathryn (via … → Susan → Peter → Kathryn → **Joan**).\n\nTherefore, **Douglas and Pamela share a common ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 536,
+    "completion_tokens": 1988,
+    "total_tokens": 2524,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1880,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

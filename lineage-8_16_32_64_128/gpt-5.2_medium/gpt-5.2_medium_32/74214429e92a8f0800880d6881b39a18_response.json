@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ItBvQMgT2KfWS85PVUUU5WJ0LNV",
+  "object": "chat.completion",
+  "created": 1769679965,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts we can derive:\n\n- **Brenda is an ancestor of Donald** via  \n  Brenda → Timothy → Edward → Frank → Lisa → Sara → Laura → Alice → Dylan → Pamela → Gerald → Emma → Denise → Michael → Barbara → Christine → Anna → Robert → David → Stephanie → Martha → Deborah → Lauren → Teresa → Andrea → Kelly → **Donald**.\n\n- **John is also an ancestor of Donald** via  \n  John → Henry → Cynthia → Kimberly → Bobby → **Donald**.\n\nSo **John and Brenda share a common descendant (Donald)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 945,
+    "total_tokens": 1255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 812,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IreGaoRuDiJkBoeJTRBEEfaJ7BY",
+  "object": "chat.completion",
+  "created": 1769679870,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\n- Joe is a descendant of **Gloria**, who is a descendant of **Jason**, who is a descendant of **Samuel** ⇒ Joe is a descendant of **Samuel**.\n- Rebecca is a descendant of **Sophia**, who is a descendant of **Barbara**, who is a descendant of **Alan**, and **Samuel** is an ancestor of Alan ⇒ Rebecca is also a descendant of **Samuel**.\n\nSo **Joe and Rebecca share a common ancestor (Samuel)**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 389,
+    "total_tokens": 532,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 273,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

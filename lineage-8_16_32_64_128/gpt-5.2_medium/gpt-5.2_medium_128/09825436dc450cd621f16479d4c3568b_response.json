@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3J09Hdv2FnnnzNBIC9aAGoUInQDB",
+  "object": "chat.completion",
+  "created": 1769680397,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage link is given (directly or indirectly) connecting Doris’s line (via Jeremy → Mary → …) to Edward’s line (via Michael → Frances → Aaron → David → …). Therefore none of the listed relationships can be established.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 983,
+    "completion_tokens": 358,
+    "total_tokens": 1341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 293,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

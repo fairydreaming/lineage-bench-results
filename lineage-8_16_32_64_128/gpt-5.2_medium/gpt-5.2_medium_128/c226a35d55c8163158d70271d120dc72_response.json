@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IyoAH7kQD9UgJ9zfp2TuMLv6Gj2",
+  "object": "chat.completion",
+  "created": 1769680314,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts we can derive:\n\n- **Lori** is an ancestor of **Logan** (and thus of Logan’s descendants/line), but no statement links that line to Harold.\n- **Harold** is an ancestor of **Mark** (“Mark is Harold’s descendant”), and Mark’s line is not connected to Lori’s line by any provided relationship.\n\nThere is **no information** establishing that Lori is Harold’s ancestor/descendant, nor that they share a common ancestor or a common descendant.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 2018,
+    "total_tokens": 3002,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1898,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

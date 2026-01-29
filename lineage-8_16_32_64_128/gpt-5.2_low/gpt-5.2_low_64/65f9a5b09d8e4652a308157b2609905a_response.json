@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IfYLAhV7W35gMcDC0d2jxWIhGgk",
+  "object": "chat.completion",
+  "created": 1769679120,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage links are given that connect Billy’s line (Billy → Peter → …) to Arthur’s line (Arthur → Lisa → …). Therefore, none of the listed relationships can be determined from the provided statements.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 533,
+    "completion_tokens": 411,
+    "total_tokens": 944,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 352,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

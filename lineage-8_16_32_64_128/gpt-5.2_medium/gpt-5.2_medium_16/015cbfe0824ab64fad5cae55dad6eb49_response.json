@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Is61Q78ocC3l2cHogDpxbzJNPRP",
+  "object": "chat.completion",
+  "created": 1769679898,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships we can form this chain:\n\nGregory → Keith → Deborah → Lawrence → Natalie → Albert → Ryan → Michelle → Joshua → Larry → Diana → Douglas → Janice → Amber → Sara → Patricia\n\nSo **Gregory is an ancestor of Patricia**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 751,
+    "total_tokens": 952,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 680,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

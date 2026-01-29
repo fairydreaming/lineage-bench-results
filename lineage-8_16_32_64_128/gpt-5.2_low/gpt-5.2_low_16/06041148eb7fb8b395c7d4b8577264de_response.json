@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IlRjNNqnpdtYmREQG8085oaLrNA",
+  "object": "chat.completion",
+  "created": 1769679485,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\n- Jessica is a descendant of **Michael**.\n- Kathryn is a descendant of **Joyce**, and Joyce is a descendant of **Jacob**.\n- Rachel is an ancestor of **Jacob**.\n- Rachel is a descendant of **Charles**, who descends from **Elijah**, who descends from **Anna**, who descends from **Karen**.\n- Karen is a descendant of **Madison → Ralph → Andrew → Cynthia**, and **Megan** is an ancestor of **Cynthia**.\n- Megan is a descendant of **Willie**, and Willie is a descendant of **Michael**.\n\nSo **Michael** is an ancestor of the line leading to Kathryn, and Michael is also an ancestor of Jessica. Therefore, **Kathryn and Jessica share a common ancestor**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 512,
+    "total_tokens": 711,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 333,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

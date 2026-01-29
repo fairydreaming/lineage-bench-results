@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Ivr2IntvcfLa0G3uGPXVxqpgDJA",
+  "object": "chat.completion",
+  "created": 1769680131,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Donna’s ancestry traces back to **Ronald** (Ronald → Barbara → Michael → … → Donna).  \nEugene’s ancestry also traces back to **Ronald** (Ronald → Brenda → Jason → … → Eugene).\n\nSo Donna and Eugene **share a common ancestor** (Ronald), and neither is the other’s direct ancestor/descendant.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 1740,
+    "total_tokens": 2278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1650,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JFHZvleDPS2iPWlwARAx01ZzUFj",
+  "object": "chat.completion",
+  "created": 1769681335,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Roy is an ancestor of Mary, and through the given chain of ancestor/descendant links (Mary → Carl → Russell → Logan → Jeremy → Maria → … → Patricia → Robert), Roy is an ancestor of Robert. Therefore, Robert is Roy’s descendant.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 941,
+    "total_tokens": 1250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 873,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

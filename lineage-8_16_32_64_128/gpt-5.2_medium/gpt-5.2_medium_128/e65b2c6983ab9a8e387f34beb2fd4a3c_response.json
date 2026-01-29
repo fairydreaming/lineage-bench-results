@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IywuyvB2ZEwlTEzmULvlqrNcrit",
+  "object": "chat.completion",
+  "created": 1769680322,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage path connects Janice to Betty in the given relationships (Janice is in the Jordan/Roger/Patrick/Joseph line, while Betty is in the Elizabeth/Dorothy/Bryan/Joe/Anna line, with no stated links between these lines).\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 1171,
+    "total_tokens": 2165,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1101,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

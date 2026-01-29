@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IfPqrnD3SBHS86YbZpM1cFxojf5",
+  "object": "chat.completion",
+  "created": 1769679111,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Janet’s known ancestors form the chain:\n\nJanet ← Margaret ← Brian ← Sharon ← Lori ← Bruce ← Jacob ← Kayla ← Charlotte ← Jacqueline ← David ← Jason\n\nHenry’s known ancestors form the chain:\n\nHenry ← Mary ← Diana ← Dennis ← Tyler ← Keith ← Catherine ← Elizabeth ← Stephen ← (… further ancestors not linked to Janet’s chain)\n\nThere is no person appearing in both chains, and no statement connects Janet to Henry as an ancestor/descendant or gives a shared descendant.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 866,
+    "total_tokens": 1406,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 750,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

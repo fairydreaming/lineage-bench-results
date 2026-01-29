@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ItHyGOYhpscIbhgu0Q6i3LNbXXN",
+  "object": "chat.completion",
+  "created": 1769679971,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Stephen and Pamela both have **Jerry** as a descendant:\n\n- Stephen → Jack → Bruce → Ashley → Kelly → Anthony → Vincent → John → Stephanie → Jonathan → Jerry  \n- Pamela → Douglas → Gerald → Thomas → Arthur → Zachary → Joseph → Rachel → Kevin → Gregory → Judy → Sandra → Susan → Dorothy → Kathryn → Elizabeth → Rebecca → Jacqueline → Cynthia → Debra → Philip → Jerry  \n\nSo they **share a common descendant**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 989,
+    "total_tokens": 1302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 882,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

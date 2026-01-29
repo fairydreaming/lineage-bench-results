@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IyozqFhw9vlCzVmUrr71MRCdCkN",
+  "object": "chat.completion",
+  "created": 1769680314,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Roger is a descendant of **Jacqueline** (“Roger is Jacqueline's descendant”), and Debra is a descendant of **Deborah** (“Debra is Deborah's descendant”).  \nNo statements connect Jacqueline’s lineage to Deborah’s lineage (no shared ancestor or descendant is implied by the given relationships).\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 888,
+    "total_tokens": 1881,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 813,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

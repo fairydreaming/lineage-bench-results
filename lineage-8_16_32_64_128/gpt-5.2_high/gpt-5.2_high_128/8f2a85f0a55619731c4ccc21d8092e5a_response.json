@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JLI9E6OlHktwt4eDdOzxQfJg13j",
+  "object": "chat.completion",
+  "created": 1769681708,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "There is no information connecting Donald’s lineage (through Stephen) to Adam’s lineage (through Amy). Neither is stated to be an ancestor/descendant of the other, and no common ancestor or common descendant can be inferred.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 405,
+    "total_tokens": 1393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 344,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

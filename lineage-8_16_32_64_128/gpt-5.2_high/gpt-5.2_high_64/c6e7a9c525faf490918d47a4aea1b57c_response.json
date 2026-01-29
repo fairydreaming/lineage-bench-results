@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JHEig0r9eYD6BGIEFrskAin7Wvx",
+  "object": "chat.completion",
+  "created": 1769681456,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Katherine is a descendant of **Melissa**, and Catherine is a descendant of **Billy**. Tracing both lines upward shows they intersect at **Joseph**:\n\n- **Joseph** is an ancestor of **Katherine** (Joseph → … → Donald → Melissa → Katherine).\n- **Joseph** is also an ancestor of **Catherine** (Joseph → Doris → Mark → … → Nicole → Billy → Catherine).\n\nSo, Katherine and Catherine **share a common ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 3464,
+    "total_tokens": 4001,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3353,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

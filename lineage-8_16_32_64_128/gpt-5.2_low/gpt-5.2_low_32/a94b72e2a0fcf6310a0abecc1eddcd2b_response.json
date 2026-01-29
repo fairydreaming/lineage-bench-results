@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IlsFwDuPwsqMpxQRpZMKAhUgOlN",
+  "object": "chat.completion",
+  "created": 1769679512,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Susan is a descendant of Donald, and Donald is a descendant of Jose → Jessica → Eugene → Heather → Frances → William → Maria → Bradley → Melissa → Robert → Randy ↔ Jordan → Doris → Kayla → Pamela → Samantha → Victoria → Zachary → Stephanie → Alice → Sean → Nancy → Jean → Joseph → Amber → Albert → Gloria → Linda → **Gregory**.\n\nSince **Gregory is also Michelle’s ancestor**, Susan and Michelle share **Gregory** as a common ancestor.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 720,
+    "total_tokens": 1035,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 604,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

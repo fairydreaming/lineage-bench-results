@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Is0y2atTd9fSeiGk7t92tL36J5j",
+  "object": "chat.completion",
+  "created": 1769679892,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Terry’s lineage traces back through Larry to **Paul** (Paul → Larry → Austin → Scott → … → Terry).  \nGregory’s lineage traces back through Donald to **Paul** (Paul → Donald → Gregory).\n\nSo Terry and Gregory **share a common ancestor (Paul)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 749,
+    "total_tokens": 948,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 675,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

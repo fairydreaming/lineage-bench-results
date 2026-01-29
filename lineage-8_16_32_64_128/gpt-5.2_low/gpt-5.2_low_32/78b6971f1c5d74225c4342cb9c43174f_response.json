@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Im5NLOY4NdRiAVDYnmawB9Ac2W6",
+  "object": "chat.completion",
+  "created": 1769679525,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts:\n\n- Diana is Douglas’s ancestor.\n- Douglas is Janice’s ancestor → Janice is Amber’s ancestor → Amber is Sara’s ancestor (since Sara is Amber’s descendant).\n- Sara is Patricia’s ancestor → Patricia is Helen’s ancestor → Helen is Roy’s ancestor (since Roy is Helen’s descendant).\n- Roy is an ancestor along a chain that eventually leads to Debra (via George → Brittany → Michael → Terry → Pamela → Gary → Kimberly → Ralph → Doris → Julia → Marilyn → Heather → Bradley → Andrea → Bobby → Edward → Isabella → Kyle → Carol → Richard → Kelly → Debra).\n- Debra is Logan’s ancestor → Logan is Virginia’s ancestor (since Virginia is Logan’s descendant).\n\nSo Diana is an ancestor of Virginia.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 1017,
+    "total_tokens": 1332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 845,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

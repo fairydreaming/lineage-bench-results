@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IrHEBjvtJyj29o2xCZ7e5lpxiHG",
+  "object": "chat.completion",
+  "created": 1769679847,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\n- Lawrence is an ancestor of Alice (Lawrence → Joan → Kelly → Mason → Maria → Jerry → Alice).\n- Lawrence is also an ancestor of Christine (Christine is Lawrence’s descendant).\n\nSo Christine and Alice **share a common ancestor** (Lawrence), but neither is shown to be the ancestor/descendant of the other.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 342,
+    "total_tokens": 485,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 254,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

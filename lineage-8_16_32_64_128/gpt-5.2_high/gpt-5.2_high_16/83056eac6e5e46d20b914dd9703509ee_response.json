@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDRm9loW79cqGuMaOzWnnouaELb",
+  "object": "chat.completion",
+  "created": 1769681221,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given statements we can form a continuous ancestor chain:\n\nJudy → Benjamin → Billy → Christine → Michael → Elizabeth → George → Douglas → Ryan → Donna → Jacob → Megan → Brandon → Sharon → Julia → Arthur.\n\nSo **Judy is an ancestor of Arthur**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 333,
+    "total_tokens": 532,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 261,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

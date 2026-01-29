@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JZ3Y3UjvZYD0iEU14qqoexyfUlS",
+  "object": "chat.completion",
+  "created": 1769682561,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Both Katherine and Catherine have **Joseph** as an ancestor (Joseph → … → Katherine, and Joseph → … → Catherine), so they **share a common ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 5168,
+    "total_tokens": 5705,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5118,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

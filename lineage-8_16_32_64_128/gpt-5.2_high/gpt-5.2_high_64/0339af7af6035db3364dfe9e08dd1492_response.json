@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JGbnprtqYJ8UaMQmUGkI1lY89ks",
+  "object": "chat.completion",
+  "created": 1769681417,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Brenda is an ancestor of **Dorothy**, and Dorothy is an ancestor of **Gabriel**.  \nRonald is an ancestor of **Anthony → Kyle → Denise → … → Wayne → Melissa**, and Melissa is an ancestor of **Gabriel**.  \n\nSo **both Brenda and Ronald are ancestors of Gabriel**, meaning they **share a common descendant**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 539,
+    "completion_tokens": 2577,
+    "total_tokens": 3116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2488,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

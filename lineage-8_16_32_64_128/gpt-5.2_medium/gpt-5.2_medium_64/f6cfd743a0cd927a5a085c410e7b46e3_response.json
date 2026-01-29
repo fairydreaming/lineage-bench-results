@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IuqNVIenVVPNBLqSzI8zwjzCv3C",
+  "object": "chat.completion",
+  "created": 1769680068,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Stephanie is an ancestor of Charles (via the long chain ending in “Alexis is Charles’s ancestor”), and Michelle is also an ancestor of Charles (Michelle → Judy → Brandon → Charles). Therefore, Michelle and Stephanie share a common descendant (Charles).\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 541,
+    "completion_tokens": 2145,
+    "total_tokens": 2686,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2079,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDOabNk68bwNrPGTRRGY0HJiFgZ",
+  "object": "chat.completion",
+  "created": 1769681218,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the facts:\n\n- Judith is an ancestor of Dorothy → George → Carol → Wayne → Elizabeth → Juan → Joe → Gloria → Jason → Samuel → **Alan**.  \n  So **Judith is an ancestor of Alan**.\n\n- Dylan is an ancestor of Rebecca → Sophia → Barbara → **Alan**.  \n  So **Dylan is an ancestor of Alan**.\n\nThus, **Judith and Dylan share a common descendant (Alan)**, and neither is stated/implied to be an ancestor/descendant of the other.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1062,
+    "total_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 938,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

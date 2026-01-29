@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JHE38hrzKzMdU2njEjgnQbY1QOU",
+  "object": "chat.completion",
+  "created": 1769681456,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Shirley is an ancestor of Kenneth (through Evelyn → Theresa → … → Amanda → Kenneth), and Kenneth is an ancestor of Arthur.  \nIndependently, Madison is an ancestor of Arthur (through Harold → Jordan → … → Jose → Alexander → Andrea → Arthur).\n\nSo Madison and Shirley **share a common descendant (Arthur)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 534,
+    "completion_tokens": 2565,
+    "total_tokens": 3099,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2481,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Im9ZaynjXTlcNTxNYlZ78hVIKOT",
+  "object": "chat.completion",
+  "created": 1769679529,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Dylan is an ancestor of Joshua, who is an ancestor of Megan, who is an ancestor of George. Following the given links from George ultimately leads down to Walter, and Betty is a descendant of Walter. Therefore, Dylan is an ancestor of Betty.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 630,
+    "total_tokens": 941,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 563,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

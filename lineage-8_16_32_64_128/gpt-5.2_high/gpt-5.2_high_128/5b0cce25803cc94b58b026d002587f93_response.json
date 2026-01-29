@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JLL6vPTwefe9ZZPVAfpvf4gv78a",
+  "object": "chat.completion",
+  "created": 1769681711,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Janice is a descendant of Nicholas (and thus of Shirley, Madison, Victoria, etc.). Grace is a descendant of Gloria (and thus of Kathleen, Kyle, Daniel, Barbara, etc.).  \nThere is no lineage link given that connects these two lines, so none of the listed relationships (common ancestor/descendant, or one being ancestor/descendant of the other) can be established.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 6083,
+    "total_tokens": 7072,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 5987,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Iv4tRQaVZLZnlhg4tNrjEH4564O",
+  "object": "chat.completion",
+  "created": 1769680082,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Victoria is a descendant of Isabella via the chain:\n\nIsabella → Katherine → Natalie → Frank → Amber → Barbara → Kelly → Patricia → Gerald → Roy → Rachel → Judy → Pamela → Roger → Christian → Heather → Danielle → Brandon → Edward → Mason → Madison → Bruce → Jose → Russell → Megan → Andrea → Jacob → Diana → Alice → Doris → Robert → Dennis → Abigail → Elizabeth → Samantha → Joyce → Harold → Kevin → Kyle → Melissa → Keith → Peter? (through Deborah/Bradley/Wayne/Diane/...) → … → James → Nicole → Victoria.\n\nSo, **Victoria is Isabella’s descendant**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 2427,
+    "total_tokens": 2964,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2284,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

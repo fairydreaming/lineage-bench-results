@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Ile7TpSimFC7nFLwrnSA9saf67u",
+  "object": "chat.completion",
+  "created": 1769679498,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Willie is an ancestor of Kimberly, who is an ancestor of Jessica, who is an ancestor of Russell, who is an ancestor of Henry, who is an ancestor of Emma, who is an ancestor of Natalie, who is an ancestor of George, who is an ancestor of Joseph, who is an ancestor of Judith, who is an ancestor of Beverly, who is an ancestor of Andrew, who is an ancestor of Jennifer, who is an ancestor of Martha, who is an ancestor of Rachel, who is an ancestor of Larry.\n\nTherefore, **Larry is Willie's descendant**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 459,
+    "total_tokens": 658,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 327,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

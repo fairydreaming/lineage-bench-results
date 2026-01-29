@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IrdKGcj3UrkInU9HqmOMScTkMej",
+  "object": "chat.completion",
+  "created": 1769679869,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Samantha is an ancestor of Douglas, who is an ancestor of Megan, who is an ancestor of Scott, who is an ancestor of Austin, who is an ancestor of Larry, who is an ancestor of Paul, who is an ancestor of Donald. Therefore, **Samantha is Donald's ancestor**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 269,
+    "total_tokens": 411,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

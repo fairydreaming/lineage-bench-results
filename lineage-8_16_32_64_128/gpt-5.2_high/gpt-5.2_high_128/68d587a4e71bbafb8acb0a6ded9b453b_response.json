@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JKqs92oVATvmL4z7cnp1T9Cr7tz",
+  "object": "chat.completion",
+  "created": 1769681680,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Donald is an ancestor of Denise (Donald → Michael → Scott → Brian → Christine → Sandra → Denise), and Denise is an ancestor of Doris (Denise → … → Andrew → Doris).  \nSo Donald is an ancestor of Doris.\n\nIndependently, Charles is also an ancestor of Doris (Charles → Jesse → … → Joseph → Jacob → Gerald → Doris).\n\nTherefore, Charles and Donald share a common descendant (Doris).\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 7254,
+    "total_tokens": 8241,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7152,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

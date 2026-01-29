@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsXwNPfrLdE2b6hfwfHPZrbvR0j",
+  "object": "chat.completion",
+  "created": 1769679925,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Andrea is an ancestor of Jeffrey, and the lineage continues through multiple ancestor→descendant links all the way to Carl (ending with Margaret → Diane → Carl). Therefore, Andrea is Carl’s ancestor.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 317,
+    "completion_tokens": 651,
+    "total_tokens": 968,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 595,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

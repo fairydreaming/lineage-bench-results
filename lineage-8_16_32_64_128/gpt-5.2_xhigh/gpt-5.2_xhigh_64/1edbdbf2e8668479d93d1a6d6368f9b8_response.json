@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JYVff5XLydgolmChF3ALw6rRs70",
+  "object": "chat.completion",
+  "created": 1769682527,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Arthur and Mary are both descendants of **Jordan** (Arthur through Jordan → Jessica → … → Barbara → Arthur; Mary through Jordan → Deborah → … → Carl → Mary), so they **share a common ancestor**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 3904,
+    "total_tokens": 4439,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3844,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

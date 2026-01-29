@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IuS7l9wuH3QUaDkRAtRhaBN6NCu",
+  "object": "chat.completion",
+  "created": 1769680044,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Christian is an ancestor of Kevin, and through the given ancestor/descendant links (Kevin → Bobby → … → Gary → Andrea), the ancestry chain continues all the way down to Andrea. Therefore, Christian is Andrea’s ancestor.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 1262,
+    "total_tokens": 1799,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1200,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

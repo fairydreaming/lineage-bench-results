@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IeHBUvJc3AG90aip1xRIIJ6fL9B",
+  "object": "chat.completion",
+  "created": 1769679041,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships we can form the chain:\n\nMary → Richard → Anna → Christina → Nicholas → Michelle → Gregory → Amber\n\nSo **Amber is Mary's descendant**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 196,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 146,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

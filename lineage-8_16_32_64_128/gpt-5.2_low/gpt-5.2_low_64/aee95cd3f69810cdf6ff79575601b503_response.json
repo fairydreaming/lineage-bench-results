@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Ifb1u7AyUtb3LfQEiKxIGPdZfg3",
+  "object": "chat.completion",
+  "created": 1769679123,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Douglas is a descendant of Scott, and Scott is a descendant of Willie, who is a descendant of Mary. Tracing Mary’s lineage upward leads ultimately to **Margaret** as an ancestor.\n\nPamela is a descendant of Kyle, who is a descendant of Austin. Austin is a descendant of Richard (since Richard is Austin’s ancestor), and tracing Richard’s ancestry upward also leads ultimately to **Margaret** as an ancestor.\n\nThus, **Douglas and Pamela share a common ancestor (Margaret)**, and neither is shown to be the other’s ancestor/descendant.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 536,
+    "completion_tokens": 1444,
+    "total_tokens": 1980,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1313,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

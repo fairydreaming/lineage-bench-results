@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JIo7CZpZ5lZSTeGQ2OAXQzRIQLF",
+  "object": "chat.completion",
+  "created": 1769681554,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Nicole and Joan are both ancestors of **Olivia** (Nicole → … → Rebecca → Olivia, and Joan → … → Beverly → Olivia), so they **share a common descendant**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 2090,
+    "total_tokens": 2627,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2036,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

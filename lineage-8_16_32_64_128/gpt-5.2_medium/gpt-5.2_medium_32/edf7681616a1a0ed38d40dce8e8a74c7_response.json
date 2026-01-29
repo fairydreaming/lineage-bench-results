@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsXXiRkufSI8NTRF8CvI0f2rHfp",
+  "object": "chat.completion",
+  "created": 1769679925,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\n- **Austin → Olivia → Jean → Michelle → … → Jessica → Michael**, so **Michael is a descendant of Austin**.  \n- **Rachel → Charles → Elijah → Anna → … → Willie → Michael**, so **Michael is also a descendant of Rachel**.\n\nTherefore, **Rachel and Austin share a common descendant (Michael)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1100,
+    "total_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1011,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IttTOvEVi0XDDEdBZ5Z7aqSCS16",
+  "object": "chat.completion",
+  "created": 1769680009,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Randy is an ancestor of Jordan, and through the chain Jordan → Theresa → Eugene → Jessica → Pamela → Natalie → Marilyn → Samantha → Victoria → Zachary → Stephanie → Beverly → Sean → Nancy → Alexis → Joseph, Randy is an ancestor of **Joseph**.\n\nSeparately, Brandon is an ancestor of William, and through the chain William → Aaron → … → Kayla → Joseph, Brandon is also an ancestor of **Joseph**.\n\nTherefore, **Randy and Brandon share a common descendant (Joseph)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 541,
+    "completion_tokens": 4402,
+    "total_tokens": 4943,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4282,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

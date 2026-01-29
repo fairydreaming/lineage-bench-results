@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ItTZbqeecnyZ27lVXXfSxdGf4D2",
+  "object": "chat.completion",
+  "created": 1769679983,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Gabriel and Ronald both trace back to **Russell** as an ancestor:\n\n- **Russell → Julia → Samantha → Sara → Ronald**\n- **Russell → Rebecca → Barbara → Lori → Jessica → Betty → Philip → Matthew → James → Edward → Keith → Wayne → Andrew → Sophia → Walter → Adam → Terry → John → Margaret → Juan → Denise → Andrea → Gloria → Judy → Brian → Judith → Gregory → Gabriel**\n\nSo they **share a common ancestor** (Russell), and neither is an ancestor/descendant of the other.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1263,
+    "total_tokens": 1574,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1135,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

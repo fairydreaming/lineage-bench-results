@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IyoSLURVjNTyUxJU5tbJhtWTpNw",
+  "object": "chat.completion",
+  "created": 1769680314,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage link is given (directly or through other people) that connects Randy’s ancestry line (via Jean, Kimberly, Sean, Bryan, etc.) to Bobby’s ancestry line (via Rebecca, Brandon, Nicole, etc.). Therefore none of options 1–4 can be concluded.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 339,
+    "total_tokens": 1326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 265,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

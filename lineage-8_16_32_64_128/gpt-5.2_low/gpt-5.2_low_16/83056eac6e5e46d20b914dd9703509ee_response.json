@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IlWaMMDOMpSDgEvCGJfCbJSWkN3",
+  "object": "chat.completion",
+  "created": 1769679490,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Judy is an ancestor of Arthur (via Judy → Benjamin → Billy → Christine → Michael → Elizabeth → George → Douglas → Ryan → Donna → Jacob → Megan → Brandon → Sharon → Julia → Arthur).\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 405,
+    "total_tokens": 604,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 348,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

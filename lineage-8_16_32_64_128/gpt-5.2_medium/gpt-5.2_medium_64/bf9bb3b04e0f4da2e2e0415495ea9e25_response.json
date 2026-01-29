@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IvzMlsaWTU63BLUy6CcJlCpuvup",
+  "object": "chat.completion",
+  "created": 1769680139,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Steven is an ancestor of Christine (via the chain ending in Ralph → Christine), and Gregory is a descendant of Christine, so Gregory is a descendant of Steven.  \nWayne is also an ancestor of Gregory (via Wayne → Jesse → … → Jose → Nicholas → … → Betty → Gregory).\n\nTherefore, Steven and Wayne share a common descendant (Gregory).\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 8222,
+    "total_tokens": 8759,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 8134,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCnDH39pmhVaECzNiR6nAaH7uxl",
+  "object": "chat.completion",
+  "created": 1769681181,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Diane is an ancestor of Maria.\n- Maria is an ancestor of Sara.\n- Sara is an ancestor of Peter.\n- Peter is an ancestor of George.\n- George is an ancestor of Richard.\n- Richard is an ancestor of Christian.\n- Christian is an ancestor of Victoria.\n\nSo, Diane is an ancestor of Victoria, meaning **Victoria is Diane’s descendant**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 330,
+    "total_tokens": 473,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 236,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

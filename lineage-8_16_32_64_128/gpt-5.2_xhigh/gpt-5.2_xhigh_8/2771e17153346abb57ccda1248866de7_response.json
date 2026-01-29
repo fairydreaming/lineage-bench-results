@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JOJ6s5IY6IhQ65MqGRk247NfGx9",
+  "object": "chat.completion",
+  "created": 1769681895,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Christine is a descendant of **Karen** (Karen → Alice → Christine) and also a descendant of **Andrea** (Andrea → Terry → Samuel → Beverly → Sandra → Christine). Therefore, Andrea and Karen **share a common descendant**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 1090,
+    "total_tokens": 1233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1026,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

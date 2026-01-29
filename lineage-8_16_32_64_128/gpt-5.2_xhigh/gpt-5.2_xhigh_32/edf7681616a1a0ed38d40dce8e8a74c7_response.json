@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JSv9mKUMv7xUpL3KQQf7u6H5eZl",
+  "object": "chat.completion",
+  "created": 1769682181,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given statements we can form these two ancestor→descendant chains:\n\n**Rachel’s line to Michael:**\nRachel → Charles → Elijah → Anna → Karen → Madison → Ralph → Andrew → Cynthia → Megan → Willie → **Michael**\n\n**Austin’s line to Michael:**\nAustin → Olivia → Jean → Michelle → Deborah → Pamela → Lauren → Sean → Cheryl → Shirley → Frank → Nancy → Brandon → Emily → Judith → Mason → Lisa → Edward → Dorothy → Jessica → **Michael**\n\nSo **Michael is a descendant of both Rachel and Austin**, meaning they **share a common descendant**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 2257,
+    "total_tokens": 2568,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2121,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

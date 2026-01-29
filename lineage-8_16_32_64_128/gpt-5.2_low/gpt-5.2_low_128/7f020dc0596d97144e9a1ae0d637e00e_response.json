@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JAt8VLF3YnEkSgbAs372wfARFCz",
+  "object": "chat.completion",
+  "created": 1769681063,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage link is provided between Nancy’s ancestry line (Nancy ← Christian ← Juan ← …) and Brandon’s ancestry line (Brandon ← Randy ← John ← Diana ← Rachel ← …), nor is there any stated common ancestor or common descendant.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 383,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 318,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

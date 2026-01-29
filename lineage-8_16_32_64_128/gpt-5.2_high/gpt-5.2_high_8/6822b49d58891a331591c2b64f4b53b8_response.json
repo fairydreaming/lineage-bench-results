@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JChCEVjCBHdHCr1FDKzCXmDENG6",
+  "object": "chat.completion",
+  "created": 1769681175,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Sophia is an ancestor of Jeremy → ancestor of Bryan → ancestor of Madison → ancestor of Catherine → ancestor of Ralph.  \n  So **Ralph is a descendant of Sophia**.\n- Christine is an ancestor of Amanda → ancestor of Ralph.  \n  So **Ralph is a descendant of Christine**.\n\nTherefore, **Sophia and Christine share a common descendant (Ralph)**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 504,
+    "total_tokens": 647,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 406,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

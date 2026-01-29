@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JKlXhGvtqT3m2a2gAnJCHihzb7v",
+  "object": "chat.completion",
+  "created": 1769681675,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage path connects **Bryan** to **Austin** in the given relationships (neither is stated as an ancestor/descendant of the other, and no shared ancestor or shared descendant can be derived).\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 1275,
+    "total_tokens": 2259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1217,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JAwCL5XY6t0PHJHgpCVPDE6Yyht",
+  "object": "chat.completion",
+  "created": 1769681066,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage path is provided that connects Charles to Donald (neither as ancestor/descendant, nor through a shared ancestor or shared descendant). Therefore, none of the listed relationships can be concluded.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 322,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 267,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

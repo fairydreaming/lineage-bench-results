@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsucchOTCbpolSXbm3FuccssbGT",
+  "object": "chat.completion",
+  "created": 1769679948,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Roy is **Anthony’s descendant** (following the chain Anthony → Christian → Stephen → Victoria → Aaron → Samuel → Jessica → Emma → Laura → Bradley → Diana → Donna → Betty → Janet → Lori → Ralph → Jerry → Carol → Billy → Ethan → Anna → Kyle → Margaret → Natalie → Theresa → Harold → Virginia → Sandra → Noah → Grace → Janice → Roy).\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 611,
+    "total_tokens": 924,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 519,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

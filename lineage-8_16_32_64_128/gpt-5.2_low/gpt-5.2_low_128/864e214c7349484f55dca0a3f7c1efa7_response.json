@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JBM4o9JyeZHagEwdWeomTlz5ihU",
+  "object": "chat.completion",
+  "created": 1769681092,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage path connects Samantha’s line (Samantha → ancestor of Lawrence → ancestor of Jason) with Sandra’s line (Sandra → descendant of Laura). Therefore none of the listed relationships (ancestor/descendant/common ancestor/common descendant) can be concluded.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 984,
+    "completion_tokens": 213,
+    "total_tokens": 1197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 147,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

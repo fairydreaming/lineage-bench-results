@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDtG8WHYZovrhvWd15oBKVUMAJG",
+  "object": "chat.completion",
+  "created": 1769681249,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Kenneth and Randy both descend from **Abigail**:\n\n- Kenneth’s ancestor chain includes: Abigail → Gregory → Karen → Julia → Victoria → Margaret → Bryan → Lawrence → Madison → Logan → Kenneth  \n- Randy’s ancestor chain includes: Abigail → Sandra → Wayne → Charles → Denise → Randy  \n\nSo they **share a common ancestor**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 681,
+    "total_tokens": 880,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 596,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

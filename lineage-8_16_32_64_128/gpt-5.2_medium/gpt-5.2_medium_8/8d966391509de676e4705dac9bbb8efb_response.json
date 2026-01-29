@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IrHozLWC5goOMHKC48FWQmEYjNZ",
+  "object": "chat.completion",
+  "created": 1769679847,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\n- Emma is an ancestor of Michelle, and Michelle is an ancestor of Bradley ⟹ **Emma is an ancestor of Bradley**.  \n- Bradley is an ancestor of Philip, Philip is an ancestor of Steven, Steven is an ancestor of Julie, Julie is an ancestor of Sarah, and Sarah is an ancestor of Ann ⟹ **Bradley is an ancestor of Ann**.  \n- Therefore, **Emma is an ancestor of Ann**, meaning **Ann is a descendant of Emma**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 308,
+    "total_tokens": 451,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 188,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

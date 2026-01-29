@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JmjqJUdgOWGayAPwuiL8zXstl2r",
+  "object": "chat.completion",
+  "created": 1769683409,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Doris and Edward both descend from **Dorothy** (Dorothy is an ancestor of Doris, and also an ancestor of Edward), so they share a common ancestor.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 983,
+    "completion_tokens": 10489,
+    "total_tokens": 11472,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 10439,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

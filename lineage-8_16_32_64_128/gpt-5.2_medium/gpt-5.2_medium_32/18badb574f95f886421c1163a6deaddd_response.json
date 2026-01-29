@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IshajxUpwguDjaGqWQMOHxZr4l0",
+  "object": "chat.completion",
+  "created": 1769679935,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Megan’s ancestors include:  \nDennis → Philip → Justin → Christine → Kimberly → Jeremy → Carol → Deborah → Susan → Sean → Alice → Amy → Arthur → Julia → Sharon → Brandon → **Megan**.\n\nMartha’s ancestors include:  \nDennis → Joyce → Brittany → Jonathan → Andrew → Gerald → Natalie → Willie → Cynthia → Austin → James → Harold → Jordan → Diane → Catherine → **Martha**.\n\nSo Megan and Martha both descend from **Dennis**, meaning they share a common ancestor.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1118,
+    "total_tokens": 1429,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 999,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

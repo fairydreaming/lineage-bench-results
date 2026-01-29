@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IragQbGnb7uc7z82Pj4eQFveONH",
+  "object": "chat.completion",
+  "created": 1769679866,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships, we can form a lineage chain:\n\nJerry → Henry → Beverly → Deborah → Gerald → Amber → Diane → Brittany\n\nSo **Jerry is an ancestor of Brittany**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 303,
+    "total_tokens": 446,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 249,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

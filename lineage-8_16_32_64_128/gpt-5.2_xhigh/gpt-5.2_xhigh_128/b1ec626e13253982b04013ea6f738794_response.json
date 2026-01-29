@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3Jl2GSTFrJE6cyyWAeSu9vQM8yFW",
+  "object": "chat.completion",
+  "created": 1769683304,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Following the chain starting from **Linda**:\n\nLinda → Kelly → Jason → … → Maria → Carl → Angela → Lisa → Adam → Danielle → Marilyn → Charles → Larry → Frank → **Diana**\n\nSo **Diana is a descendant of Linda**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 2620,
+    "total_tokens": 3609,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2552,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

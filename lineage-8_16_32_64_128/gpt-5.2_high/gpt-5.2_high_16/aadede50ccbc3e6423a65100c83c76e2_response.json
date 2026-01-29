@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDjq9AC8zTi4cVadcPUSIaIbpIz",
+  "object": "chat.completion",
+  "created": 1769681239,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships we can form a chain:\n\nBilly → Wayne → Larry → Madison → Heather → Kenneth → Juan → Scott → Victoria → Martha → Amber → Christian → Harold → Philip → Janice → Helen\n\nSo Billy is an ancestor of Helen, meaning **Helen is a descendant of Billy**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 646,
+    "total_tokens": 847,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 569,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

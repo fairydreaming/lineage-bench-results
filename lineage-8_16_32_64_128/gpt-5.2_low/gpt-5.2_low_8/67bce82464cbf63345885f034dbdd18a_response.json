@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IeFOA2x6I32B9sA8uib6zCHoYOU",
+  "object": "chat.completion",
+  "created": 1769679039,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\n- Terry is an ancestor of Roger (Terry → Catherine → Frank → Roger).\n- Terry is also an ancestor of Nancy (Terry → Christopher → Edward → Julie → Nancy).\n\nSo, **Roger and Nancy share a common ancestor (Terry)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 280,
+    "total_tokens": 423,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 207,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

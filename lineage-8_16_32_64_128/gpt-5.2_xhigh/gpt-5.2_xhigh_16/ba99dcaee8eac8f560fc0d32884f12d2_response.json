@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JRVzmwZNDpDYnSp4AgS32l67fPH",
+  "object": "chat.completion",
+  "created": 1769682093,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Andrew is an ancestor of George, George is an ancestor of Kevin, and following the given chain of ancestor/descendant links from Kevin eventually leads to Gary. Therefore, Andrew is Gary’s ancestor.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 1605,
+    "total_tokens": 1806,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1549,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

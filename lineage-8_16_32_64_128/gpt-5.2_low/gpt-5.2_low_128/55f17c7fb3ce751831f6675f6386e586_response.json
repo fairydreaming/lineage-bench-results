@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JBNaNfcMzU0uW8OjK2SSKnoeqaj",
+  "object": "chat.completion",
+  "created": 1769681093,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Tyler is a descendant of **Matthew**, and Matthew is a descendant of **Rebecca** (since *Rebecca is Matthew's ancestor*).\n\nKyle is a descendant of **Lawrence**, and Lawrence is also a descendant of **Rebecca** via the chain:\nLawrence ← Kathleen ← Edward ← Rachel ← … ← Daniel ← Sharon ← **Rebecca**.\n\nSo **Tyler and Kyle share a common ancestor (Rebecca)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 2816,
+    "total_tokens": 3801,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2716,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

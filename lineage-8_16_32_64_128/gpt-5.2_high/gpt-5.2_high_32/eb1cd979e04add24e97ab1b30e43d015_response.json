@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JEo2FCMcAbmimqNpP2u1QWcgnS2",
+  "object": "chat.completion",
+  "created": 1769681306,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Samantha is an ancestor of Lawrence, and Benjamin is also an ancestor of Lawrence (through the chain Benjamin → Kathleen → Roy → … → Joe → Lawrence). Therefore, Samantha and Benjamin share a common descendant (Lawrence).\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1284,
+    "total_tokens": 1595,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1223,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

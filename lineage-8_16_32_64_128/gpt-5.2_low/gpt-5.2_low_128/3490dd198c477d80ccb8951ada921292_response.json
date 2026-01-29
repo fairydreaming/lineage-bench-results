@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JAf2E6uPynTPNxf5xIlgx7uNlsa",
+  "object": "chat.completion",
+  "created": 1769681049,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage links are given (directly or indirectly) that connect Patrick’s ancestry/descendancy chain (through Aaron → Eric → …) to Margaret’s chain (through Robert → Bruce → Ann → …). Therefore none of the listed relationships can be concluded.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 485,
+    "total_tokens": 1472,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 416,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

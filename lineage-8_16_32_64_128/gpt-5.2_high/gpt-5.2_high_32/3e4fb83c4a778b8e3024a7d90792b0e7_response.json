@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JF0xJO61nWvvl91nfQ5BMjzKVui",
+  "object": "chat.completion",
+  "created": 1769681318,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Gloria is an ancestor of Jacqueline via the chain:  \nGloria → Emma → Douglas → Andrea → Kyle → Anthony → Ronald → Barbara → Alan → Julia → Carol → Diana → Ann → Stephen → Robert → Katherine → Benjamin → Elizabeth → Jacqueline.\n\nDoris is also an ancestor of Jacqueline via the chain:  \nDoris → Janet → Frances → Brian → Donald → Megan → Abigail → Joe → Dylan → Aaron → Cheryl → Melissa → Amanda → Jacqueline.\n\nTherefore, **Gloria and Doris share a common descendant (Jacqueline)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 1384,
+    "total_tokens": 1695,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1259,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

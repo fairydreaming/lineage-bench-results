@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsXMzmVeoORtzzWchKd0VtVp5B7",
+  "object": "chat.completion",
+  "created": 1769679925,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Lisa is an ancestor of Nicholas, who is an ancestor of Charles → Bryan → Roy → Alexis → … → Edward → Bradley, and Bradley is an ancestor of Christopher. Therefore, Lisa is an ancestor of Christopher.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 804,
+    "total_tokens": 1117,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 745,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

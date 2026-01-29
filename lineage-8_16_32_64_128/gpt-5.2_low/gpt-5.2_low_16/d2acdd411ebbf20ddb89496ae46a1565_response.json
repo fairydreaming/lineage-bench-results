@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IliDXP9fEpcMdd9JkkxdRZPuo9l",
+  "object": "chat.completion",
+  "created": 1769679502,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships, we can form this ancestor → descendant chain:\n\n**Albert → Kayla → Kelly → Eric → Julie → Russell → Brandon → Samuel → Raymond → Sophia → Alexis → Christina → Gregory → Grace → Betty**\n\nSo **Betty is a descendant of Albert**. Also, **Madison is a descendant of Albert**.\n\nTherefore, **Madison and Betty share a common ancestor (Albert)**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 432,
+    "total_tokens": 633,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 332,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JB6c1UdxXc6xWVdv9Xwu4qP1Dqz",
+  "object": "chat.completion",
+  "created": 1769681076,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage link is given that connects **Susan** to **Hannah**.\n\n- Susan is a **descendant** of **Kayla** (and further up through Lori, Robert, etc.).\n- Hannah is a **descendant** of **Judith** (and further up through Stephanie, Diana, Patrick, etc.).\n- Although Susan’s ancestry includes **Teresa** and Hannah’s ancestry includes **Theresa**, these are **different individuals** in the data (spelled differently) and no statement connects them.\n\nSo Susan is neither Hannah’s ancestor nor descendant, and they share neither a common ancestor nor a common descendant based on the provided relationships.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 986,
+    "completion_tokens": 1358,
+    "total_tokens": 2344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1210,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

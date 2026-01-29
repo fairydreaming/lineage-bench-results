@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JTNI0BdmGfLBTzlgHwpD0Q5gqRb",
+  "object": "chat.completion",
+  "created": 1769682209,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Following the ancestry chain:\n\nJanice → Austin → William → Diane → Maria → Sara → Peter → George → Richard → Christian → Victoria → Joe → Lisa → Charles → Joyce → Kenneth → Doris → Rebecca → Nicole → Laura → Sean → Linda → Jean → Jesse → Abigail → Michelle → Gary → Betty → Dylan → Carolyn → Natalie → Julie\n\nSo **Julie is a descendant of Janice**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 317,
+    "completion_tokens": 1742,
+    "total_tokens": 2059,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1645,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

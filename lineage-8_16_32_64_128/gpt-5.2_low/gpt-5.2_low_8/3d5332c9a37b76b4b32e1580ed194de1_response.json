@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IeM6PnHUmoAXjaJDRVEbwzddx3C",
+  "object": "chat.completion",
+  "created": 1769679046,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Henry is Jerry’s descendant ⟹ **Jerry is an ancestor of Henry**\n- Beverly is Henry’s descendant ⟹ **Henry is an ancestor of Beverly**\n- Beverly is Deborah’s ancestor ⟹ **Beverly is an ancestor of Deborah**\n- Deborah is Gerald’s ancestor ⟹ **Deborah is an ancestor of Gerald**\n- Amber is Gerald’s descendant ⟹ **Gerald is an ancestor of Amber**\n- Amber is Diane’s ancestor ⟹ **Amber is an ancestor of Diane**\n- Diane is Brittany’s ancestor ⟹ **Diane is an ancestor of Brittany**\n\nChaining these together gives:\n\n**Jerry → Henry → Beverly → Deborah → Gerald → Amber → Diane → Brittany**\n\nSo **Jerry is an ancestor of Brittany**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 300,
+    "total_tokens": 443,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 123,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

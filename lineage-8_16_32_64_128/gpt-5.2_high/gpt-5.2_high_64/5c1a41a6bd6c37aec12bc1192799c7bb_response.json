@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JGDfRQH0Ab2qkhhMggaYYDi6Sar",
+  "object": "chat.completion",
+  "created": 1769681393,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Both **Randy** and **Brandon** are ancestors of **Joseph**:\n\n- Brandon → … → Kayla → Joseph  \n- Randy → Jordan → … → Nancy → Alexis → Joseph  \n\nSo they **share a common descendant**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 541,
+    "completion_tokens": 3269,
+    "total_tokens": 3810,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3204,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

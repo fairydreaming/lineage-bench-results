@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ImcEpSzcLEX2DthawIyLiQyECHX",
+  "object": "chat.completion",
+  "created": 1769679558,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Julia is an ancestor of Philip, and Philip is an ancestor of Diane, who is an ancestor of Gary, who is an ancestor of Lori. Lori is an ancestor (through several steps) of Jordan. Therefore, Jordan is a descendant of Julia.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 438,
+    "total_tokens": 750,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 372,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

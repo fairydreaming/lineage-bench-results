@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ImT2N6AOBcC9WHTxbJuVfOvETAy",
+  "object": "chat.completion",
+  "created": 1769679549,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Donald is an ancestor of Walter (Donald → Teresa → Jacob → Michelle → Bryan → Benjamin → Linda → Kathryn → Laura → Alice → Billy → Abigail → Alexis → Andrea → Lawrence → Ralph → Lauren → Zachary → Isabella → Jonathan → Melissa → Brandon → Kimberly → Ruth → Bobby → Susan → Katherine → Carol → Pamela → Lori → Henry → Walter).\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 421,
+    "total_tokens": 734,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 333,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

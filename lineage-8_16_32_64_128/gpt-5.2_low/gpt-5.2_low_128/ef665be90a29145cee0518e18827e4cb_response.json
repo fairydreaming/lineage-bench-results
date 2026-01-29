@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JAfoPdVZ7UAQOOQQGJqLshDUepP",
+  "object": "chat.completion",
+  "created": 1769681049,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage path connects Samantha to Evelyn through the given relationships.\n\n- Samantha is a descendant of **Christopher → Ralph → Heather**.\n- Evelyn is an ancestor of **Kyle** (and Kyle is an ancestor of Hannah, etc.).\n- There is no stated link between the **Heather** line and the **Kyle/Evelyn** line, nor any shared ancestor/descendant indicated.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 801,
+    "total_tokens": 1790,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 708,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

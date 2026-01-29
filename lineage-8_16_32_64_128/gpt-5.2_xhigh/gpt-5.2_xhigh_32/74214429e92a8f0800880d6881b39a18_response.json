@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JUoJ3PqMWZD4g8SjoenJRcKUP5e",
+  "object": "chat.completion",
+  "created": 1769682298,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "John is an ancestor of Donald (John → Henry → Cynthia → Kimberly → Bobby → Donald), and Brenda is also an ancestor of Donald (Brenda → Timothy → Edward → … → Kelly → Donald). Therefore, John and Brenda share a common descendant (Donald).\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 1848,
+    "total_tokens": 2158,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1779,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

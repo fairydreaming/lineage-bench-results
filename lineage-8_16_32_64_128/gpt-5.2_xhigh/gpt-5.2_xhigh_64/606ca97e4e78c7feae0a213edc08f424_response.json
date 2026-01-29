@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JZOAvG0Bgbfl1ibPF80dx7AvTrn",
+  "object": "chat.completion",
+  "created": 1769682582,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Following the lineage chain:\n\nJudith → Sara → Harold → Jacob → Amy → Jason → Maria → Stephen → Sean → Kayla → Ronald → Jessica → Jesse → John → Jose → Brandon → Amanda → Christian → Katherine → Ann → Bradley → Sandra → Susan → Ryan → Madison → Frances → Edward → Megan → Doris → Matthew → Christina → Anna → Keith → Andrea → Russell → Christopher → Cheryl → Roy → Gary → Alexander → Cynthia → Diane → William → Nathan → Eric → Douglas → Peter → David → Linda → Gregory → Dennis → Vincent → Dorothy → Willie → Jonathan → Kathryn → Nancy → Albert → Brenda → Julie → Shirley → Denise → Kimberly → Arthur\n\nSo **Arthur is a descendant of Judith**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 537,
+    "completion_tokens": 3124,
+    "total_tokens": 3661,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2963,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

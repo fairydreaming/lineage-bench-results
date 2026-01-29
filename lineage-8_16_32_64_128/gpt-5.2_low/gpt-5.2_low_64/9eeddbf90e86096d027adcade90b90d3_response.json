@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IfVqdZYGYyHDkdCWJQLp2XwRw23",
+  "object": "chat.completion",
+  "created": 1769679117,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts:\n\n- **Natalie is Raymond’s ancestor** (so Raymond is a descendant of Natalie).\n- **Ronald is Logan’s ancestor** (so Logan is a descendant of Ronald).\n\nThere are **no lineage statements connecting** Natalie/Raymond’s line to Ronald/Logan’s line (no shared ancestor or descendant, and neither is stated to be ancestor/descendant of the other).\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 303,
+    "total_tokens": 841,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 204,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsZ9K5ZV7Ft5NgExOUuD1sYCOo9",
+  "object": "chat.completion",
+  "created": 1769679927,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Susan is a descendant of Gregory (through the chain Gregory → … → Jordan → Randy → … → Donald → Susan), and Michelle is also a descendant of Gregory (given Gregory is Michelle’s ancestor). Therefore, Susan and Michelle share a common ancestor (Gregory).\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 926,
+    "total_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 857,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

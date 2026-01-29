@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsInc3eF4mf9rIorVFEXX73Q8LZ",
+  "object": "chat.completion",
+  "created": 1769679910,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Madison is a descendant of **Albert**.  \nBetty is also a descendant of **Albert** (via Albert → Kayla → Kelly → Eric → Julie → Russell → Brandon → Samuel → Raymond → Sophia → Alexis → Christina → Gregory → Grace → Betty).\n\nSo Madison and Betty **share a common ancestor** (Albert).\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 539,
+    "total_tokens": 740,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 456,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

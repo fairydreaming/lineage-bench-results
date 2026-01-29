@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IsvZICxSKkCdtykZE0PfuvB1XJs",
+  "object": "chat.completion",
+  "created": 1769679949,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Julie is a descendant of **David** (David → Pamela → Julie).  \nCarol is also a descendant of **David** (David → Evelyn → … → Eugene → Carol).  \n\nTherefore, **Julie and Carol share a common ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 1385,
+    "total_tokens": 1698,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1320,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

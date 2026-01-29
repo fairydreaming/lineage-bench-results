@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JEDSI6b993DjctEkluZ8tLH56vG",
+  "object": "chat.completion",
+  "created": 1769681269,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Andrea is **Carl’s ancestor** (via the chain Andrea → Jeffrey → Richard → Beverly → Gerald → Jeremy → Douglas → Stephen → Marilyn → Jason → Janice → Samantha → Brian → Olivia → Sarah → Thomas → Joseph → George → Henry → Kyle → Cynthia → Victoria → Alexis → Debra → Tyler → Cheryl → Natalie → Jessica → Zachary → Margaret → Diane → Carl).\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 317,
+    "completion_tokens": 788,
+    "total_tokens": 1105,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 694,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

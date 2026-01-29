@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IfZTwE7FC5DnmlZGgvzzGI3jjD5",
+  "object": "chat.completion",
+  "created": 1769679121,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "There is no chain of ancestor/descendant links connecting **Jordan** to **Amanda**, nor any person stated to be a descendant of both or an ancestor of both.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 443,
+    "total_tokens": 978,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 393,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

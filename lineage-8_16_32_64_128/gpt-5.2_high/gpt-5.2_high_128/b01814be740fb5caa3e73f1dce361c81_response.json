@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JLNaW5ZMwMHlp7ItrP2qNcvmwdu",
+  "object": "chat.completion",
+  "created": 1769681713,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Mark is an ancestor of Vincent, and Vincent is an ancestor of Robert, so Mark is an ancestor of Robert.\n\nJacqueline is an ancestor of Donald, and Donald is an ancestor (through a long chain) of Dennis. Also, Mark is an ancestor of Dennis (via Mark → Vincent → Robert → … → Dennis). Therefore, **Mark and Jacqueline share a common descendant** (e.g., Dennis).\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 7281,
+    "total_tokens": 8266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7183,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

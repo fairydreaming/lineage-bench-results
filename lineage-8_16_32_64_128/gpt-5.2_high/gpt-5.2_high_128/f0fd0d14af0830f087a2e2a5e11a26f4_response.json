@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JKngq1YaxZW3Guw6iDRt7B6NYgK",
+  "object": "chat.completion",
+  "created": 1769681677,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No chain of ancestor/descendant links connects **Keith** to **Betty**, and neither is stated (directly or indirectly) to be an ancestor/descendant of the other, nor do they share any provable common ancestor or common descendant from the given facts.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 2053,
+    "total_tokens": 3040,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1982,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

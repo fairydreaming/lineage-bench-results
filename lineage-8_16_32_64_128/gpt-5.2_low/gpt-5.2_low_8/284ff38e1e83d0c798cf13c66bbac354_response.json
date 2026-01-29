@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IePMjO0wk9xkNT31GkwG3wdK01w",
+  "object": "chat.completion",
+  "created": 1769679049,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the statements:\n\n- Samuel is an ancestor of **Joe** (Samuel → … → Jason → … → Gloria → … → Joe).\n- Samuel is also an ancestor of **Rebecca** (Samuel → … → Alan → … → Barbara → … → Sophia → … → Rebecca).\n\nTherefore, **Joe and Rebecca share a common ancestor (Samuel)**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 303,
+    "total_tokens": 446,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 216,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

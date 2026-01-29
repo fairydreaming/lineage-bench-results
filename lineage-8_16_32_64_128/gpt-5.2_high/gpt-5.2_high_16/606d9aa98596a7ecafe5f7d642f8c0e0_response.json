@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JD26hI5j4pxbZ3SNFr8wLsFVPc5",
+  "object": "chat.completion",
+  "created": 1769681196,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given statements:\n\n- Peter is Madison’s ancestor, Madison is Daniel’s ancestor, Daniel is Andrew’s ancestor, Andrew is Alice’s ancestor.\n- Alice is Jerry’s ancestor, Jerry is Maria’s ancestor, Maria is Mason’s ancestor, Mason is Kelly’s ancestor, Kelly is Joan’s ancestor, Joan is Lawrence’s ancestor, Lawrence is Christine’s ancestor, Christine is Kenneth’s ancestor, Kenneth is Russell’s ancestor, Russell is Gary’s ancestor, and Gary is Pamela’s ancestor.\n\nSo there is a continuous chain of ancestry from **Peter → … → Pamela**, meaning **Pamela is Peter’s descendant**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 525,
+    "total_tokens": 724,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 385,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

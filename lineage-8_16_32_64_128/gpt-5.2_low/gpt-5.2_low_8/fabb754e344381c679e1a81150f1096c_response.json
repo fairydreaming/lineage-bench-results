@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IeDB5RIkXpJzvodlEdlCyym617w",
+  "object": "chat.completion",
+  "created": 1769679037,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\nAnn is an ancestor of Walter, Walter is an ancestor of Teresa, Teresa is an ancestor of Jason, Jason is an ancestor of Randy, Randy is an ancestor of Marie, Marie is an ancestor of Debra, and Debra is an ancestor of Elizabeth.\n\nSo Ann is an ancestor of Elizabeth.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 257,
+    "total_tokens": 402,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 176,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

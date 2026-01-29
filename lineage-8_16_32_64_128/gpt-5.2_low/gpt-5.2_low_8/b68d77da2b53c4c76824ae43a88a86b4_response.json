@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IeNOZ5Kqlq3sPi1F8Aqc8BbYtm1",
+  "object": "chat.completion",
+  "created": 1769679047,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Both Scott and Doris are descendants of **Walter**:\n\n- Walter is Jacob’s ancestor, Jacob is Helen’s ancestor, and Helen is Doris’s ancestor ⇒ **Walter is Doris’s ancestor**.  \n- Walter is Kevin’s ancestor, Kevin is Jesse’s ancestor, Jesse is Rachel’s ancestor, and Rachel is Scott’s ancestor ⇒ **Walter is Scott’s ancestor**.\n\nTherefore, **Scott and Doris share a common ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 414,
+    "total_tokens": 557,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 312,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

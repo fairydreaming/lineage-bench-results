@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3ImhirAgwSnLkeyAIg3QlFDlZ0bq",
+  "object": "chat.completion",
+  "created": 1769679563,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Vincent is an ancestor of Patricia, who is an ancestor of Kathleen, who is an ancestor of Matthew, who is an ancestor of Janice, who is an ancestor of Jordan, who is an ancestor of Roger, who is an ancestor of Patrick, who is an ancestor of Joseph, who is an ancestor of Linda, who is an ancestor of Ashley, who is an ancestor of Helen, who is an ancestor of Katherine, who is an ancestor of Walter, who is an ancestor of Timothy, who is an ancestor of Donna, who is an ancestor of Jason, who is an ancestor of Stephen, who is an ancestor of Gary, who is an ancestor of Michael, who is an ancestor of Donald, who is an ancestor of Zachary, who is an ancestor of Eric, who is an ancestor of Tyler, who is an ancestor of Jennifer, who is an ancestor of Bobby, who is an ancestor of Evelyn, who is an ancestor of Megan, who is an ancestor of Kevin, who is an ancestor of Heather, who is an ancestor of Diane, who is an ancestor of Diana.\n\nTherefore, **Vincent is Diana’s ancestor**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 933,
+    "total_tokens": 1248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 686,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

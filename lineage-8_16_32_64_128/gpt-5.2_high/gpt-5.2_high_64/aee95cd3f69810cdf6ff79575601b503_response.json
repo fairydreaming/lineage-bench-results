@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JI4WEVwU4Vegfy0ifzFpikvquHo",
+  "object": "chat.completion",
+  "created": 1769681508,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Douglas is a descendant of **Susan** (Susan → Peter → Kathryn → Joan → Virginia → … → Scott → Douglas), and Pamela is also a descendant of **Susan** (Susan → Ethan → Janet → … → Benjamin → … → Kyle → Pamela). Therefore, they **share a common ancestor**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 536,
+    "completion_tokens": 3033,
+    "total_tokens": 3569,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2955,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

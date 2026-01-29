@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JEc71sgF6a6NZqDQkIlt9OlrBIU",
+  "object": "chat.completion",
+  "created": 1769681294,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Gloria’s ancestry chain is:\nTeresa → Randy → Barbara → Gary → Gloria (and further back: Dylan → Anthony → Grace → Sarah → Theresa → Teresa)\n\nChristina’s ancestry chain is:\nEdward → Wayne → Helen → Ralph → Ryan → Carl → Janet → Jean → Karen → Debra → Christina\n\nThere is no person appearing in both chains, and neither Gloria nor Christina is an ancestor/descendant of the other, nor do they share a common descendant.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 963,
+    "total_tokens": 1278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 851,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

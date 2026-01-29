@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JDddgJyxTYA3Tu8AxREIlmt7boI",
+  "object": "chat.completion",
+  "created": 1769681233,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Jennifer and Christina are both ancestors of Justin, so they share a common descendant.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 924,
+    "total_tokens": 1122,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 892,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

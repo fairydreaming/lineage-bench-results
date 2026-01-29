@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JGhDucLDrEv2RndrmJ1sBNhQ2ck",
+  "object": "chat.completion",
+  "created": 1769681423,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage statements connect Mark (via Kimberly → Eric → Kathleen → Susan → …) to Sophia (via Walter → Emily → Sophia), and there is no information making either an ancestor/descendant of the other or giving them a common ancestor/descendant.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 534,
+    "completion_tokens": 726,
+    "total_tokens": 1260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 658,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JRv7E17oEvuxHEYL7mxbNPZj4EM",
+  "object": "chat.completion",
+  "created": 1769682119,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Sean is Ashley’s ancestor, and Ashley is Kathleen’s ancestor, so Sean is Kathleen’s ancestor.  \nPhilip is Noah’s ancestor, and through the chain Noah → Bobby → Laura → Patricia → Anthony → Susan → Richard → Wayne → Zachary → George → Nancy → Justin → Kathleen, Philip is also Kathleen’s ancestor.  \n\nTherefore, Sean and Philip share a common descendant (Kathleen).\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 2695,
+    "total_tokens": 2896,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2600,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

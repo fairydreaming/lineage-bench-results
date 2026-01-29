@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JCmad25wyp57JpUBCcQvIT8mO9o",
+  "object": "chat.completion",
+  "created": 1769681180,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Since Joshua is an ancestor of Christine, who is an ancestor of Patrick, who is an ancestor of Ethan, who is an ancestor of Benjamin, who is an ancestor of Kenneth, Joshua is an ancestor of **Kenneth**.  \nAlso, Terry is an ancestor of Madison, and Madison is an ancestor of Kenneth, so Terry is also an ancestor of **Kenneth**.\n\nThus, **Terry and Joshua share a common descendant (Kenneth)**.\n\n<ANSWER>3</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 767,
+    "total_tokens": 910,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 659,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

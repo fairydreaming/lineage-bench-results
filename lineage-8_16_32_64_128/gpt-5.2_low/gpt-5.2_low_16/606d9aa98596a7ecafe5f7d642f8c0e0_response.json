@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IlKqcdEnwdKnjf3DgL6RZZXJJcu",
+  "object": "chat.completion",
+  "created": 1769679478,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given relationships:\n\nPeter → (ancestor of) Madison → Daniel → Andrew → Alice → Jerry → Maria → Mason → Kelly → Joan → Lawrence → Christine → Kenneth → Russell → Gary → Pamela\n\nSo **Peter is an ancestor of Pamela**, meaning **Pamela is Peter’s descendant**.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 306,
+    "total_tokens": 505,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 230,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IyogsSImbQa5SrMqyaKzSIcDxJS",
+  "object": "chat.completion",
+  "created": 1769680314,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "No lineage link can be derived between Samantha’s lineage (Samantha → Christopher → Ralph → Heather …) and Evelyn’s lineage (Evelyn → Kyle …) from the given statements, and neither a shared ancestor nor a shared descendant is implied.\n\n<ANSWER>5</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 393,
+    "total_tokens": 1382,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 327,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

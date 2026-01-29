@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JQLZAB57mT7mrWiZTu6KpMeExHV",
+  "object": "chat.completion",
+  "created": 1769682021,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Jose is an ancestor of Jessica, and through the given ancestor/descendant links this ancestry continues all the way down to Theresa and then to Pamela. Therefore, Jose is Pamela’s ancestor.\n\n<ANSWER>1</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 912,
+    "total_tokens": 1111,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 858,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JEtLY4HIGuAqL6Ek85HouvCZeyw",
+  "object": "chat.completion",
+  "created": 1769681311,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Following the chain:\n\nTeresa → Bryan → Janice → Theresa → Alexis → Sharon → Jean → Dennis → Bruce → Maria → Logan → Benjamin → Marilyn → Jessica → Lauren → Philip → Arthur → Matthew → Timothy → Larry → Walter → Ashley → Austin → Gary → Michelle → Ethan → Gabriel → Edward → Debra → Kathleen → Ralph → Brittany\n\nSo **Teresa is an ancestor of Brittany**, meaning **Brittany is Teresa’s descendant**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 1309,
+    "total_tokens": 1624,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1201,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

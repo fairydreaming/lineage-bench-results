@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JED1WpCnhxF1yDW4BP8gxbfnN27",
+  "object": "chat.completion",
+  "created": 1769681269,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "From the given facts, we can form a continuous descendant chain:\n\nRichard → Justin → Tyler → Douglas → Billy → Marilyn → Noah → George → Juan → Kelly → Judith → Madison → Kathleen → Harold → Kevin → Martha → Alexander → Amanda → Amy → Nathan → Sara → Charlotte → Sandra → Michelle → Joe → Jacqueline → Ruth → Catherine → Lisa → Adam → Dylan → Jesse.\n\nSo **Jesse is a descendant of Richard**.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 638,
+    "total_tokens": 949,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 534,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3IvOm2v27PNbthvOo0F2gdmym2Nu",
+  "object": "chat.completion",
+  "created": 1769680102,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Following the given links, Amanda is an ancestor of Kevin, who is an ancestor of Albert, … eventually leading (through Carolyn → Jennifer → Janet → George) to Jordan. Therefore, Jordan is a descendant of Amanda.\n\n<ANSWER>2</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 1601,
+    "total_tokens": 2136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1541,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

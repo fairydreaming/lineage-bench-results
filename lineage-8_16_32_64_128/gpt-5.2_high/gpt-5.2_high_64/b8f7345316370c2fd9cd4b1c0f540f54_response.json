@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JGDCCQQFKj2gGGfc7Rjkv4CKVoJ",
+  "object": "chat.completion",
+  "created": 1769681393,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Heather’s ancestry chain includes **Dorothy** (via Dorothy → Ronald → … → Jonathan → … → Heather).  \nNathan’s ancestry chain also includes **Dorothy** (via Dorothy → Frances → … → Nathan).  \n\nSo, **Heather and Nathan share a common ancestor**.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 539,
+    "completion_tokens": 1892,
+    "total_tokens": 2431,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1819,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

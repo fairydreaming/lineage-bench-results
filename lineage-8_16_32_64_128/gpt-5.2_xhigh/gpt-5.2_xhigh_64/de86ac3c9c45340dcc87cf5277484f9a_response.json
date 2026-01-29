@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-D3JZfo93lxvnwIs5CieQmfWLwryTG",
+  "object": "chat.completion",
+  "created": 1769682599,
+  "model": "gpt-5.2-2025-12-11",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Janet is a descendant of Roy (Roy → Willie → Kimberly → Gloria → Natalie → Jose → Debra → Amy → Jesse → Andrea → Kelly → Victoria → George → James → Katherine → Helen → Christopher → Barbara → Linda → Jason → David → Jacqueline → Charlotte → Kayla → Jacob → Bruce → Lori → Sharon → Brian → Margaret → Janet).\n\nHenry is also a descendant of Roy (Roy → Anthony → Douglas → Sara → Alan → Kathryn → Jean → Joyce → Amanda → Madison → Ashley → Ryan → Timothy → Zachary → Isabella → Teresa → Randy → Arthur → Julia → Shirley → Bobby → Edward → Daniel → Gregory → Rebecca → Stephen → Elizabeth → Catherine → Keith → Tyler → Dennis → Diana → Mary → Henry).\n\nSo Janet and Henry share a common ancestor.\n\n<ANSWER>4</ANSWER>",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 540,
+    "completion_tokens": 4337,
+    "total_tokens": 4877,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4163,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
