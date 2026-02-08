@@ -79,7 +79,7 @@ The table below presents the benchmark results. If not explicitly stated default
 |   48 | allenai/olmo-3-32b-think           |     0.444 |       0.925 |        0.600 |         0.175 |         0.075 |
 |   49 | mistralai/ministral-14b-2512       |     0.400 |       0.875 |        0.425 |         0.175 |         0.125 |
 |   50 | qwen/qwen3-32b                     |     0.362 |       0.950 |        0.475 |         0.025 |         0.000 |
-|   51 | z-ai/glm-4.7-flash                 |     0.328 |       0.662 |        0.225 |         0.250 |         0.175 |
+|   51 | z-ai/glm-4.7-flash                 |     0.344 |       0.725 |        0.225 |         0.250 |         0.175 |
 |   52 | allenai/olmo-3.1-32b-think         |     0.312 |       0.950 |        0.275 |         0.025 |         0.000 |
 |   53 | openai/gpt-5-nano (medium)         |     0.294 |       1.000 |        0.150 |         0.025 |         0.000 |
 |   54 | upstage/solar-pro-3 (high)         |     0.288 |       0.700 |        0.275 |         0.075 |         0.100 |
