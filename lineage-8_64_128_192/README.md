@@ -5,6 +5,7 @@ This directory contains lineage-bench results for lineage-8, lineage-64, lineage
 
 ## Changelog
 
+* 2026-02-08 - Added results for gpt-oss-20b (medium, high).
 * 2026-02-03 - Added results for solar-pro-3 (medium, high) and step-3.5-flash.
 * 2026-01-27 - Added results for gpt-5.2 xhigh and kimi-k2.5. Retested gpt-oss-120b with explicit medium and high reasoning effort.
 * 2026-01-24 - Added results for glm-4.7, glm-4.7-flash, minimax-m2.1 and olmo-3.1-32b-think.
