@@ -1,7 +1,7 @@
 # lineage-8_64_128_192
 Testing LLM reasoning abilities with lineage relationship quizzes. 
 
-This directory contains lineage-bench results for lineage-8, lineage-64, lineage-128 and lineage-192 problem sizes.
+This directory contains [lineage-bench](https://github.com/fairydreaming/lineage-bench) results for lineage-8, lineage-64, lineage-128 and lineage-192 problem sizes.
 
 ## Changelog
 
