@@ -5,6 +5,7 @@ This directory contains [lineage-bench](https://github.com/fairydreaming/lineage
 
 ## Changelog
 
+* 2026-03-17 - Added results for mistral-small-2603.
 * 2026-03-16 - Added results for glm-5-turbo.
 * 2026-03-13 - Added results for nemotron-3-super-120b-a12b.
 * 2026-03-07 - Added missing result for gpt-5 (high).
@@ -52,8 +53,8 @@ The table below presents the benchmark results. If not explicitly stated default
 |    9 | deepseek/deepseek-v3.2               |     0.956 |       1.000 |        1.000 |         0.975 |         0.850 |
 |   10 | anthropic/claude-sonnet-4.6 (high)   |     0.956 |       1.000 |        1.000 |         0.925 |         0.900 |
 |   11 | anthropic/claude-sonnet-4.5          |     0.944 |       0.975 |        0.975 |         0.900 |         0.925 |
-|   11 | qwen/qwen3-max-thinking              |     0.944 |       1.000 |        0.950 |         0.925 |         0.900 |
 |   11 | qwen/qwen3.5-27b                     |     0.944 |       1.000 |        1.000 |         0.925 |         0.850 |
+|   11 | qwen/qwen3-max-thinking              |     0.944 |       1.000 |        0.950 |         0.925 |         0.900 |
 |   14 | volcengine/doubao-seed-2.0-pro       |     0.931 |       1.000 |        0.975 |         0.925 |         0.825 |
 |   15 | google/gemini-2.5-pro                |     0.925 |       1.000 |        0.900 |         0.900 |         0.900 |
 |   16 | qwen/qwen3.5-122b-a10b               |     0.919 |       1.000 |        0.925 |         0.900 |         0.850 |
@@ -63,8 +64,8 @@ The table below presents the benchmark results. If not explicitly stated default
 |   20 | openai/gpt-5.1 (medium)              |     0.888 |       1.000 |        0.950 |         0.875 |         0.725 |
 |   21 | openai/gpt-5.4 (xhigh)               |     0.881 |       1.000 |        1.000 |         0.750 |         0.775 |
 |   22 | google/gemini-3-flash-preview        |     0.881 |       1.000 |        0.975 |         0.875 |         0.675 |
-|   23 | openai/gpt-5.4 (high)                |     0.875 |       1.000 |        0.900 |         0.900 |         0.700 |
 |   23 | qwen/qwen3.5-35b-a3b                 |     0.875 |       0.975 |        0.925 |         0.925 |         0.675 |
+|   23 | openai/gpt-5.4 (high)                |     0.875 |       1.000 |        0.900 |         0.900 |         0.700 |
 |   25 | qwen/qwen3-max                       |     0.869 |       1.000 |        0.800 |         0.900 |         0.775 |
 |   26 | anthropic/claude-opus-4.5 (medium)   |     0.869 |       1.000 |        0.950 |         0.900 |         0.625 |
 |   26 | x-ai/grok-4-fast (medium)            |     0.869 |       1.000 |        0.925 |         0.900 |         0.650 |
@@ -89,8 +90,8 @@ The table below presents the benchmark results. If not explicitly stated default
 |   46 | z-ai/glm-5-turbo                     |     0.681 |       0.975 |        0.800 |         0.625 |         0.325 |
 |   47 | z-ai/glm-4.6                         |     0.644 |       0.925 |        0.725 |         0.525 |         0.400 |
 |   48 | xiaomi/mimo-v2-flash                 |     0.600 |       1.000 |        0.900 |         0.425 |         0.075 |
-|   49 | prime-intellect/intellect-3          |     0.594 |       1.000 |        0.950 |         0.325 |         0.100 |
 |   49 | z-ai/glm-4.5-air                     |     0.594 |       1.000 |        0.750 |         0.450 |         0.175 |
+|   49 | prime-intellect/intellect-3          |     0.594 |       1.000 |        0.950 |         0.325 |         0.100 |
 |   51 | minimax/minimax-m2.1                 |     0.581 |       0.950 |        0.725 |         0.450 |         0.200 |
 |   51 | openai/gpt-oss-120b (medium)         |     0.581 |       1.000 |        0.875 |         0.375 |         0.075 |
 |   53 | minimax/minimax-m2.5                 |     0.581 |       1.000 |        0.825 |         0.350 |         0.150 |
@@ -98,28 +99,29 @@ The table below presents the benchmark results. If not explicitly stated default
 |   55 | google/gemini-2.5-flash              |     0.569 |       0.975 |        0.575 |         0.525 |         0.200 |
 |   56 | minimax/minimax-m2                   |     0.562 |       0.975 |        0.700 |         0.350 |         0.225 |
 |   57 | qwen/qwen3.5-9b                      |     0.556 |       1.000 |        0.775 |         0.275 |         0.175 |
-|   58 | moonshotai/kimi-k2-thinking          |     0.525 |       1.000 |        0.850 |         0.200 |         0.050 |
 |   58 | amazon/nova-2-lite-v1                |     0.525 |       1.000 |        0.700 |         0.325 |         0.075 |
 |   58 | openai/o4-mini (medium)              |     0.525 |       1.000 |        0.775 |         0.300 |         0.025 |
+|   58 | moonshotai/kimi-k2-thinking          |     0.525 |       1.000 |        0.850 |         0.200 |         0.050 |
 |   61 | volcengine/doubao-seed-1.8           |     0.512 |       1.000 |        0.925 |         0.125 |         0.000 |
 |   61 | openai/gpt-5-mini (medium)           |     0.512 |       1.000 |        0.950 |         0.075 |         0.025 |
-|   63 | openai/gpt-oss-20b (high)            |     0.500 |       1.000 |        0.800 |         0.175 |         0.025 |
-|   64 | openai/gpt-5.2 (high)                |     0.494 |       1.000 |        0.700 |         0.175 |         0.100 |
-|   64 | qwen/qwen3-30b-a3b-thinking-2507     |     0.494 |       1.000 |        0.575 |         0.275 |         0.125 |
-|   66 | qwen/qwen3.5-4b                      |     0.469 |       1.000 |        0.650 |         0.175 |         0.050 |
-|   67 | openai/gpt-5.2 (medium)              |     0.450 |       1.000 |        0.675 |         0.075 |         0.050 |
-|   68 | allenai/olmo-3-32b-think             |     0.444 |       0.925 |        0.600 |         0.175 |         0.075 |
-|   69 | nvidia/nemotron-3-super-120b-a12b    |     0.438 |       0.975 |        0.525 |         0.075 |         0.175 |
-|   70 | volcengine/doubao-seed-2.0-mini      |     0.431 |       1.000 |        0.675 |         0.025 |         0.025 |
-|   71 | mistralai/ministral-14b-2512         |     0.400 |       0.875 |        0.425 |         0.175 |         0.125 |
-|   72 | qwen/qwen3-32b                       |     0.362 |       0.950 |        0.475 |         0.025 |         0.000 |
-|   73 | z-ai/glm-4.7-flash                   |     0.344 |       0.725 |        0.225 |         0.250 |         0.175 |
-|   74 | allenai/olmo-3.1-32b-think           |     0.312 |       0.950 |        0.275 |         0.025 |         0.000 |
-|   75 | openai/gpt-oss-20b (medium)          |     0.306 |       1.000 |        0.200 |         0.025 |         0.000 |
-|   76 | openai/gpt-5-nano (medium)           |     0.294 |       1.000 |        0.150 |         0.025 |         0.000 |
-|   77 | upstage/solar-pro-3 (high)           |     0.288 |       0.700 |        0.275 |         0.075 |         0.100 |
-|   78 | openai/o3-mini (medium)              |     0.287 |       0.950 |        0.200 |         0.000 |         0.000 |
-|   79 | upstage/solar-pro-3 (medium)         |     0.281 |       0.725 |        0.225 |         0.100 |         0.075 |
-|   80 | nvidia/nemotron-3-nano-30b-a3b       |     0.231 |       0.875 |        0.025 |         0.025 |         0.000 |
+|   63 | mistralai/mistral-small-2603 (high)  |     0.510 |       0.975 |        0.616 |         0.275 |         0.175 |
+|   64 | openai/gpt-oss-20b (high)            |     0.500 |       1.000 |        0.800 |         0.175 |         0.025 |
+|   65 | qwen/qwen3-30b-a3b-thinking-2507     |     0.494 |       1.000 |        0.575 |         0.275 |         0.125 |
+|   65 | openai/gpt-5.2 (high)                |     0.494 |       1.000 |        0.700 |         0.175 |         0.100 |
+|   67 | qwen/qwen3.5-4b                      |     0.469 |       1.000 |        0.650 |         0.175 |         0.050 |
+|   68 | openai/gpt-5.2 (medium)              |     0.450 |       1.000 |        0.675 |         0.075 |         0.050 |
+|   69 | allenai/olmo-3-32b-think             |     0.444 |       0.925 |        0.600 |         0.175 |         0.075 |
+|   70 | nvidia/nemotron-3-super-120b-a12b    |     0.438 |       0.975 |        0.525 |         0.075 |         0.175 |
+|   71 | volcengine/doubao-seed-2.0-mini      |     0.431 |       1.000 |        0.675 |         0.025 |         0.025 |
+|   72 | mistralai/ministral-14b-2512         |     0.400 |       0.875 |        0.425 |         0.175 |         0.125 |
+|   73 | qwen/qwen3-32b                       |     0.362 |       0.950 |        0.475 |         0.025 |         0.000 |
+|   74 | z-ai/glm-4.7-flash                   |     0.344 |       0.725 |        0.225 |         0.250 |         0.175 |
+|   75 | allenai/olmo-3.1-32b-think           |     0.312 |       0.950 |        0.275 |         0.025 |         0.000 |
+|   76 | openai/gpt-oss-20b (medium)          |     0.306 |       1.000 |        0.200 |         0.025 |         0.000 |
+|   77 | openai/gpt-5-nano (medium)           |     0.294 |       1.000 |        0.150 |         0.025 |         0.000 |
+|   78 | upstage/solar-pro-3 (high)           |     0.288 |       0.700 |        0.275 |         0.075 |         0.100 |
+|   79 | openai/o3-mini (medium)              |     0.287 |       0.950 |        0.200 |         0.000 |         0.000 |
+|   80 | upstage/solar-pro-3 (medium)         |     0.281 |       0.725 |        0.225 |         0.100 |         0.075 |
+|   81 | nvidia/nemotron-3-nano-30b-a3b       |     0.231 |       0.875 |        0.025 |         0.025 |         0.000 |
 
 Each row contains the average benchmark score across all problem sizes, and separate scores for each problem size.
